@@ -2,24 +2,24 @@ import { ArrowRight, Search, ShieldCheck, Hammer, FlaskConical, Target } from "l
 
 const services = [
   {
-    title: "Sump Pump Systems",
-    description: "Installation of high-capacity sump pump systems designed to handle Frazer's heaviest rainfall and prevent basement flooding.",
+    title: "Gas Water Heaters",
+    description: "Expert troubleshooting and repair for gas-fired units, including thermocouple replacement and burner cleaning in Chino Hills.",
     icon: Target
   },
   {
-    title: "Foundation Repair",
-    description: "Professional sealing of foundation cracks and structural stabilization to stop water intrusion at the source.",
-    icon: ShieldCheck
-  },
-  {
-    title: "Interior Drainage",
-    description: "Advanced French drain systems and baseboard drainage solutions to redirect water away from your living space.",
+    title: "Electric Units",
+    description: "Rapid heating element replacement and thermostat calibration to restore hot water to your Chino Hills home immediately.",
     icon: Hammer
   },
   {
-    title: "Vapor Barriers",
-    description: "Premium crawl space encapsulation and wall vapor barriers to eliminate moisture and prevent mold growth.",
-    icon: FlaskConical
+    title: "Tankless Systems",
+    description: "Advanced diagnostic and descaling services for high-efficiency tankless water heaters. Professional sensor and board repair.",
+    icon: Search
+  },
+  {
+    title: "Leak Mitigation",
+    description: "Prevention of catastrophic failure through valve replacement and tank integrity testing. Emergency shut-off services available.",
+    icon: ShieldCheck
   }
 ];
 
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Waterproofing Services Frazer</span>
+            Comprehensive <span className="text-amber-600">Water Heater Services Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Frazer homeowners rely on our specialized team for high-precision basement protection and total foundation restoration. We target the entry points that power your moisture issues.
+            Chino Hills homeowners rely on our specialized team for high-precision diagnostic and total unit restoration. We target the source of your hot water failure.
           </p>
         </div>
 

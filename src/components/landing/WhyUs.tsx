@@ -9,24 +9,24 @@ const WhyUs = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-700 mb-6 uppercase tracking-widest text-xs font-bold">
               <ShieldCheck className="w-4 h-4" />
-              <span>Frazer Waterproofing Reliability</span>
+              <span>Chino Hills Hot Water Reliability</span>
             </div>
             <div>
               <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 leading-tight mb-6">
-                Why Frazer Homeowners <br />
+                Why Chino Hills Residents <br />
                 <span className="text-amber-600">Trust Our Specialists</span>
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-8 font-medium">
-                We are Frazer's dedicated basement protection team. Our professional approach ensures no moisture escapes our precision mapping and exclusion strategies.
+                We are Chino Hills' dedicated water heater protection team. Our professional approach ensures no leak or failure escapes our precision mapping and diagnostic strategies.
               </p>
 
               <div className="space-y-4">
                 {[
-                  { text: "Local Frazer PA Experts", icon: Search },
+                  { text: "Local Chino Hills Experts", icon: Search },
                   { text: "24/7 Emergency Service", icon: Clock },
-                  { text: "Foundation Crack Repair", icon: Target },
-                  { text: "Lifetime Guaranteed Work", icon: ShieldCheck },
-                  { text: "Safe, Eco-Friendly Methods", icon: Award }
+                  { text: "Gas & Electric Repair", icon: Target },
+                  { text: "Safety Certified Work", icon: ShieldCheck },
+                  { text: "Energy Efficient Units", icon: Award }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
@@ -43,19 +43,19 @@ const WhyUs = () => {
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group">
               <img
                 src="/1.jpeg"
-                alt="Basement Inspection Frazer"
+                alt="Water Heater Inspection Chino Hills"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
             </div>
             <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group mt-8 md:mt-16">
               <img
                 src="/3.jpeg"
-                alt="Professional Waterproofing Frazer"
+                alt="Professional Repair Chino Hills"
                 className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
               />
               <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-amber-400 font-bold uppercase tracking-widest text-[10px] mb-2">Wet Basement?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Frazer's Best</h4>
+                <p className="text-amber-400 font-bold uppercase tracking-widest text-[10px] mb-2">No Hot Water?</p>
+                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Chino Hills' Best</h4>
                 <Button className="bg-amber-600 hover:bg-amber-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
                   <a href="tel:8777921410">Call Now</a>
                 </Button>

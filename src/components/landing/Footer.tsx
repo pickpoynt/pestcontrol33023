@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Frazer PA Basement</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Waterproofing Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chino Hills Emergency</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Water Heater Repair</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Frazer's rapid-response foundation specialists. We provide safe, effective basement waterproofing and professional structural repair throughout Frazer and the surrounding Chester County area.
+              Chino Hills' rapid-response hot water specialists. We provide safe, effective water heater repair and professional unit replacement throughout Chino Hills and the surrounding San Bernardino County area.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Sump Pump Systems", "Foundation Crack Sealing", "Interior Drainage System", "Crawl Space Encapsulation", "Basement Wall Coating"].map((item) => (
+              {["Gas Heater Repair", "Electric Heater Repair", "Tankless Maintenance", "Leak Detection", "Emergency Shut-off"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Frazer PA Basement Waterproofing Pros<br />
-                  Frazer, PA 19355
+                  Chino Hills Emergency Water Heater Repair Pros<br />
+                  Chino Hills, CA 91709
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -70,11 +70,11 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Frazer PA Basement Waterproofing Pros. All rights reserved. Professional Foundation Control Frazer, PA.
+            © {new Date().getFullYear()} Chino Hills Emergency Water Heater Repair Pros. All rights reserved. Professional Water Heater Services Chino Hills, CA.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-xs mb-4">
-              For support or inquiries, please <a href="mailto:leasemynumber@gmail.com" className="text-amber-500 hover:underline">LEASE THIS SITE</a>
+              For support or inquiries, please email <a href="mailto:leasemynumber@gmail.com" className="text-amber-500 hover:underline">LEASE MY NUMBER</a> and link it to <a href="/lease-my-number" className="text-amber-500 hover:underline">LEASE PAGE</a>
             </p>
             <p className="text-[10px] text-slate-600 leading-relaxed font-medium">
               This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.

@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Basement Waterproofing Near Frazer PA",
-  subtitle = "Professional basement waterproofing and foundation repair for Frazer homes. Expert moisture control and structural protection — guaranteed.",
+  title = "Emergency Water Heater Repair Chino Hills",
+  subtitle = "Chino Hills' premier hot water specialists. We provide rapid-response diagnostics and professional repair to restore your hot water today — guaranteed.",
   image = "/2.jpeg",
   overlayImage = "/4.jpeg",
   phone = "8777921410",
-  badge = "FRAZER PA WATERPROOFING SPECIALISTS",
+  badge = "CHINO HILLS WATER HEATER PROS",
   features = [
-    { icon: Search, text: "Structural Analysis" },
-    { icon: ShieldCheck, text: "Lifetime Warranty" },
-    { icon: Locate, text: "Frazer PA Local Pros" }
+    { icon: Search, text: "Diagnostic Review" },
+    { icon: ShieldCheck, text: "Safety Certified" },
+    { icon: Locate, text: "Chino Hills Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

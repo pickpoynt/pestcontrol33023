@@ -8,13 +8,13 @@ const Contact = () => {
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
             <Locate className="w-4 h-4" />
-            FRAZER PA BASEMENT WATERPROOFING PROS
+            CHINO HILLS EMERGENCY WATER HEATER REPAIR PROS
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-            Protect <span className="text-amber-600">Basement Waterproofing Frazer</span>
+            Protect <span className="text-amber-600">Water Heater Chino Hills</span>
           </h2>
           <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-            Protect your Frazer home from foundation damage. Our specialized team provides same-day inspection, full perimeter drainage, and structural stabilization across Frazer, PA.
+            Protect your Chino Hills home from water heater failure. Our specialized team provides same-day diagnostic review, full unit repair, and safety certified installations across Chino Hills, CA.
           </p>
 
           <div className="space-y-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Phone className="w-7 h-7" />
               </div>
               <div>
-                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">WATERPROOFING HOTLINE</p>
+                <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">HOT WATER HOTLINE</p>
                 <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors uppercase tracking-tight">
                   (877) 792-1410
                 </a>
@@ -46,8 +46,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-amber-600 uppercase tracking-widest mb-1">NAP</p>
-                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Frazer PA Basement Waterproofing Pros</p>
-                <p className="text-slate-500 font-medium text-sm">Frazer, PA 19355</p>
+                <p className="text-xl font-bold text-slate-900 uppercase tracking-tight">Chino Hills Emergency Water Heater Repair Pros</p>
+                <p className="text-slate-500 font-medium text-sm">Chino Hills, CA 91709</p>
                 <p className="text-slate-500 font-medium text-sm">(877) 792-1410</p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                   Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
                 </p>
                 <a
-                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Frazer Waterproofing"
+                  href="mailto:leasemynumber@gmail.com?subject=Phone Replacement Inquiry - Chino Hills Water Heater"
                   className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
                 >
                   <Mail className="w-4 h-4" />
@@ -93,11 +93,11 @@ const Contact = () => {
             <div className="space-y-2">
               <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Needed</label>
               <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-amber-500 transition-all outline-none font-medium">
-                <option>Sump Pump Issues</option>
-                <option>Foundation Crack Sealing</option>
-                <option>Interior Drainage System</option>
-                <option>Crawl Space Encapsulation</option>
-                <option>Basement Wall Coating</option>
+                <option>Gas Heater Repair</option>
+                <option>Electric Element Replacement</option>
+                <option>Tankless System Diagnostic</option>
+                <option>Emergency Leak Control</option>
+                <option>Safety certified Installation</option>
               </select>
             </div>
             <div className="space-y-2">
@@ -108,7 +108,7 @@ const Contact = () => {
               Request Professional Review
             </Button>
             <p className="text-center text-slate-500 text-sm italic font-medium">
-              *Serving Frazer, Malvern, West Chester, and surrounding Chester County areas.
+              *Serving Chino Hills, Chino, Yorba Linda, and surrounding San Bernardino County areas (91709, 91710, 91708, 92880, 92887).
             </p>
           </form>
         </div>

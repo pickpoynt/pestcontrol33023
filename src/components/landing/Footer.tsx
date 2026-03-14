@@ -2,8 +2,8 @@ import { Phone, MapPin, ShieldCheck } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 text-white pt-20 pb-10 overflow-hidden relative">
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-600/50 to-transparent" />
+    <footer className="bg-slate-950 text-white pt-20 pb-10 overflow-hidden relative border-t border-amber-600/20">
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-600/30 to-transparent" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -13,19 +13,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Holly Springs NC</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Spider Exterminator Experts</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Broomfield CO</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Wasp Removal Experts</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Wake County's trusted name for comprehensive spider elimination. We utilize residual barriers and structural de-webbing to keep your Holly Springs property safe and web-free all season long.
+              The Front Range's trusted name for comprehensive wasp elimination. We utilize surgical extraction methods and high-performance residuals to keep your Broomfield property secure and sting-free.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Treatments</h4>
             <ul className="space-y-4">
-              {["Exterior Barrier", "Interior Shield", "Structural De-Webbing", "Nest Removal", "Quarterly Defense"].map((item) => (
+              {["Nest Extraction", "Surgical Removal", "Void Injections", "Perimeter Barriers", "Knockdown Protocols"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -39,7 +39,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Quick Links</h4>
             <ul className="space-y-4">
-              {["About Experts", "Service Area", "Knowledge Base", "Lease This Number"].map((item) => (
+              {["Specialists", "Service Area", "Knowledge Base", "Lease This Number"].map((item) => (
                 <li key={item}>
                   <a href={item === "Lease This Number" ? "/lease-my-number" : "#"} className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -56,9 +56,9 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Holly Springs NC Spider Experts<br />
-                  Holly Springs, NC 27540<br />
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider font-heading">Serving ZIPs: 27540, 27539, 27502, 27526, 27523</span>
+                  Broomfield CO Wasp Experts<br />
+                  Broomfield, CO 80020<br />
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider font-heading">ZIP CODES: 80020, 80021, 80023, 80031, 80038</span>
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Holly Springs NC Spider Experts. All rights reserved. Professional Spider Exterminator Holly Springs NC.
+            © {new Date().getFullYear()} Broomfield CO Wasp Experts. Professional Emergency Wasp Nest Removal Broomfield. No Free Quotes.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-slate-400 text-sm mb-4 uppercase font-bold tracking-widest">
@@ -85,7 +85,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-amber-600/5 rounded-full blur-3xl" />
     </footer>
   );
 };

@@ -4,23 +4,23 @@ const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Rapid Dispatch Teams",
-      description: "Spider sightings in the house need immediate attention. Our Holly Springs teams are mobile-ready to provide same-day residual treatments."
+      title: "Rapid Emergency Response",
+      description: "Nests in high-traffic areas require immediate action. Our Broomfield teams are mobile-ready to provide same-day surgical nest removals."
     },
     {
       icon: Shield,
-      title: "Family-Safe Residuals",
-      description: "We use micro-encapsulated formulas that are highly effective on arachnids while being safe for children and pets once dry."
+      title: "Family-Safe Knockdown",
+      description: "We use professional-grade knockdown agents that are highly effective on wasps while being safe for children and pets once specialized treatments dry."
     },
     {
       icon: Target,
-      title: "Precision Exterior Shield",
-      description: "Our perimeter treatment targets the specific crevices where spiders enter, including window frames, door sweeps, and foundation cracks."
+      title: "Precision Structural Shield",
+      description: "Our perimeter treatment targets the specific soffits, eaves, and joints where wasps love to build, ensuring they don't return to your structure."
     },
     {
       icon: Award,
-      title: "Local NC Biology Experts",
-      description: "Deep understanding of North Carolina's native spiders, including Black Widows and Brown Recluses common in the Wake County ecosystem."
+      title: "Broomfield Biology Experts",
+      description: "Deep understanding of Colorado's native Vespids, including Western Yellow Jackets and Paper Wasps common in the Front Range ecosystem."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Holly Springs Spider Team?</span>
+              Why Trust Our <span className="text-amber-600">Broomfield Wasp Team?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protecting your home from unwelcome webs and potentially dangerous spiders is our specialized focus. In Holly Springs, NC, the dense pine and hardwood canopy creates a rich environment for spider activity. Our team combines physical web removal with advanced chemical barriers to reclaim your living space and provide peace of mind.
+              Protecting your home from aggressive wasp colonies is our specialized focus. In Broomfield, CO, the arid climate and suburban structures provide ideal nesting grounds. Our team combines physical surgical removal with advanced deterrents to reclaim your living space and provide peace of mind.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,15 +55,15 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/2.jpeg" alt="Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/3.jpeg" alt="Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Prevention" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/1.jpeg" alt="Safety" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/2.jpeg" alt="Nest Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/3.jpeg" alt="Removal Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Structural Shield" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/1.jpeg" alt="Safety Protocol" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-40 h-40 bg-amber-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
                 <span className="text-3xl font-bold font-heading">#1</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">In Holly Springs</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">In Broomfield</span>
               </div>
             </div>
           </div>

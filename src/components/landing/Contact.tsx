@@ -14,10 +14,10 @@ const Contact = () => {
               Contact Us
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid Response <span className="text-amber-600">Holly Springs Spider Team</span>
+              Rapid Response <span className="text-amber-600">Broomfield Wasp Team</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Stop spiders in their tracks. Our Holly Springs specialists are standing by for immediate barrier treatments and structural de-webbing. We offer 24/7 emergency dispatch.
+              Don't risk the swarm. Our Broomfield wasp removal specialists are standing by 24/7 for immediate surgical nest removals and knockdown treatments.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Spider Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Sting Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -36,10 +36,10 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Holly Springs HQ</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield HQ</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Holly Springs NC Spider Experts<br />
-                    Holly Springs, NC 27540
+                    Broomfield CO Wasp Experts<br />
+                    Broomfield, CO 80020
                   </address>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Service Hours</p>
-                  <p className="text-lg font-bold text-slate-900 uppercase">24/7 Emergency Dispatch</p>
+                  <p className="text-lg font-bold text-slate-900 uppercase tracking-tight">24/7 Emergency Dispatch</p>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center">
                   <ShieldCheck className="w-5 h-5 text-amber-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 uppercase tracking-tight">Express Request</h3>
+                <h3 className="text-2xl font-bold text-slate-900 uppercase tracking-tight">Service Request</h3>
               </div>
               
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
@@ -79,32 +79,32 @@ const Contact = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Holly Springs ZIP</label>
-                  <Input placeholder="27540" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Broomfield ZIP</label>
+                  <Input placeholder="80020" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Removal Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Exterior Barrier Spray</option>
-                    <option>Interior Crevice Flush</option>
-                    <option>Structural De-Webbing</option>
-                    <option>Quarterly Monitoring</option>
-                    <option>Dangerous Species Removal</option>
+                    <option>Aerial Nest Removal</option>
+                    <option>Soffit/Eave Treatment</option>
+                    <option>Ground Nest Removal</option>
+                    <option>Void/Structural Injection</option>
+                    <option>Seasonal Shield</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Property Details</label>
-                  <Textarea placeholder="Any heavy spider activity in attics or crawlspaces?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Nest Details</label>
+                  <Textarea placeholder="How high is the nest? Are wasps entering the siding?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Exterminate All Spiders
+                  Exterminate Wasp Nest
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local NC spider specialist at the number provided.
+                  By clicking, you agree to being contacted by a local CO wasp removal specialist at the number provided.
                 </p>
               </form>
             </div>

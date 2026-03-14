@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Spider Exterminator <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Holly Springs NC</span>
+      Emergency Wasp Nest Removal <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
     </>
   ),
-  subtitle = "Holly Springs NC's certified spider elimination specialists. We deploy precision residual barriers, web de-cobwebbing protocols, and targeted micro-encapsulated treatments to completely eradicate spiders from your home — 24/7.",
+  subtitle = "Broomfield CO's certified wasp elimination specialists. We deploy precision surgical removal, instant knockdown protocols, and targeted micro-encapsulated treatments to completely eradicate wasp nests from your structure — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "HOLLY SPRINGS NC SPIDER EXPERTS",
+  badge = "BROOMFIELD CO WASP EXPERTS",
   features = [
-    { icon: Search, text: "Structural Barriers" },
-    { icon: ShieldCheck, text: "Nest Elimination" },
-    { icon: Locate, text: "Holly Springs Local" }
+    { icon: Search, text: "Active Nest Location" },
+    { icon: ShieldCheck, text: "Zero Re-Emergence" },
+    { icon: Locate, text: "Broomfield Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Spider Exterminator Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Broomfield Wasp Removal Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/60" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Spider Exterminator <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Holly Springs NC</span>
+             Emergency Wasp Nest Removal <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

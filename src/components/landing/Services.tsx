@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Eco-Friendly Barriers",
-    description: "Our core spider control service. We apply botanical-based residual barriers to your home's perimeter to stop spiders from ever entering the structure.",
+    title: "Emergency Knockdown",
+    description: "Our signature instant knockdown service. We use high-pressure aerosolized agents to drop entire colonies within seconds, ensuring your immediate safety.",
     image: "/2.jpeg",
-    points: ["Safe for Pets", "Botanical Oils", "Long-Lasting Defense"]
+    points: ["Instant Results", "Surgical Removal", "Zero Swarm Risk"]
   },
   {
-    title: "Structural De-Webbing",
-    description: "We don't just spray; we physically remove all spider webs from eaves, joints, and entry points, discouraging spiders from rebuilding in high-traffic zones.",
+    title: "Soffit & Eave Shield",
+    description: "Protection for high-elevation areas where wasps love to build. We physically remove the nest and treat the area with residual barriers to prevent re-building.",
     image: "/3.jpeg",
-    points: ["Eave Cleaning", "Joint Sealing", "Web Removal"]
+    points: ["High-Reach Gear", "Residual Defense", "Clean Finish"]
   },
   {
-    title: "Brown Recluse Control",
-    description: "Specialized treatment for dangerous Northwest/Southeast spider species. We utilize micro-encapsulated formulas that penetrate deep into crawlspaces.",
+    title: "Yellow Jacket Control",
+    description: "Underground and wall-void yellow jacket elimination. We utilize micro-encapsulated formulas that penetrate the colony's core for total eradication.",
     image: "/1.jpeg",
-    points: ["Dangerous Species Focus", "Deep Penetration", "Aggressive Removal"]
+    points: ["Void Injection", "Colony Collapse", "Crawlspace Secure"]
   },
   {
-    title: "Quarterly Indoor Shield",
-    description: "Year-round protection that targets crevices, baseboards, and attics. We ensure your indoor environment remains completely free of crawling arachnids.",
+    title: "Seasonal Prevention",
+    description: "Stop the queen before she settles. Our early-spring perimeter treatments target potential nesting sites around your Broomfield property.",
     image: "/4.jpeg",
-    points: ["Indoor Protection", "Quarterly Monitoring", "Crevice Flushing"]
+    points: ["Queen Targeting", "Whole Yard Shield", "Annual Peace"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Spider Removal In Holly Springs</span>
+            Comprehensive <span className="text-amber-600">Wasp Elimination In Broomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Reclaim your comfort. In the North Carolina climate, spider populations can thrive in crawlspaces and attics. Our specialized multi-phase treatments ensure your property remains a web-free zone.
+            Don't risk a sting. In the Broomfield climate, wasp activity spikes during the dry summer and fall months. Our localized specialists provide surgical nest removal that keeps your family safe.
           </p>
         </div>
 

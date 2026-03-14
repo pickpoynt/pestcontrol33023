@@ -48,9 +48,15 @@ const Header = () => {
             </Button>
           </div>
 
-          <button className="xl:hidden p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-            {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
-          </button>
+          <div className="flex items-center gap-4 lg:hidden">
+            <a href="tel:3238801224" className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-xl font-bold text-sm shadow-lg animate-pulse">
+              <Phone className="w-4 h-4" />
+              CALL NOW
+            </a>
+            <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
+            </button>
+          </div>
         </div>
       </div>
 

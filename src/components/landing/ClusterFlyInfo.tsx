@@ -1,3 +1,4 @@
+import React from 'react';
 import { BookOpen, HelpCircle, ShieldCheck, Phone } from "lucide-react";
 
 /**

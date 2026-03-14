@@ -11,6 +11,7 @@ import { BookOpen, HelpCircle, ShieldCheck, Phone } from "lucide-react";
 interface FAQItemProps {
   item: { q: string; a: string };
   index: number;
+  key?: any;
 }
 
 const FAQItem = ({ item, index }: FAQItemProps) => (

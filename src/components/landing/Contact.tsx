@@ -14,10 +14,10 @@ const Contact = () => {
               Contact Our Team
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid <span className="text-amber-600">Broomfield Spider Response</span>
+              Rapid <span className="text-amber-600">Broomfield Beetle Response</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protect your family. Our Broomfield Brown Recluse specialists are standing by 24/7 for precision node flushing and structural enclosure.
+              Protect your property. Our Broomfield carpet beetle specialists are standing by 24/7 for structural fiber flushing and mechanical enclosure.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Spider Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Beetle Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <div>
                   <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield Office</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Broomfield CO Brown Recluse Experts<br />
+                    Broomfield CO Carpet Beetle Experts<br />
                     Broomfield, CO 80020
                   </address>
                 </div>
@@ -86,24 +86,24 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Complete Recluse Abatement</option>
-                    <option>Enclosure & Sealing Protocol</option>
-                    <option>Attic Node Clearance</option>
+                    <option>Structural Fiber Flush</option>
+                    <option>Mechanical Enclosure Guard</option>
+                    <option>Attic & Void Abatement</option>
                     <option>Seasonal Perimeter Guard</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Evidence Details</label>
-                  <Textarea placeholder="Have you seen a fiddle-back? Is the activity in a closet, attic, or basement?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Damage Details</label>
+                  <Textarea placeholder="Have you seen beetles or larvae? Is the activity in a bedroom, closet, or attic?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Exterminate Brown Recluse
+                  Exterminate Carpet Beetles
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local CO spider specialist at the number provided.
+                  By clicking, you agree to being contacted by a local CO beetle specialist at the number provided.
                 </p>
               </form>
             </div>

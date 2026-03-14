@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Brown Recluse Spider Specialist <br />
+      Carpet Beetle Pest Control <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
     </>
   ),
-  subtitle = "Broomfield CO's specialized brown recluse abatement experts. We deploy targeted micro-encapsulated residuals, precision void injections, and exhaustive structural exclusion to eliminate the Front Range's most elusive threat — 24/7.",
+  subtitle = "Broomfield CO's specialized carpet beetle abatement experts. We deploy structural fiber treatments, precision crack and crevice injections, and exhaustive larvae extraction to eliminate the Front Range's most persistent textile threat — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "BROOMFIELD CO BROWN RECLUSE EXPERTS",
+  badge = "BROOMFIELD CO CARPET BEETLE EXPERTS",
   features = [
-    { icon: Search, text: "Precision Void Mapping" },
-    { icon: ShieldCheck, text: "Enclosure Sealing" },
-    { icon: Locate, text: "Broomfield Native" }
+    { icon: Search, text: "Fiber Node Mapping" },
+    { icon: ShieldCheck, text: "Larvae Extraction" },
+    { icon: Locate, text: "Broomfield Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Broomfield Brown Recluse Treatment Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Broomfield Carpet Beetle Treatment Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Brown Recluse Spider Specialist <br />
+             Carpet Beetle Pest Control <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
           </h1>
           

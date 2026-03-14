@@ -4,23 +4,23 @@ const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Rapid Node Mapping",
-      description: "Brown Recluse spiders establish 'nodes' in secluded structural areas. Our Broomfield teams specialize in mapping these hidden hubs for precision treatment."
+      title: "Rapid Fiber Mapping",
+      description: "Carpet beetles establish 'nodes' in secluded structural areas and textile fibers. Our Broomfield teams specialize in mapping these hidden hubs for precision treatment."
     },
     {
       icon: Shield,
-      title: "Exclusion & Enclosure Guard",
-      description: "We don't just spray surfaces. We offer mechanical enclosure using industrial-grade sealants to block baseboards and plumbing gaps from the inside out."
+      title: "Structural Fiber Guard",
+      description: "We don't just spray surfaces. We offer structural fiber protection and mechanical enclosure using industrial-grade sealants to block baseboards and flooring gaps."
     },
     {
       icon: Target,
       title: "Micro-Encapsulated Kill Zones",
-      description: "Our treatments utilize high-stability agents that remain lethal to spiders for up to 90 days, even in the dry environment of Colorado's Front Range."
+      description: "Our treatments utilize high-stability agents that remain lethal to beetles for up to 90 days, even in the dry environment of Colorado's Front Range."
     },
     {
       icon: Award,
-      title: "Broomfield Arid-Spider Experts",
-      description: "Our technicians have deep local experience in treating the specific structural types of the 80020 area and surrounding ZIP codes."
+      title: "Broomfield Local Experts",
+      description: "Our technicians have deep local experience in treating the specific structural types and textile threats of the 80020 area and surrounding ZIP codes."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Broomfield Spider Team?</span>
+              Why Trust Our <span className="text-amber-600">Broomfield Beetle Team?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Brown Recluse spiders are elusive predators that avoid most common pest control treatments. In Broomfield, CO, a standard spray is simply not enough. Our team combines structural engineering with advanced arachnology to provide a level of protection that ensures your family's safety and peace of mind.
+              Carpet beetles are resilient pests that avoid common surface treatments. In Broomfield, CO, a standard spray is simply not enough. Our team combines textile science with advanced entomology to provide a level of protection that ensures your home's integrity and your family's peace of mind.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,8 +55,8 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/2.jpeg" alt="Spider Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/3.jpeg" alt="Node Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/2.jpeg" alt="Beetle Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/3.jpeg" alt="Fiber Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
                 <img src="/4.jpeg" alt="Mechanical Exclusion" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
                 <img src="/1.jpeg" alt="Rapid Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>

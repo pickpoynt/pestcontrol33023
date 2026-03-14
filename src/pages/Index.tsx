@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BrownRecluseInfo from "@/components/landing/BrownRecluseInfo";
+import CarpetBeetleInfo from "@/components/landing/CarpetBeetleInfo";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
@@ -10,19 +10,19 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
 
 const Index = () => {
-  const firmName = "Broomfield CO Brown Recluse Experts";
+  const firmName = "Broomfield CO Carpet Beetle Experts";
   const phoneNumber = "(323) 880-1224";
   const location = "Broomfield, CO";
   const zipCodes = "80020, 80021, 80023, 80031, 80038";
-  const fullKeyword = "Brown Recluse Spider Specialist Broomfield";
+  const fullKeyword = "Carpet Beetle Pest Control Broomfield";
 
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": firmName,
     "image": "/4.jpeg",
-    "@id": "https://brownreclusespiderspecialistbroomfield.vercel.app/",
-    "url": "https://brownreclusespiderspecialistbroomfield.vercel.app/",
+    "@id": "https://carpetbeetlepestcontrolbroomfield.vercel.app/",
+    "url": "https://carpetbeetlepestcontrolbroomfield.vercel.app/",
     "telephone": "3238801224",
     "address": {
       "@type": "PostalAddress",
@@ -61,16 +61,16 @@ const Index = () => {
       { "@type": "PostalCode", "name": "80031" },
       { "@type": "PostalCode", "name": "80038" }
     ],
-    "description": `Professional ${fullKeyword}. Specialized micro-encapsulated residuals, precision void injections, and mechanical enclosure in ${location} ${zipCodes}. Expert 24/7 emergency dispatch for brown recluse infestations.`
+    "description": `Professional ${fullKeyword}. Specialized structural fiber treatments, precision crack and crevice injections, and exhaustive larvae extraction in ${location} ${zipCodes}. Expert 24/7 emergency dispatch for carpet beetle infestations.`
   };
 
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>{`${fullKeyword} | ${firmName} | ${phoneNumber} | ZIP: ${zipCodes}`}</title>
-        <meta name="description" content={`Expert ${fullKeyword}. Specialized micro-encapsulated residuals, precision void injections, and mechanical enclosure in ${location}. Call ${phoneNumber} now for immediate dispatch. Serving ${zipCodes}.`} />
-        <meta name="keywords" content={`${fullKeyword}, brown recluse removal Broomfield CO, spider abatement Front Range, emergency insect control Colorado, 80020 spider service`} />
-        <link rel="canonical" href="https://brownreclusespiderspecialistbroomfield.vercel.app/" />
+        <meta name="description" content={`Expert ${fullKeyword}. Specialized structural fiber treatments, precision crack and crevice injections, and exhaustive larvae extraction in ${location}. Call ${phoneNumber} now for immediate dispatch. Serving ${zipCodes}.`} />
+        <meta name="keywords" content={`${fullKeyword}, carpet beetle removal Broomfield CO, fiber treatment Front Range, emergency insect control Colorado, 80020 beetle service`} />
+        <link rel="canonical" href="https://carpetbeetlepestcontrolbroomfield.vercel.app/" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -80,19 +80,19 @@ const Index = () => {
         <Hero
            title={
             <>
-              Brown Recluse Spider Specialist <br />
+              Carpet Beetle Pest Control <br />
               <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
             </>
           }
-          subtitle="Broomfield CO's specialized brown recluse abatement experts. We deploy targeted micro-encapsulated residuals, precision void injections, and exhaustive structural exclusion to eliminate the Front Range's most elusive threat — 24/7."
+          subtitle="Broomfield CO's specialized carpet beetle abatement experts. We deploy structural fiber treatments, precision crack and crevice injections, and exhaustive larvae extraction — 24/7."
           image="/4.jpeg"
           overlayImage="/1.jpeg"
-          badge="BROOMFIELD CO BROWN RECLUSE EXPERTS"
+          badge="BROOMFIELD CO CARPET BEETLE EXPERTS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <BrownRecluseInfo />
+        <CarpetBeetleInfo />
         <Contact />
       </main>
       <RandomLinks />

@@ -22,10 +22,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Broomfield CO Brown
+                Broomfield CO Carpet
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
-                Recluse <span className="text-[10px] opacity-70">Experts</span>
+                Beetle <span className="text-[10px] opacity-70">Experts</span>
               </span>
             </div>
           </div>
@@ -40,18 +40,18 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Emergency Line</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Expert Dispatch</span>
               <a href="tel:3238801224" className="text-xl font-bold hover:text-amber-500 transition-colors tracking-tighter leading-none mt-1">(323) 880-1224</a>
             </div>
             <Button className={`${isScrolled ? "bg-amber-600 hover:bg-amber-700" : "bg-white text-slate-900 hover:bg-amber-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:3238801224">Click to Call</a>
+              <a href="tel:3238801224">CLICK TO CALL</a>
             </Button>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
             <a href="tel:3238801224" className="flex items-center gap-1.5 bg-amber-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
               <Phone className="w-3 h-3" />
-              CALL NOW
+              CLICK TO CALL
             </a>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
@@ -67,10 +67,10 @@ const Header = () => {
               <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-amber-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
             <div className="pt-6 text-center">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">SPIDER HOTLINE</p>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">BEETLE HOTLINE</p>
               <a href="tel:3238801224" className="text-3xl font-bold text-amber-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(323) 880-1224</a>
               <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="tel:3238801224">Click to Call</a>
+                <a href="tel:3238801224">CLICK TO CALL</a>
               </Button>
             </div>
           </div>

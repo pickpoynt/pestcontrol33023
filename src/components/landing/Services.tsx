@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Precision Void Injections",
-    description: "Targeted application of dust and micro-encapsulated agents into the structural voids where Brown Recluse spiders aggregate and hide during the day.",
+    title: "Larvae Fiber Flush",
+    description: "Deep-tissue treatment of carpets, rugs, and furniture fibers to eliminate the destructive larvae phase that standard vacuuming often misses.",
     image: "/2.jpeg",
-    points: ["Wall Void Entry", "Basement Joist Flush", "Electrical Box Guard"]
+    points: ["Fiber Node Clearance", "Upholstery Guard", "Structural Gap Fill"]
   },
   {
-    title: "Mechanical Enclosure",
-    description: "Deep exclusion protocols including sealing window frames, baseboards, and plumbing penetrations to deny spiders access to your living quarters.",
+    title: "Structural Gap Inclosure",
+    description: "Identification and sealing of the structural gaps behind baseboards and flooring where beetles congregate and lay their resilient eggs.",
     image: "/3.jpeg",
-    points: ["Baseboard Sealing", "Plumbing Gaps", "Structural Fortification"]
+    points: ["Baseboard Sealing", "Flooring Gaps", "Crevice Fortification"]
   },
   {
-    title: "Residual Perimeter Defense",
-    description: "Application of specialized weather-resistant residuals to the home's exterior to intercept spiders before they penetrate the structural envelope.",
+    title: "Residual Fabric Shield",
+    description: "Application of specialized fabric-safe residuals to high-risk areas to provide ongoing protection against future infestations.",
     image: "/1.jpeg",
-    points: ["Foundation Shield", "Eave Protection", "Broomfield Secure"]
+    points: ["Long-term Defense", "Fabric Safe Agent", "Broomfield Secure"]
   },
   {
-    title: "Eco-Biological Control",
-    description: "Deployment of biological growth regulators and specialized monitors to break the reproductive cycle and track population reduction in hidden nodes.",
+    title: "Attic & Void Abatement",
+    description: "Deployment of biological growth regulators in attics and wall voids to break the reproductive cycle of adult beetles and larvae.",
     image: "/4.jpeg",
-    points: ["Cycle Disruption", "Node Monitoring", "24/7 Dispatch"]
+    points: ["Cycle Interruption", "Void Treatment", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Specialized <span className="text-amber-600">Recluse Abatement In Broomfield</span>
+            Specialized <span className="text-amber-600">Beetle Control In Broomfield</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Brown Recluse spiders are not like common household spiders. They are elusive, resilient, and require a specialized structural approach. In Broomfield, CO, our team provides the elite level of expertise needed for total eradication.
+            Carpet beetles are more than a nuisance; they are a threat to your home's textiles and your family's hygiene. In Broomfield, CO, our team provides the elite level of expertise needed for total eradication.
           </p>
         </div>
 

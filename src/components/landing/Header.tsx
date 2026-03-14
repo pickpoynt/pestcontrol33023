@@ -48,9 +48,9 @@ const Header = () => {
             </Button>
           </div>
 
-          <div className="flex items-center gap-4 lg:hidden">
-            <a href="tel:3238801224" className="flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-md font-bold text-sm shadow-lg animate-pulse">
-              <Phone className="w-4 h-4" />
+          <div className="flex items-center gap-3 lg:hidden">
+            <a href="tel:3238801224" className="flex items-center gap-1.5 bg-amber-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse">
+              <Phone className="w-3 h-3" />
               CALL NOW
             </a>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

@@ -47,7 +47,7 @@ const Hero = ({
             {badge}
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-heading font-bold text-white mb-8 leading-[0.9] tracking-tighter animate-title-slide">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
              Spider Exterminator <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Holly Springs NC</span>
           </h1>

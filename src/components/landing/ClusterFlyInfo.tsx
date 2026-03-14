@@ -1,5 +1,4 @@
-import React from 'react';
-import { BookOpen, HelpCircle, ShieldCheck } from "lucide-react";
+import { BookOpen, HelpCircle, ShieldCheck, Phone } from "lucide-react";
 
 /**
  * ClusterFlyInfo Component - "Expert Knowledge Base" section
@@ -8,7 +7,12 @@ import { BookOpen, HelpCircle, ShieldCheck } from "lucide-react";
  * Answer backgrounds are solid white for readability.
  */
 
-const FAQItem = ({ item, index }: { item: { q: string; a: string }, index: number }) => (
+interface FAQItemProps {
+  item: { q: string; a: string };
+  index: number;
+}
+
+const FAQItem = ({ item, index }: FAQItemProps) => (
   <div className="mb-8 p-8 rounded-3xl bg-white shadow-xl shadow-slate-200/50 border border-slate-100 group hover:border-amber-500/30 transition-all duration-300">
     <div className="flex items-start gap-4 mb-4">
       <div className="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center shrink-0">

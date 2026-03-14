@@ -1,55 +1,69 @@
-import { ShieldCheck, Target, Search, Clock, Award } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Shield, Clock, Award, Hammer, Target, Users } from "lucide-react";
 
 const WhyUs = () => {
+  const features = [
+    {
+      icon: Clock,
+      title: "Under-60 Minute Response",
+      description: "Wasp emergencies don't wait. We have technicians stationed throughout Hillsborough to reach your property faster than anyone else."
+    },
+    {
+      icon: Shield,
+      title: "Certified Safety Protocol",
+      description: "Our licensed exterminators use industrial-grade protective gear and specialized chemicals that are aggressive on wasps but safe for your family."
+    },
+    {
+      icon: Target,
+      title: "Source Elimination",
+      description: "We don't just kill the wasps you see; we locate and destroy the queen and the nest structure to ensure they never return to that spot."
+    },
+    {
+      icon: Award,
+      title: "Hillsborough Specialists",
+      description: "Local knowledge of North Carolina wasp behavior—from paper wasps in spring to aggressive yellow jackets in late autumn."
+    }
+  ];
+
   return (
-    <section id="why-us" className="py-24 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100 text-amber-900 mb-8 font-bold uppercase tracking-widest text-xs border border-amber-200">
-              <ShieldCheck className="w-4 h-4" />
-              Clarksdale MS's Roach Elimination Team
-            </div>
-            <h2 className="text-4xl md:text-6xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tighter leading-none">
-              Why Our <span className="text-amber-600">Roach System</span> Works
+    <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-amber-500/5 -skew-x-12 translate-x-1/2" />
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="flex flex-col lg:flex-row gap-16 items-center">
+          <div className="lg:w-1/2">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
+              Why Trust Our <span className="text-amber-600">Hillsborough Wasp Team?</span>
             </h2>
-            <p className="text-xl text-slate-600 mb-12 leading-relaxed font-medium italic">
-              Cockroaches in Mississippi are not a simple problem. Clarksdale's warm, humid climate is ideal for German roaches, American roaches, and Oriental cockroaches to thrive year-round. Our specialists deploy multi-phase elimination protocols — gel baits, crack-and-crevice residuals, and insect growth regulators — targeting every life stage simultaneously to prevent resistance and ensure total eradication.
+            <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
+              Dealing with a wasp nest is dangerous. In Hillsborough, NC, the combination of dense foliage and older structures creates ideal nesting grounds. Our team combines local expertise with aggressive elimination protocols to keep your property safe.
             </p>
-            <div className="grid gap-6">
-              {[
-                { title: "Licensed MS Technicians", desc: "State-licensed pest professionals trained in Mississippi cockroach species and behavior.", icon: ShieldCheck },
-                { title: "Multi-Phase Protocol", desc: "Baits + residuals + IGRs deployed together to prevent resistance and ensure total kill.", icon: Target },
-                { title: "Same-Day Response", desc: "Rapid dispatch across Clarksdale, Coahoma County, and surrounding areas.", icon: Clock },
-                { title: "Source Identification", desc: "We locate every nest and entry point to stop the infestation at its origin.", icon: Search },
-                { title: "Follow-Up Warranty", desc: "Satisfied customers backed by our post-treatment monitoring and warranty visits.", icon: Award }
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
-                    <item.icon className="w-4 h-4 text-amber-600" />
+            
+            <div className="grid sm:grid-cols-2 gap-8">
+              {features.map((item, index) => (
+                <div key={index} className="space-y-4 group">
+                  <div className="w-14 h-14 rounded-2xl bg-white shadow-xl shadow-amber-500/5 flex items-center justify-center group-hover:bg-amber-600 group-hover:rotate-6 transition-all duration-300 border border-slate-100">
+                    <item.icon className="w-7 h-7 text-amber-600 group-hover:text-white" />
                   </div>
                   <div>
-                    <span className="text-slate-700 font-bold uppercase tracking-wider text-sm block">{item.title}</span>
-                    <span className="text-slate-500 text-xs">{item.desc}</span>
+                    <h3 className="font-bold text-slate-900 mb-2 uppercase tracking-tight text-sm">{item.title}</h3>
+                    <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.description}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-
-          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group">
-              <img src="/1.jpeg" alt="Cockroach Exterminator Clarksdale MS" className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110" />
+          
+          <div className="lg:w-1/2 relative space-y-4">
+            <div className="grid grid-cols-2 gap-4">
+                <img src="/2.jpeg" alt="Nest Inspection" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/3.jpeg" alt="Removal Process" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Preventive Treatment" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/1.jpeg" alt="Safety Gear" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
-            <div className="aspect-square rounded-[2rem] overflow-hidden border-4 border-amber-500/20 shadow-2xl relative group mt-8 md:mt-16">
-              <img src="/3.jpeg" alt="Professional Roach Treatment Clarksdale MS" className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110" />
-              <div className="absolute bottom-6 left-6 right-6 bg-slate-900/90 backdrop-blur-xl p-6 rounded-2xl border border-white/10">
-                <p className="text-amber-400 font-bold uppercase tracking-widest text-[10px] mb-2">Roach Problem?</p>
-                <h4 className="text-xl font-bold text-white mb-4 uppercase tracking-tight">Call Clarksdale's Specialists</h4>
-                <Button className="bg-amber-600 hover:bg-amber-700 text-white font-bold h-10 px-6 rounded-xl uppercase tracking-widest text-[10px] w-full" asChild>
-                  <a href="tel:3238801224">Call Now</a>
-                </Button>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="w-40 h-40 bg-amber-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
+                <span className="text-3xl font-bold font-heading">24/7</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">Rapid Response</span>
               </div>
             </div>
           </div>

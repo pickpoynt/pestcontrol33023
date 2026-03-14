@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Roach Extermination",
-    description: "Full-property cockroach elimination using gel baits, residual insecticides, and crack-and-crevice applications targeting every nesting site in your Clarksdale home.",
+    title: "Wasp Nest Removal",
+    description: "Professional removal of paper wasp, mud dauber, and yellow jacket nests. We use specialized equipment to safely detach and dispose of nests from eaves, attics, and trees.",
     image: "/2.jpeg",
-    points: ["Gel Bait Systems", "Residual Treatment", "Total Elimination"]
+    points: ["Safe Detachment", "Complete Disposal", "Eco-Friendly Spray"]
   },
   {
-    title: "Nest & Source Elimination",
-    description: "Precision identification and destruction of cockroach nesting sites — including wall voids, under appliances, and in crawl spaces — to stop reproduction at the source.",
+    title: "Hornet Nest Elimination",
+    description: "High-risk hornet nest removal involving protective gear and precision application to neutralize aggressive colonies in Hillsborough properties.",
     image: "/3.jpeg",
-    points: ["Nest Destruction", "Void Treatment", "Source Removal"]
+    points: ["Full PPE Gear", "Instant Kill", "Night Service Available"]
   },
   {
-    title: "German Roach Control",
-    description: "Specialized protocols targeting the most prolific indoor roach species, deploying IGR products and multiple-bait rotation strategies to prevent resistance development.",
+    title: "Yellow Jacket Controls",
+    description: "Targeted ground nest and wall void treatments for persistent yellow jacket infestations. We eliminate the queen and the entire hive structure.",
     image: "/1.jpeg",
-    points: ["IGR Treatment", "Bait Rotation", "Resistance Prevention"]
+    points: ["Ground Nest Entry", "Wall Void Injection", "Queen Removal"]
   },
   {
-    title: "Prevention & Sealing",
-    description: "Post-elimination exclusion services including entry point sealing, sanitation recommendations, and ongoing monitoring to prevent future cockroach re-entry.",
+    title: "Preventive Treatment",
+    description: "Long-lasting residual sprays applied to common nesting areas to prevent wasps from establishing new hives on your home or business structure.",
     image: "/4.jpeg",
-    points: ["Entry Point Sealing", "Monitoring Plans", "Sanitation Advice"]
+    points: ["Residual Protection", "Annual Monitoring", "Sealing Service"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Professional <span className="text-amber-600">Cockroach Exterminator Clarksdale MS</span>
+            Professional <span className="text-amber-600">Wasp Nest Removal Hillsborough NC</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Clarksdale homeowners trust our certified team for rapid cockroach lifecycle elimination and total property protection. We target every life stage and every hiding spot.
+            Hillsborough homeowners trust our experienced team for rapid, safe, and permanent wasp nest removal. We handle everything from high-eave nests to underground hives.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const Services = () => {
               <a href="#contact">
                 <div className="relative h-48 overflow-hidden">
                   <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-amber-700 uppercase tracking-tight">{service.title}</h3>

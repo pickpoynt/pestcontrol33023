@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Mosquito Control Service <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Eagle Point OR</span>
+      Spider Exterminator <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Holly Springs NC</span>
     </>
   ),
-  subtitle = "Eagle Point OR's certified mosquito elimination specialists. We deploy barrier sprays, larval growth inhibitors, and fogging protocols to completely eradicate mosquito populations from your backyard — 24/7.",
+  subtitle = "Holly Springs NC's certified spider elimination specialists. We deploy precision residual barriers, web de-cobwebbing protocols, and targeted micro-encapsulated treatments to completely eradicate spiders from your home — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "EAGLE POINT OR MOSQUITO EXPERTS",
+  badge = "HOLLY SPRINGS NC SPIDER EXPERTS",
   features = [
-    { icon: Search, text: "Barrier Treatment" },
-    { icon: ShieldCheck, text: "Larvae Control" },
-    { icon: Locate, text: "Eagle Point Local" }
+    { icon: Search, text: "Structural Barriers" },
+    { icon: ShieldCheck, text: "Nest Elimination" },
+    { icon: Locate, text: "Holly Springs Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Mosquito Control Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Spider Exterminator Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/60" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-heading font-bold text-white mb-8 leading-[0.9] tracking-tighter animate-title-slide">
-             Mosquito Control Service <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Eagle Point OR</span>
+             Spider Exterminator <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Holly Springs NC</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Barrier Spray Protection",
-    description: "Our core mosquito control service. We apply a fine mist to foliage and surrounding areas, creating a lethal barrier that eliminates adult mosquitos on contact for up to 30 days.",
+    title: "Eco-Friendly Barriers",
+    description: "Our core spider control service. We apply botanical-based residual barriers to your home's perimeter to stop spiders from ever entering the structure.",
     image: "/2.jpeg",
-    points: ["Kills Adult Mosquitos", "30-Day Protection", "Eco-Friendly Option"]
+    points: ["Safe for Pets", "Botanical Oils", "Long-Lasting Defense"]
   },
   {
-    title: "Larvicide Source Control",
-    description: "Stop mosquitos before they hatch. We treat standing water, gutters, and breeding zones with EPA-approved growth inhibitors that prevent larvae from maturing.",
+    title: "Structural De-Webbing",
+    description: "We don't just spray; we physically remove all spider webs from eaves, joints, and entry points, discouraging spiders from rebuilding in high-traffic zones.",
     image: "/3.jpeg",
-    points: ["Egg Elimination", "Water Treatment", "Long-Term Prevention"]
+    points: ["Eave Cleaning", "Joint Sealing", "Web Removal"]
   },
   {
-    title: "Eco-Friendly Mosquito Guard",
-    description: "A natural alternative using botanical oils that repel mosquitos effectively without synthetic chemicals. Ideal for gardens and high-traffic family areas.",
+    title: "Brown Recluse Control",
+    description: "Specialized treatment for dangerous Northwest/Southeast spider species. We utilize micro-encapsulated formulas that penetrate deep into crawlspaces.",
     image: "/1.jpeg",
-    points: ["Botanical Oils", "Pet & Family Safe", "Organic Alternative"]
+    points: ["Dangerous Species Focus", "Deep Penetration", "Aggressive Removal"]
   },
   {
-    title: "Special Event Spraying",
-    description: "Planning a wedding or outdoor party in Eagle Point? Our 24-hour rapid response team ensures your venue is mosquito-free for your big day.",
+    title: "Quarterly Indoor Shield",
+    description: "Year-round protection that targets crevices, baseboards, and attics. We ensure your indoor environment remains completely free of crawling arachnids.",
     image: "/4.jpeg",
-    points: ["Wedding Protection", "Party Shield", "One-Time Treatment"]
+    points: ["Indoor Protection", "Quarterly Monitoring", "Crevice Flushing"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Eagle Point OR Mosquito Control</span>
+            Comprehensive <span className="text-amber-600">Spider Removal In Holly Springs</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Enjoy your backyard again. In the Eagle Point climate, mosquito populations can explode. Our targeted multi-phase treatments ensure your property remains a bite-free zone.
+            Reclaim your comfort. In the North Carolina climate, spider populations can thrive in crawlspaces and attics. Our specialized multi-phase treatments ensure your property remains a web-free zone.
           </p>
         </div>
 

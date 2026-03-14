@@ -9,15 +9,15 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16">
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 mb-6 font-bold uppercase tracking-[0.2em] text-xs">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-600 mb-6 font-bold uppercase tracking-[0.2em] text-xs">
               <Mail className="w-4 h-4" />
               Contact Us
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid Response <span className="text-amber-600">Eagle Point Mosquito Control</span>
+              Rapid Response <span className="text-amber-600">Holly Springs Spider Team</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Don't let mosquitos chase you inside. Our Eagle Point specialists are standing by for immediate backyard barrier treatments throughout the Rogue Valley.
+              Stop spiders in their tracks. Our Holly Springs specialists are standing by for immediate barrier treatments and structural de-webbing. We offer 24/7 emergency dispatch.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Emergency Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Spider Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -36,10 +36,10 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Eagle Point HQ</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Holly Springs HQ</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Eagle Point OR Mosquito Control Experts<br />
-                    Eagle Point, OR 97524
+                    Holly Springs NC Spider Experts<br />
+                    Holly Springs, NC 27540
                   </address>
                 </div>
               </div>
@@ -79,32 +79,32 @@ const Contact = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Eagle Point ZIP Code</label>
-                  <Input placeholder="97524" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Holly Springs ZIP</label>
+                  <Input placeholder="27540" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Barrier Spray Treatment</option>
-                    <option>Larvicide Application</option>
-                    <option>Special Event Treatment</option>
-                    <option>Eco-Friendly Spray</option>
-                    <option>Commercial Control</option>
+                    <option>Exterior Barrier Spray</option>
+                    <option>Interior Crevice Flush</option>
+                    <option>Structural De-Webbing</option>
+                    <option>Quarterly Monitoring</option>
+                    <option>Dangerous Species Removal</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Property Details</label>
-                  <Textarea placeholder="Any heavy foliage or standing water areas?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <Textarea placeholder="Any heavy spider activity in attics or crawlspaces?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Get Mosquito-Free Now
+                  Exterminate All Spiders
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local mosquito specialist at the number provided.
+                  By clicking, you agree to being contacted by a local NC spider specialist at the number provided.
                 </p>
               </form>
             </div>

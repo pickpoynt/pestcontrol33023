@@ -22,10 +22,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Eagle Point OR Mosquito
+                Holly Springs NC Spider
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
-                Control <span className="text-[10px] opacity-70">Experts</span>
+                Exterminator <span className="text-[10px] opacity-70">Experts</span>
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">MOSQUITO HOTLINE</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">SPIDER HOTLINE</span>
               <a href="tel:3238801224" className="text-xl font-bold hover:text-amber-500 transition-colors tracking-tighter leading-none mt-1">(323) 880-1224</a>
             </div>
             <Button className={`${isScrolled ? "bg-amber-600 hover:bg-amber-700" : "bg-white text-slate-900 hover:bg-amber-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
@@ -61,13 +61,13 @@ const Header = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="xl:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
+        <div className="lg:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
           <div className="flex flex-col gap-6">
             {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
               <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-amber-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
             <div className="pt-6 text-center">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">MOSQUITO HOTLINE</p>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">SPIDER HOTLINE</p>
               <a href="tel:3238801224" className="text-3xl font-bold text-amber-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(323) 880-1224</a>
               <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="tel:3238801224">Click to Call</a>

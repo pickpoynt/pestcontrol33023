@@ -14,10 +14,10 @@ const Contact = () => {
               Contact Our Team
             </div>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid <span className="text-amber-600">Broomfield Beetle Response</span>
+              Rapid <span className="text-amber-600">Flower Mound Slab Response</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protect your property. Our Broomfield carpet beetle specialists are standing by 24/7 for structural fiber flushing and mechanical enclosure.
+              Protect your foundation. Our Flower Mound slab leak specialists are standing by 24/7 for precision sonic mapping and non-invasive restoration.
             </p>
 
             <div className="space-y-8">
@@ -26,7 +26,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Beetle Hotline</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Repair Hotline</p>
                   <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
                 </div>
               </div>
@@ -36,10 +36,10 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Broomfield Office</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Flower Mound Office</p>
                   <address className="text-lg font-bold text-slate-900 not-italic">
-                    Broomfield CO Carpet Beetle Experts<br />
-                    Broomfield, CO 80020
+                    Flower Mound TX Slab Leak Experts<br />
+                    Flower Mound, TX 75022
                   </address>
                 </div>
               </div>
@@ -79,31 +79,31 @@ const Contact = () => {
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Broomfield ZIP</label>
-                  <Input placeholder="80020" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Flower Mound ZIP</label>
+                  <Input placeholder="75028" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Treatment Type</label>
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Service Required</label>
                   <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Structural Fiber Flush</option>
-                    <option>Mechanical Enclosure Guard</option>
-                    <option>Attic & Void Abatement</option>
-                    <option>Seasonal Perimeter Guard</option>
+                    <option>Urgent Leak Detection</option>
+                    <option>Structural Resin Injection</option>
+                    <option>Strategic Re-Piping</option>
+                    <option>Foundation Reset Audit</option>
                   </select>
                 </div>
                 
                 <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Damage Details</label>
-                  <Textarea placeholder="Have you seen beetles or larvae? Is the activity in a bedroom, closet, or attic?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Evidence Details</label>
+                  <Textarea placeholder="Noticing warm spots? Spinning water meter? Is the area damp or heaving?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
                 </div>
 
                 <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Exterminate Carpet Beetles
+                  Repair Slab Leak
                 </Button>
                 
                 <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local CO beetle specialist at the number provided.
+                  By clicking, you agree to being contacted by a local TX slab specialist at the number provided.
                 </p>
               </form>
             </div>

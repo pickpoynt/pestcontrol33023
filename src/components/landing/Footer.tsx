@@ -13,19 +13,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-amber-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Broomfield CO</span>
-                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Carpet Beetle Experts</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Flower Mound TX</span>
+                <span className="text-sm font-medium text-amber-500 uppercase tracking-widest text-[10px]">Slab Leak Experts</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-balance">
-              Broomfield's specialized authority on carpet beetle abatement. We deploy structural fiber treatments and mechanical enclosures to protect your home.
+              Flower Mound's specialized authority on non-invasive slab leak detection and precision foundation restoration. Protect your home's structural integrity today.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Treatments</h4>
             <ul className="space-y-4">
-              {["Fiber Flush", "Enclosure Sealing", "Node Mapping", "Residual Barriers", "Structural Reset"].map((item) => (
+              {["Sonic Detection", "Resin Injection", "Bypass Re-Pipe", "Void Stabilization", "Structural Reset"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-amber-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-amber-500/40 group-hover:w-2 transition-all" />
@@ -62,9 +62,9 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-amber-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Broomfield CO Carpet Beetle Experts<br />
-                  Broomfield, CO 80020<br />
-                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider font-heading">ZIP CODES: 80020, 80021, 80023, 80031, 80038</span>
+                  Flower Mound TX Slab Leak Experts<br />
+                  Flower Mound, TX 75022<br />
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider font-heading">ZIP CODES: 75022, 75027, 75028, 75067, 75077</span>
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -79,7 +79,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic mb-4">
-            © {new Date().getFullYear()} Broomfield CO Carpet Beetle Experts. Professional Carpet Beetle Pest Control Broomfield. No Free Quotes.
+            © {new Date().getFullYear()} Flower Mound TX Slab Leak Experts. Professional Slab Leak Repair Flower Mound. No Free Quotes.
           </p>
           <div className="max-w-4xl mx-auto px-4 text-center">
              <p className="text-slate-400 text-[10px] leading-relaxed font-medium">

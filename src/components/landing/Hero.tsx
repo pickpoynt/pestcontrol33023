@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Carpet Beetle Pest Control <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
+      Slab Leak Repair <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
     </>
   ),
-  subtitle = "Broomfield CO's specialized carpet beetle abatement experts. We deploy structural fiber treatments, precision crack and crevice injections, and exhaustive larvae extraction to eliminate the Front Range's most persistent textile threat — 24/7.",
+  subtitle = "Flower Mound TX's specialized slab leak detection and repair experts. We deploy non-invasive acoustic mapping, precision foundation boring, and rapid pipe restoration to eliminate hidden water damage — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "BROOMFIELD CO CARPET BEETLE EXPERTS",
+  badge = "FLOWER MOUND TX SLAB LEAK EXPERTS",
   features = [
-    { icon: Search, text: "Fiber Node Mapping" },
-    { icon: ShieldCheck, text: "Larvae Extraction" },
-    { icon: Locate, text: "Broomfield Local" }
+    { icon: Search, text: "Acoustic Node Mapping" },
+    { icon: ShieldCheck, text: "Non-Invasive Repair" },
+    { icon: Locate, text: "Flower Mound Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Broomfield Carpet Beetle Treatment Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Flower Mound Slab Leak Repair Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Carpet Beetle Pest Control <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Broomfield CO</span>
+             Slab Leak Repair <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

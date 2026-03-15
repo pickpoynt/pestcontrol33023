@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Larvae Fiber Flush",
-    description: "Deep-tissue treatment of carpets, rugs, and furniture fibers to eliminate the destructive larvae phase that standard vacuuming often misses.",
+    title: "Acoustic Detection",
+    description: "Ultra-sensitive sonic mapping to locate pinhole leaks deep beneath your concrete foundation without unnecessary drilling or excavation.",
     image: "/2.jpeg",
-    points: ["Fiber Node Clearance", "Upholstery Guard", "Structural Gap Fill"]
+    points: ["Sonic Mapping", "Thermal Imaging", "Node Mapping"]
   },
   {
-    title: "Structural Gap Inclosure",
-    description: "Identification and sealing of the structural gaps behind baseboards and flooring where beetles congregate and lay their resilient eggs.",
+    title: "Thermal Leak Audit",
+    description: "Using high-resolution thermography to identify temperature anomalies in the slab, revealing the exact path of leaking hot water lines.",
     image: "/3.jpeg",
-    points: ["Baseboard Sealing", "Flooring Gaps", "Crevice Fortification"]
+    points: ["Heat Mapping", "Moisture Tracking", "Zero-Destruction"]
   },
   {
-    title: "Residual Fabric Shield",
-    description: "Application of specialized fabric-safe residuals to high-risk areas to provide ongoing protection against future infestations.",
+    title: "Precision Re-Piping",
+    description: "Strategic bypass and re-piping solutions that eliminate the failing line entirely, providing a permanent fix without disturbing the slab.",
     image: "/1.jpeg",
-    points: ["Long-term Defense", "Fabric Safe Agent", "Broomfield Secure"]
+    points: ["Bypass Experts", "Copper & PEX", "Flower Mound Secure"]
   },
   {
-    title: "Attic & Void Abatement",
-    description: "Deployment of biological growth regulators in attics and wall voids to break the reproductive cycle of adult beetles and larvae.",
+    title: "Foundation Restoration",
+    description: "Comprehensive structural support and stabilization after a leak to ensure your home's foundation remains level and secure.",
     image: "/4.jpeg",
-    points: ["Cycle Interruption", "Void Treatment", "24/7 Dispatch"]
+    points: ["Soil Injection", "Void Filling", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Specialized <span className="text-amber-600">Beetle Control In Broomfield</span>
+            Specialized <span className="text-amber-600">Slab Leak Repairs In Flower Mound</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Carpet beetles are more than a nuisance; they are a threat to your home's textiles and your family's hygiene. In Broomfield, CO, our team provides the elite level of expertise needed for total eradication.
+            A slab leak is a structural emergency that threatens your home's integrity and value. In Flower Mound, TX, our team provides the elite level of expertise needed for total removal of the threat.
           </p>
         </div>
 

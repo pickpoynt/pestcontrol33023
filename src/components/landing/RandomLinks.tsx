@@ -1,8 +1,8 @@
 const links = [
-  { text: "Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
-  { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-  { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Emergency Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
+  { text: "Pantry Moth Exterminator Broomfield", url: "https://pantrymothexterminatorbroomfield.vercel.app/" },
+  { text: "Cluster Fly Infestation Help Broomfield", url: "https://clusterflyinfestationhelpbroomfield.vercel.app/" },
+  { text: "Carpet Beetle Pest Control Broomfield", url: "https://carpetbeetlepestcontrolbroomfield.vercel.app/" },
 ];
 
 const RandomLinks = () => {

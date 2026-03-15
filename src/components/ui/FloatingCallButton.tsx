@@ -4,7 +4,7 @@ const FloatingCallButton = () => {
     return (
         <div className="fixed bottom-8 right-8 z-[100] flex flex-col items-end gap-3 group">
             <a
-                href="tel:3238801224"
+                href="tel:8777921410"
                 className="group relative flex items-center justify-center bg-amber-600 hover:bg-amber-700 text-white w-16 h-16 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95"
                 aria-label="Call Flower Mound TX Slab Leak Experts"
             >
@@ -18,7 +18,7 @@ const FloatingCallButton = () => {
             </a>
             <div className="flex items-center gap-2 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full border border-slate-200 shadow-sm animate-pulse">
                 <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]"></div>
-                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter sm:tracking-normal">Dispatching Now - Flower Mound, TX - (323) 880-1224</span>
+                <span className="text-[10px] font-bold text-slate-600 uppercase tracking-tighter sm:tracking-normal">Dispatching Now - Flower Mound, TX - (877) 792-1410</span>
             </div>
         </div>
     );

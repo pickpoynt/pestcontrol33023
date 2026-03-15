@@ -27,7 +27,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Repair Hotline</p>
-                  <a href="tel:3238801224" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(323) 880-1224</a>
+                  <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(877) 792-1410</a>
                 </div>
               </div>
 

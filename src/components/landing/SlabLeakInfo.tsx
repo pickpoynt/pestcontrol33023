@@ -30,7 +30,7 @@ const FAQItem = ({ item, index }: FAQItemProps) => (
         {item.a}
       </div>
       <a 
-        href="tel:3238801224" 
+        href="tel:8777921410" 
         className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all hover:scale-105 shadow-lg shadow-amber-900/20 uppercase tracking-tighter"
       >
         <Phone className="w-4 h-4" />
@@ -189,9 +189,9 @@ const SlabLeakInfo = () => {
               Don't wait for your foundation to crack. Our Flower Mound specialists are ready with sonic mapping and precision restoration.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <a href="tel:3238801224" className="bg-white text-amber-600 hover:bg-amber-50 h-16 px-10 rounded-2xl text-xl font-bold flex items-center gap-3 transition-transform hover:scale-105 shadow-xl">
+              <a href="tel:8777921410" className="bg-white text-amber-600 hover:bg-amber-50 h-16 px-10 rounded-2xl text-xl font-bold flex items-center gap-3 transition-transform hover:scale-105 shadow-xl">
                 <ShieldCheck className="w-6 h-6" />
-                (323) 880-1224
+                (877) 792-1410
               </a>
             </div>
           </div>

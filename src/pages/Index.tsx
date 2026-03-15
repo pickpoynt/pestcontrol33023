@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet-async";
 
 const Index = () => {
   const firmName = "Flower Mound TX Slab Leak Experts";
-  const phoneNumber = "(323) 880-1224";
+  const phoneNumber = "(877) 792-1410";
   const location = "Flower Mound, TX";
   const zipCodes = "75022, 75027, 75028, 75067, 75077";
   const fullKeyword = "Slab Leak Repair Flower Mound";
@@ -23,7 +23,7 @@ const Index = () => {
     "image": "/4.jpeg",
     "@id": "https://slableakrepairflowermound.vercel.app/",
     "url": "https://slableakrepairflowermound.vercel.app/",
-    "telephone": "3238801224",
+    "telephone": "8777921410",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Flower Mound",
@@ -88,7 +88,7 @@ const Index = () => {
           image="/4.jpeg"
           overlayImage="/1.jpeg"
           badge="FLOWER MOUND TX SLAB LEAK EXPERTS"
-          phone="3238801224"
+          phone="8777921410"
         />
         <Services />
         <WhyUs />

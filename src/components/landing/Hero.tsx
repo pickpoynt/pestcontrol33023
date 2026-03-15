@@ -22,7 +22,7 @@ const Hero = ({
   subtitle = "Flower Mound TX's specialized slab leak detection and repair experts. We deploy non-invasive acoustic mapping, precision foundation boring, and rapid pipe restoration to eliminate hidden water damage — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
-  phone = "3238801224",
+  phone = "8777921410",
   badge = "FLOWER MOUND TX SLAB LEAK EXPERTS",
   features = [
     { icon: Search, text: "Acoustic Node Mapping" },

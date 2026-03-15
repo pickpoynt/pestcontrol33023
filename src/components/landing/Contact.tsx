@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-amber-500">Hydro Jetting Dispatch</span>
+              <span className="text-amber-500">Sewer Line Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Flower Mound technicians are standing by to reclaim your lines. High-speed, high-pressure hydraulic response available across North Texas.
+              Our Flower Mound technicians are standing by to reclaim your main sewer line. High-torque mechanical and hydraulic response available across North Texas foundations.
             </p>
 
             <div className="space-y-8">
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                Flower Mound Force Identity
+                Flower Mound Sewer Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Need Immediate <br />Line Reclamation?
+                Need Immediate <br />Main Line Reclamation?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our heavy-duty jetting units are deployed and ready for your Flower Mound home. Call now for a professional 'Structural Flow Audit.'
+                Our heavy-duty clearing units are deployed and ready for your Flower Mound home. Call now for a professional 'Structural Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

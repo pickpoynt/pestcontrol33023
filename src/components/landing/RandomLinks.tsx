@@ -5,7 +5,7 @@ const RandomLinks = () => {
     { text: "Emergency Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
     { text: "Carpet Beetle Pest Control Broomfield", url: "https://carpetbeetlepestcontrolbroomfield.vercel.app/" },
     { text: "Slab Leak Repair Flower Mound", url: "https://slableakrepairflowermound.vercel.app/" },
-    { text: "Emergency Pipe Burst Flower Mound", url: "https://emergencypipeburstflowermound.vercel.app/" }
+    { text: "Hydro Jetting Services Flower Mound", url: "https://hydrojettingservicesflowermound.vercel.app/" }
   ];
 
   return (

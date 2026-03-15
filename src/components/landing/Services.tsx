@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Sewer Jet Reclamation",
-    description: "Industrial-grade scouring of main sewer lines in Flower Mound using 4000-PSI nozzles to remove root mats and heavy scale.",
+    title: "Main Line Descaling",
+    description: "Removing years of biological and mineral buildup from horizontal Flower Mound sewer mains to restore full-bore diameter.",
     image: "/2.jpeg",
-    points: ["Root Removal", "Main Line Reset", "Flow Restoration"]
+    points: ["Scale Removal", "Diameter Reset", "Flow Restoration"]
   },
   {
-    title: "CCTV Line Profiling",
-    description: "High-definition optic inspection of your Flower Mound home's sub-structures to identify failure points before jetting initiates.",
+    title: "Camera Line Profiling",
+    description: "Deep optic audit of your Flower Mound foundation lines to identify the exact node of obstruction or structural breach.",
     image: "/3.jpeg",
-    points: ["Optic Audit", "Void Identification", "Structural Mapping"]
+    points: ["HD Optic Mapping", "Defect Detection", "Clearance Proof"]
   },
   {
-    title: "Stack & Branch Cleansing",
-    description: "Internal vertical stack and horizontal branch line reclamation to eliminate years of biological and chemical buildup.",
+    title: "Root Mass Extraction",
+    description: "Mechanical and hydraulic elimination of aggressive North Texas root mats that have compromised the main sewer envelope.",
     image: "/1.jpeg",
-    points: ["Vertical Descaling", "Horizontal Reset", "Zero-Clog Guard"]
+    points: ["Root Removal", "Joint Security", "Growth Exclusion"]
   },
   {
-    title: "Storm Drain Recovery",
-    description: "Clearing aggregate debris and sediment from Flower Mound property storm drains to prevent localized flooding during Texas storms.",
+    title: "Storm Lateral Clearing",
+    description: "Restoring the flow of Flower Mound storm water laterals to prevent sub-surface saturation and foundation hydraulic stress.",
     image: "/4.jpeg",
-    points: ["Debris Removal", "Basin Restoration", "24/7 Dispatch"]
+    points: ["Lateral Reset", "Basin Cleaning", "Immediate Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Advanced <span className="text-amber-600">Hydro Jetting In Flower Mound</span>
+            Comprehensive <span className="text-amber-600">Sewer Line Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Don't just snake your drains—reclaim them. Our Flower Mound, TX specialists use high-pressure hydraulic force to restore your pipes to 'like-new' internal diameter.
+            A clogged main sewer line in Flower Mound, TX is a structural emergency. We provides mechanical and hydraulic reclamation to protect your home's foundation and sanitary integrity.
           </p>
         </div>
 

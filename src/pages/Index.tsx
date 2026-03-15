@@ -5,13 +5,13 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import HydroJettingInfo from "@/components/landing/HydroJettingInfo";
+import SewerLineInfo from "@/components/landing/SewerLineInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Hydro Jetting Services Flower Mound";
-  const firmName = "Flower Mound TX Hydro Jetting Experts";
+  const keyword = "Clogged Main Sewer Line Flower Mound";
+  const firmName = "Flower Mound TX Sewer Line Experts";
   const phone = "(877) 792-1410";
   const zips = "75022, 75027, 75028, 75067, 75077";
 
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-pressure drain line reclamation in Flower Mound, TX. Call ${phone} now for immediate assistance in ${zips}.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-torque mechanical and hydraulic sewer line clearing in Flower Mound, TX. Call ${phone} now for immediate assistance in ${zips}.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,7 +33,7 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Flower Mound Area",
+              "streetAddress": "Flower Mound Sewer Line Sector",
               "addressLocality": "Flower Mound",
               "addressRegion": "TX",
               "postalCode": "75028",
@@ -61,7 +61,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hydro Jetting and Drain Reclamation",
+            "serviceType": "Main Sewer Line Clearing and Reclamation",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -72,20 +72,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Hydro Jetting Services",
+              "name": "Sewer Line Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sewer Line Hydro Jetting"
+                    "name": "Main Sewer Line Unblocking"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "CCTV Drain Inspection"
+                    "name": "HD Sewer Camera Audit"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <HydroJettingInfo />
+      <SewerLineInfo />
       <Contact />
       <RandomLinks />
       <Footer />

@@ -12,11 +12,11 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-xl block leading-none">Flower Mound TX</span>
-                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Jetting Force</span>
+                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Sewer experts</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic italic">
-              Professional high-pressure hydraulic reclamation for the residential and commercial sub-structures of Flower Mound, TX. Restoring engineered flow 24/7/365.
+              Professional high-pressure sewer line reclamation for the residential and commercial sub-structures of Flower Mound, TX. Restoring engineered flow 24/7/365.
             </p>
           </div>
 
@@ -52,7 +52,8 @@ const Footer = () => {
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Support & Leasing</h4>
             <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/30 transition-all cursor-pointer">
               <Mail className="w-5 h-5 text-amber-500" />
-              <a href="mailto:leasemynumber@gmail.com" className="text-sm font-bold uppercase tracking-tighter text-slate-200 group-hover:text-white transition-colors">
+              {/* LINK IT TO LEASE PAGE as per requirement */}
+              <a href="/lease-my-number" className="text-sm font-bold uppercase tracking-tighter text-slate-200 group-hover:text-white transition-colors">
                 LEASE MY NUMBER
               </a>
               <ArrowUpRight className="w-4 h-4 text-slate-600 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -70,7 +71,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">Flower Mound TX Hydro Jetting Specialists, Flower Mound, TX 75028</p>
+                    <p className="text-slate-300 font-bold text-sm">Flower Mound TX Sewer Line Specialists, Flower Mound, TX 75028</p>
                 </div>
             </div>
 
@@ -83,7 +84,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} Flower Mound TX Hydro Jetting Experts. All Rights Reserved.
+                    © {new Date().getFullYear()} Flower Mound TX Sewer Line Experts. All Rights Reserved.
                 </p>
             </div>
         </div>

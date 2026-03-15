@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Zap, Clock, Search, Locate, Phone } from "lucide-react";
+import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone } from "lucide-react";
 import { ReactNode } from "react";
 
 interface HeroProps {
@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Slab Leak Repair <br />
+      Emergency Pipe Burst <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
     </>
   ),
-  subtitle = "Flower Mound TX's specialized slab leak detection and repair experts. We deploy non-invasive acoustic mapping, precision foundation boring, and rapid pipe restoration to eliminate hidden water damage — 24/7.",
+  subtitle = "Flower Mound TX's rapid response pipe failure specialists. We deploy structural flood containment, high-pressure line stabilization, and precision thermal extraction to halt water damage — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "FLOWER MOUND TX SLAB LEAK EXPERTS",
+  badge = "FLOWER MOUND TX PIPE BURST EXPERTS",
   features = [
-    { icon: Search, text: "Acoustic Node Mapping" },
-    { icon: ShieldCheck, text: "Non-Invasive Repair" },
-    { icon: Locate, text: "Flower Mound Local" }
+    { icon: Droplets, text: "Flood Containment" },
+    { icon: ShieldCheck, text: "Structural Reset" },
+    { icon: Waves, text: "Flower Mound Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Flower Mound Slab Leak Repair Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Flower Mound Emergency Pipe Burst Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,7 +48,7 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Slab Leak Repair <br />
+             Emergency Pipe Burst <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
           </h1>
           

@@ -1,29 +1,25 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock, ShieldCheck } from "lucide-react";
+import { Phone, Clock, ShieldCheck, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16">
-          <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-600 mb-6 font-bold uppercase tracking-[0.2em] text-xs">
-              <Mail className="w-4 h-4" />
-              Contact Our Team
+        <div className="flex flex-col lg:flex-row gap-16 items-center">
+          <div className="lg:w-1/2 space-y-8">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
+                Immediate <span className="text-amber-600 text-6xl block mt-2">Hydraulic Response</span>
+              </h2>
+              <p className="text-xl text-slate-600 font-medium italic leading-relaxed">
+                Emergency dispatchers are on standby in Flower Mound, TX. We provide rapid intervention for all catastrophic pipe failures and foundation breaches.
+              </p>
             </div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Rapid <span className="text-amber-600">Flower Mound Slab Response</span>
-            </h2>
-            <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              Protect your foundation. Our Flower Mound slab leak specialists are standing by 24/7 for precision sonic mapping and non-invasive restoration.
-            </p>
 
-            <div className="space-y-8">
-              <div className="flex items-start gap-6 group">
-                <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-amber-600 group-hover:text-white transition-all duration-300 shadow-lg shadow-slate-200/50">
-                  <Phone className="w-6 h-6 text-amber-600 group-hover:text-white" />
+            <div className="grid gap-6">
+              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100 group hover:border-amber-500/30 transition-all">
+                <div className="w-14 h-14 rounded-2xl bg-amber-600 flex items-center justify-center shrink-0 shadow-lg shadow-amber-600/20 group-hover:scale-110 transition-transform">
+                  <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
                   <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Repair Hotline</p>
@@ -31,81 +27,72 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 shadow-lg shadow-slate-200/50">
-                  <MapPin className="w-6 h-6 text-amber-600" />
+              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100">
+                <div className="w-14 h-14 rounded-2xl bg-slate-200 flex items-center justify-center shrink-0">
+                  <Clock className="w-7 h-7 text-slate-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Flower Mound Office</p>
-                  <address className="text-lg font-bold text-slate-900 not-italic">
-                    Flower Mound TX Slab Leak Experts<br />
-                    Flower Mound, TX 75022
-                  </address>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Availability</p>
+                  <p className="text-xl font-bold text-slate-900">24/7/365 Emergency Dispatch</p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center border border-slate-100 shadow-lg shadow-slate-200/50">
-                  <Clock className="w-6 h-6 text-amber-600" />
+              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100">
+                <div className="w-14 h-14 rounded-2xl bg-slate-200 flex items-center justify-center shrink-0">
+                  <MapPin className="w-7 h-7 text-slate-600" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Service Hours</p>
-                  <p className="text-lg font-bold text-slate-900 uppercase tracking-tight">24/7 Emergency Dispatch</p>
+                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Service Area</p>
+                  <p className="text-xl font-bold text-slate-900">Flower Mound, TX & Surrounding ZIPs</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute inset-0 bg-amber-600 rounded-[3rem] rotate-3 opacity-5" />
-            <div className="relative bg-white p-10 rounded-[3rem] border border-slate-100 shadow-2xl">
-              <div className="flex items-center gap-3 mb-8">
-                <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center">
-                  <ShieldCheck className="w-5 h-5 text-amber-600" />
-                </div>
-                <h3 className="text-2xl font-bold text-slate-900 uppercase tracking-tight">Service Request</h3>
-              </div>
+          <div className="lg:w-1/2 w-full">
+            <div className="bg-slate-900 p-8 md:p-12 rounded-[3rem] shadow-2xl relative overflow-hidden group border border-amber-500/10">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-full blur-3xl -translate-y-16 translate-x-16" />
               
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Your Name</label>
-                    <Input placeholder="Full Name" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+              <div className="relative z-10">
+                <h3 className="text-3xl font-bold text-white mb-8 uppercase tracking-tighter flex items-center gap-3">
+                  <ShieldCheck className="text-amber-500 w-8 h-8" />
+                  Dispatch Repair Force
+                </h3>
+                
+                <form id="contact-form" className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Property Owner Name</label>
+                      <input type="text" placeholder="John Doe" className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors" required />
+                    </div>
+                    <div className="space-y-2">
+                      <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Cell Number</label>
+                      <input type="tel" placeholder="(877) 792-1410" className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors" required />
+                    </div>
                   </div>
+                  
                   <div className="space-y-2">
-                    <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Phone Number</label>
-                    <Input placeholder="Cell Phone" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
+                    <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Service Required</label>
+                    <select className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors appearance-none" required>
+                      <option value="" className="bg-slate-900">Select Emergency Type...</option>
+                      <option value="pipe-burst" className="bg-slate-900">Catastrophic Pipe Burst</option>
+                      <option value="flooding" className="bg-slate-900">Active Indoor Flooding</option>
+                      <option value="main-line" className="bg-slate-900">Main Line Failure</option>
+                      <option value="slab-leak" className="bg-slate-900">Slab/Foundation Breach</option>
+                      <option value="other" className="bg-slate-900">Other Structural Plumbing</option>
+                    </select>
                   </div>
-                </div>
-                
-                <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Flower Mound ZIP</label>
-                  <Input placeholder="75028" className="h-14 rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
-                </div>
 
-                <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Service Required</label>
-                  <select className="flex h-14 w-full rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm ring-offset-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:bg-white transition-all shadow-inner">
-                    <option>Urgent Leak Detection</option>
-                    <option>Structural Resin Injection</option>
-                    <option>Strategic Re-Piping</option>
-                    <option>Foundation Reset Audit</option>
-                  </select>
-                </div>
-                
-                <div className="space-y-2">
-                  <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-1">Evidence Details</label>
-                  <Textarea placeholder="Noticing warm spots? Spinning water meter? Is the area damp or heaving?" className="min-h-[120px] rounded-xl bg-slate-50 border-slate-100 focus:bg-white transition-all shadow-inner" />
-                </div>
+                  <div className="space-y-2">
+                    <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Damage Description</label>
+                    <textarea rows={4} placeholder="Describe the current flood situation or failure point..." className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors resize-none" required></textarea>
+                  </div>
 
-                <Button className="w-full h-16 bg-amber-600 hover:bg-amber-700 text-white text-lg font-bold rounded-xl shadow-xl shadow-amber-900/20 transition-all hover:scale-[1.02]">
-                  Repair Slab Leak
-                </Button>
-                
-                <p className="text-[10px] text-center text-slate-400 font-medium">
-                  By clicking, you agree to being contacted by a local TX slab specialist at the number provided.
-                </p>
-              </form>
+                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-16 rounded-2xl text-lg font-bold shadow-xl shadow-amber-900/40 border border-amber-500/20 group-hover:scale-[1.02] transition-all">
+                    INITIATE EMERGENCY DISPATCH
+                  </Button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

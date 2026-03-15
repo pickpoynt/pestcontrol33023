@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Acoustic Detection",
-    description: "Ultra-sensitive sonic mapping to locate pinhole leaks deep beneath your concrete foundation without unnecessary drilling or excavation.",
+    title: "Flood Containment",
+    description: "Rapid high-capacity extraction and mechanical flood blocking to prevent further saturation of your Flower Mound home's sub-structures.",
     image: "/2.jpeg",
-    points: ["Sonic Mapping", "Thermal Imaging", "Node Mapping"]
+    points: ["Rapid Extraction", "Line Isolation", "Flood Reset"]
   },
   {
-    title: "Thermal Leak Audit",
-    description: "Using high-resolution thermography to identify temperature anomalies in the slab, revealing the exact path of leaking hot water lines.",
+    title: "Structural Drying",
+    description: "Industrial-grade thermal processing and moisture-mapping to identify hidden water nodes in drywall, flooring, and wall-voids.",
     image: "/3.jpeg",
-    points: ["Heat Mapping", "Moisture Tracking", "Zero-Destruction"]
+    points: ["Thermal Mapping", "Moisture Audit", "Zero-Mold Guard"]
   },
   {
-    title: "Precision Re-Piping",
-    description: "Strategic bypass and re-piping solutions that eliminate the failing line entirely, providing a permanent fix without disturbing the slab.",
+    title: "Pressure Restoration",
+    description: "Mechanical bypass and replacement of failing plumbing lines using high-stability materials engineered for North Texas soil movements.",
     image: "/1.jpeg",
-    points: ["Bypass Experts", "Copper & PEX", "Flower Mound Secure"]
+    points: ["PEX Fortification", "Solder Integrity", "Valve Reset"]
   },
   {
-    title: "Foundation Restoration",
-    description: "Comprehensive structural support and stabilization after a leak to ensure your home's foundation remains level and secure.",
+    title: "Main Line Recovery",
+    description: "Deep-tissue repair of main service lines between the meter and the home, ensuring a permanent end to underground water breaches.",
     image: "/4.jpeg",
-    points: ["Soil Injection", "Void Filling", "24/7 Dispatch"]
+    points: ["Meter Recovery", "Service Guard", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Specialized <span className="text-amber-600">Slab Leak Repairs In Flower Mound</span>
+            Specialized <span className="text-amber-600">Pipe Burst Response In Flower Mound</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A slab leak is a structural emergency that threatens your home's integrity and value. In Flower Mound, TX, our team provides the elite level of expertise needed for total removal of the threat.
+            A burst pipe is a catastrophic structural event. Our Flower Mound, TX specialists provide immediate high-pressure intervention to protect your home's envelope.
           </p>
         </div>
 

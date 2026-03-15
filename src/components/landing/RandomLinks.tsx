@@ -1,24 +1,27 @@
-const links = [
-  { text: "Emergency Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
-  { text: "Pantry Moth Exterminator Broomfield", url: "https://pantrymothexterminatorbroomfield.vercel.app/" },
-  { text: "Cluster Fly Infestation Help Broomfield", url: "https://clusterflyinfestationhelpbroomfield.vercel.app/" },
-  { text: "Carpet Beetle Pest Control Broomfield", url: "https://carpetbeetlepestcontrolbroomfield.vercel.app/" },
-];
+import { ExternalLink } from "lucide-react";
 
 const RandomLinks = () => {
+  const links = [
+    { title: "Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
+    { title: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
+    { title: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+    { title: "Spider Exterminator Holly Springs NC", url: "https://spiderexterminatorhollyspringsnc.vercel.app/" }
+  ];
+
   return (
-    <section className="py-12 bg-slate-50 border-y border-slate-100">
+    <section className="py-12 bg-slate-50 border-t border-slate-100">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-x-12 gap-y-6">
-          {links.map((link, idx) => (
+        <div className="flex flex-wrap justify-center gap-8 md:gap-16">
+          {links.map((link, index) => (
             <a
-              key={idx}
+              key={index}
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-amber-600 transition-colors font-bold uppercase tracking-widest text-[10px]"
+              className="group flex items-center gap-2 text-slate-400 hover:text-amber-600 transition-colors text-xs font-bold uppercase tracking-widest"
             >
-              {link.text}
+              <ExternalLink className="w-3 h-3 group-hover:rotate-45 transition-transform" />
+              {link.title}
             </a>
           ))}
         </div>

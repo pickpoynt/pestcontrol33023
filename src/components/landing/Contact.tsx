@@ -1,98 +1,72 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Clock, ShieldCheck, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, ShieldCheck } from "lucide-react";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-white relative overflow-hidden">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row gap-16 items-center">
-          <div className="lg:w-1/2 space-y-8">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-                Immediate <span className="text-amber-600 text-6xl block mt-2">Hydraulic Response</span>
-              </h2>
-              <p className="text-xl text-slate-600 font-medium italic leading-relaxed">
-                Emergency dispatchers are on standby in Flower Mound, TX. We provide rapid intervention for all catastrophic pipe failures and foundation breaches.
-              </p>
-            </div>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-6xl mx-auto bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row border border-white/10">
+          <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
+              Emergency <br />
+              <span className="text-amber-500">Hydro Jetting Dispatch</span>
+            </h2>
+            <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
+              Our Flower Mound technicians are standing by to reclaim your lines. High-speed, high-pressure hydraulic response available across North Texas.
+            </p>
 
-            <div className="grid gap-6">
-              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100 group hover:border-amber-500/30 transition-all">
-                <div className="w-14 h-14 rounded-2xl bg-amber-600 flex items-center justify-center shrink-0 shadow-lg shadow-amber-600/20 group-hover:scale-110 transition-transform">
-                  <Phone className="w-7 h-7 text-white" />
+            <div className="space-y-8">
+              <div className="flex items-center gap-6 group">
+                <div className="w-14 h-14 rounded-2xl bg-amber-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
+                  <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Repair Hotline</p>
-                  <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-amber-600 transition-colors">(877) 792-1410</a>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Flower Mound Hotline</p>
+                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-amber-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100">
-                <div className="w-14 h-14 rounded-2xl bg-slate-200 flex items-center justify-center shrink-0">
-                  <Clock className="w-7 h-7 text-slate-600" />
+              <div className="flex items-center gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-amber-500 border border-white/5">
+                  <Clock className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Availability</p>
-                  <p className="text-xl font-bold text-slate-900">24/7/365 Emergency Dispatch</p>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
+                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 EMERGENCY READY</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-6 p-6 rounded-3xl bg-slate-50 border border-slate-100">
-                <div className="w-14 h-14 rounded-2xl bg-slate-200 flex items-center justify-center shrink-0">
-                  <MapPin className="w-7 h-7 text-slate-600" />
+              <div className="flex items-center gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-amber-500 border border-white/5">
+                  <MapPin className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mb-1">Service Area</p>
-                  <p className="text-xl font-bold text-slate-900">Flower Mound, TX & Surrounding ZIPs</p>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
+                  <p className="text-xl font-bold text-white tracking-tight">Flower Mound & Surrounding Areas</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:w-1/2 w-full">
-            <div className="bg-slate-900 p-8 md:p-12 rounded-[3rem] shadow-2xl relative overflow-hidden group border border-amber-500/10">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-full blur-3xl -translate-y-16 translate-x-16" />
-              
-              <div className="relative z-10">
-                <h3 className="text-3xl font-bold text-white mb-8 uppercase tracking-tighter flex items-center gap-3">
-                  <ShieldCheck className="text-amber-500 w-8 h-8" />
-                  Dispatch Repair Force
-                </h3>
-                
-                <form id="contact-form" className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                      <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Property Owner Name</label>
-                      <input type="text" placeholder="John Doe" className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors" required />
-                    </div>
-                    <div className="space-y-2">
-                      <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Cell Number</label>
-                      <input type="tel" placeholder="(877) 792-1410" className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors" required />
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Service Required</label>
-                    <select className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors appearance-none" required>
-                      <option value="" className="bg-slate-900">Select Emergency Type...</option>
-                      <option value="pipe-burst" className="bg-slate-900">Catastrophic Pipe Burst</option>
-                      <option value="flooding" className="bg-slate-900">Active Indoor Flooding</option>
-                      <option value="main-line" className="bg-slate-900">Main Line Failure</option>
-                      <option value="slab-leak" className="bg-slate-900">Slab/Foundation Breach</option>
-                      <option value="other" className="bg-slate-900">Other Structural Plumbing</option>
-                    </select>
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-xs font-bold text-slate-400 uppercase tracking-widest ml-2">Damage Description</label>
-                    <textarea rows={4} placeholder="Describe the current flood situation or failure point..." className="w-full bg-white/5 border border-white/10 rounded-2xl p-4 text-white focus:outline-none focus:border-amber-500 transition-colors resize-none" required></textarea>
-                  </div>
-
-                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-16 rounded-2xl text-lg font-bold shadow-xl shadow-amber-900/40 border border-amber-500/20 group-hover:scale-[1.02] transition-all">
-                    INITIATE EMERGENCY DISPATCH
-                  </Button>
-                </form>
+          <div className="lg:w-1/2 p-12 lg:p-20 bg-amber-600 flex flex-col justify-center relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -mr-32 -mt-32" />
+            <div className="relative z-10 text-center lg:text-left">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
+                <ShieldCheck className="w-4 h-4" />
+                Flower Mound Force Identity
               </div>
+              <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
+                Need Immediate <br />Line Reclamation?
+              </h3>
+              <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
+                Our heavy-duty jetting units are deployed and ready for your Flower Mound home. Call now for a professional 'Structural Flow Audit.'
+              </p>
+              <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
+                <a href="tel:8777921410">
+                  <Phone className="w-6 h-6 mr-3 fill-slate-900" />
+                  CLICK TO CALL NOW
+                </a>
+              </Button>
             </div>
           </div>
         </div>

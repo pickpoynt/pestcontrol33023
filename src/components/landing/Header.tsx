@@ -25,7 +25,7 @@ const Header = () => {
                 Flower Mound TX
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
-                Pipe Burst <span className="text-[10px] opacity-70">Experts</span>
+                Hydro Jetting <span className="text-[10px] opacity-70">Experts</span>
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">24/7 Emergency Dispatch</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Professional Dispatch</span>
               <a href="tel:8777921410" className="text-xl font-bold hover:text-amber-500 transition-colors tracking-tighter leading-none mt-1">(877) 792-1410</a>
             </div>
             <Button className={`${isScrolled ? "bg-amber-600 hover:bg-amber-700" : "bg-white text-slate-900 hover:bg-amber-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
@@ -67,7 +67,7 @@ const Header = () => {
               <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-amber-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
             <div className="pt-6 text-center">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">RECOVERY HOTLINE</p>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">JETTING HOTLINE</p>
               <a href="tel:8777921410" className="text-3xl font-bold text-amber-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(877) 792-1410</a>
               <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="tel:8777921410">CLICK TO CALL</a>

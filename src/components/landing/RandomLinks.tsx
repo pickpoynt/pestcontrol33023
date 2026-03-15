@@ -1,27 +1,27 @@
-import { ExternalLink } from "lucide-react";
+import React from 'react';
 
 const RandomLinks = () => {
   const links = [
-    { title: "Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
-    { title: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-    { title: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-    { title: "Spider Exterminator Holly Springs NC", url: "https://spiderexterminatorhollyspringsnc.vercel.app/" }
+    { text: "Emergency Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
+    { text: "Carpet Beetle Pest Control Broomfield", url: "https://carpetbeetlepestcontrolbroomfield.vercel.app/" },
+    { text: "Slab Leak Repair Flower Mound", url: "https://slableakrepairflowermound.vercel.app/" },
+    { text: "Emergency Pipe Burst Flower Mound", url: "https://emergencypipeburstflowermound.vercel.app/" }
   ];
 
   return (
     <section className="py-12 bg-slate-50 border-t border-slate-100">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-8 md:gap-16">
+        <div className="flex flex-wrap justify-center gap-8">
           {links.map((link, index) => (
-            <a
-              key={index}
-              href={link.url}
-              target="_blank"
+            <a 
+              key={index} 
+              href={link.url} 
+              target="_blank" 
               rel="noopener noreferrer"
-              className="group flex items-center gap-2 text-slate-400 hover:text-amber-600 transition-colors text-xs font-bold uppercase tracking-widest"
+              className="text-slate-400 hover:text-amber-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-amber-500/30 pb-1"
             >
-              <ExternalLink className="w-3 h-3 group-hover:rotate-45 transition-transform" />
-              {link.title}
+              <div className="w-1 h-1 rounded-full bg-slate-300" />
+              {link.text}
             </a>
           ))}
         </div>

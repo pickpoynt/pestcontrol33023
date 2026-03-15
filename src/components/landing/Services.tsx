@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Flood Containment",
-    description: "Rapid high-capacity extraction and mechanical flood blocking to prevent further saturation of your Flower Mound home's sub-structures.",
+    title: "Sewer Jet Reclamation",
+    description: "Industrial-grade scouring of main sewer lines in Flower Mound using 4000-PSI nozzles to remove root mats and heavy scale.",
     image: "/2.jpeg",
-    points: ["Rapid Extraction", "Line Isolation", "Flood Reset"]
+    points: ["Root Removal", "Main Line Reset", "Flow Restoration"]
   },
   {
-    title: "Structural Drying",
-    description: "Industrial-grade thermal processing and moisture-mapping to identify hidden water nodes in drywall, flooring, and wall-voids.",
+    title: "CCTV Line Profiling",
+    description: "High-definition optic inspection of your Flower Mound home's sub-structures to identify failure points before jetting initiates.",
     image: "/3.jpeg",
-    points: ["Thermal Mapping", "Moisture Audit", "Zero-Mold Guard"]
+    points: ["Optic Audit", "Void Identification", "Structural Mapping"]
   },
   {
-    title: "Pressure Restoration",
-    description: "Mechanical bypass and replacement of failing plumbing lines using high-stability materials engineered for North Texas soil movements.",
+    title: "Stack & Branch Cleansing",
+    description: "Internal vertical stack and horizontal branch line reclamation to eliminate years of biological and chemical buildup.",
     image: "/1.jpeg",
-    points: ["PEX Fortification", "Solder Integrity", "Valve Reset"]
+    points: ["Vertical Descaling", "Horizontal Reset", "Zero-Clog Guard"]
   },
   {
-    title: "Main Line Recovery",
-    description: "Deep-tissue repair of main service lines between the meter and the home, ensuring a permanent end to underground water breaches.",
+    title: "Storm Drain Recovery",
+    description: "Clearing aggregate debris and sediment from Flower Mound property storm drains to prevent localized flooding during Texas storms.",
     image: "/4.jpeg",
-    points: ["Meter Recovery", "Service Guard", "24/7 Dispatch"]
+    points: ["Debris Removal", "Basin Restoration", "24/7 Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Specialized <span className="text-amber-600">Pipe Burst Response In Flower Mound</span>
+            Advanced <span className="text-amber-600">Hydro Jetting In Flower Mound</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A burst pipe is a catastrophic structural event. Our Flower Mound, TX specialists provide immediate high-pressure intervention to protect your home's envelope.
+            Don't just snake your drains—reclaim them. Our Flower Mound, TX specialists use high-pressure hydraulic force to restore your pipes to 'like-new' internal diameter.
           </p>
         </div>
 

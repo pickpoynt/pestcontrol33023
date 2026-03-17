@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-amber-500">Pipe Dispatch</span>
+              <span className="text-amber-500">Heating Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Westlake technicians are standing by to identify and neutralize your pipe failure. High-precision ultrasonic response available for all 76262 residencies.
+              Our Erie technicians are standing by to restore your home's thermal security. Master-aligned baseboard installation available across all Pennsylvania 16501 zones.
             </p>
 
             <div className="space-y-8">
@@ -21,7 +21,7 @@ const Contact = () => {
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Westlake Hotline</p>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Erie Hotline</p>
                   <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-amber-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
-                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 EMERGENCY READY</p>
+                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 THERMAL READY</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">Westlake & Surrounding 76262 Areas</p>
+                  <p className="text-xl font-bold text-white tracking-tight">Erie & Surrounding 16505 Zones</p>
                 </div>
               </div>
             </div>
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                Westlake Pipe Force
+                Erie Heating Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Hydraulic Breach?
+                Inefficient Electric <br />Baseboard Heat?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our heavy-duty ultrasonic units are deployed and ready for your Westlake home. Call now for a professional 'Foundation Flow Audit.'
+                Our master-aligned mechanical units are deployed and ready for your Erie home. Call now for a professional 'Thermal Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

@@ -22,10 +22,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Westlake TX
+                Erie PA
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-amber-600" : "text-amber-400"}`}>
-                Pipe Repair <span className="text-[10px] opacity-70">Experts</span>
+                Baseboard Heat <span className="text-[10px] opacity-70">Experts</span>
               </span>
             </div>
           </div>

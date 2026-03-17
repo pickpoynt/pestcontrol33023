@@ -11,12 +11,12 @@ const Footer = () => {
                 <ShieldCheck className="text-white w-7 h-7" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none">Westlake TX</span>
-                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Pipe Force</span>
+                <span className="font-heading font-bold text-xl block leading-none">Erie PA</span>
+                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Heating Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic italic">
-              Professional non-invasive pipe reclamation for the high-value residential structures of Westlake, TX. Restoring structural flow 24/7/365.
+              Professional high-efficiency baseboard heater installation for the residential architectural envelopes of Erie, PA. Restoring winter comfort 24/7/365.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Service Coverage</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">
-              Westlake, TX and Surrounding Locations:
+              Erie, PA and Surrounding Locations:
             </p>
             <div className="flex flex-wrap gap-2">
-              {["76262", "76244", "75022"].map((zip) => (
+              {["16501", "16505", "16509"].map((zip) => (
                 <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
                   {zip}
                 </span>
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">Westlake TX Pipe Repair Force, Westlake, TX 76262</p>
+                    <p className="text-slate-300 font-bold text-sm">Erie PA Baseboard Heat Force, Erie, PA 16501</p>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} Westlake TX Pipe Repair Force. All Rights Reserved.
+                    © {new Date().getFullYear()} Erie PA Baseboard Heat Force. All Rights Reserved.
                 </p>
             </div>
         </div>

@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Pinhole Leak Detection",
-    description: "Utilizing ultrasonic array sensors to pinpoint the exact node of sub-surface pipe failure without invasive wall demolition in Westlake.",
+    title: "Electric Baseboard Setup",
+    description: "Industrial-grade electrical heating deployment utilizing surgical wiring protocols to ensure maximum thermal efficiency in Erie residencies.",
     image: "/2.jpeg",
-    points: ["Sonic Auditing", "Zero-Damage Survey", "Precise Isolation"]
+    points: ["Manifold Wiring", "Thermostat Sync", "Safety Audit"]
   },
   {
-    title: "Supply Line Reclamation",
-    description: "Surgical restoration of copper and PEX supply networks to ensure vertical flow consistency across your Westlake architectural envelope.",
+    title: "Hydronic Heating Repair",
+    description: "Reclaiming sub-surface fluid flow biology for hydronic baseboard units to restore vertical heat distribution across your Erie architectural envelope.",
     image: "/3.jpeg",
-    points: ["Master Welding", "Asset Preservation", "Pressure Reset"]
+    points: ["Flow Stabilization", "Material Profiling", "Valve Reclamation"]
   },
   {
-    title: "Corrosion Mitigation",
-    description: "Identifying and neutralizing chemical and biological pipe degradation to prevent catastrophic sub-slab hydraulic failure.",
+    title: "System Asset Upgrades",
+    description: "Modern thermal asset hardening for aging Erie properties, replacing antiquated heaters with high-velocity mechanical units.",
     image: "/1.jpeg",
-    points: ["Material Profiling", "Joint Security", "Bio-Film Removal"]
+    points: ["Asset Reset", "Energy Profilometry", "Structural Alignment"]
   },
   {
-    title: "24/7 Rapid Response",
-    description: "Immediate mechanical dispatch to mitigate active hydraulic breaches and prevent structural water saturation in Westlake residencies.",
+    title: "24/7 Thermal Emergency",
+    description: "Rapid deployment of mechanical dispatch units to mitigate heating failures during Erie's critical cold-weather nodes.",
     image: "/4.jpeg",
-    points: ["Zero-Latency Deployment", "Asset Hardening", "Flow Control"]
+    points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Pipe Repair Solutions</span>
+            Comprehensive <span className="text-amber-600">Baseboard Heat Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A leaking pipe in Westlake, TX is a threat to your property's value and structural integrity. Our force provides industrial-grade mechanical reclamation to stop the breach and restore flow.
+            In the harsh Erie winters, an inefficient baseboard can compromise your home's thermal security. Our force provides master-aligned technical precision for every unit.
           </p>
         </div>
 

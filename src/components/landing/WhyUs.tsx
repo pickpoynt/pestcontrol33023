@@ -1,26 +1,26 @@
-import { Shield, Clock, Award, Droplets } from "lucide-react";
+import { Shield, Clock, Award, Zap } from "lucide-react";
 
 const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Immediate Breach Control",
-      description: "When a pipe fails in Westlake, every minute increases saturation risk. Our specialists provide zero-latency dispatch to reclaim your home's structural integrity."
+      title: "Rapid Thermal Dispatch",
+      description: "When Erie temperatures drop, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's heat."
     },
     {
       icon: Shield,
-      title: "Asset Preservation Tech",
-      description: "We focus on 'Minimal-Incision' reclamation methods designed to fix the failure point without compromising your Westlake TX home's aesthetics."
+      title: "Master-Aligned Setup",
+      description: "We focus on surgical electrical and hydronic alignment designed to maximize the thermal output of every Westlake TX baseboard unit."
     },
     {
-      icon: Droplets,
-      title: "Total Hydraulic Reset",
-      description: "We don't just patch leaks; we profile your entire supply network to identify weak nodes and prevent future catastrophic systemic failures."
+      icon: Zap,
+      title: "Total System Reset",
+      description: "We don't just 'install'; we profile your home's entire electrical or fluid biology to ensure a permanent reset of your heating health."
     },
     {
       icon: Award,
-      title: "Westlake Master Force",
-      description: "Licensed technicians who understand North Texas architectural plumbing, providing highly surgical mechanical interventions 24/7."
+      title: "Erie Master Force",
+      description: "Licensed technicians who understand Lake Erie's unique climate stresses, providing highly surgical mechanical interventions 24/7."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-amber-600">Pipe Reclamation Force?</span>
+              Why Trust Our <span className="text-amber-600">Heating Reclamation Force?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              A leaking pipe in Westlake, TX is more than a plumbing issue—it's a biological and structural hazard. Conventional fixes often involve blind wall demolition, but our Westlake force uses 'Surgical Mechanical Force' to provide a total structural reset of your system's flow. In the high-prestige neighborhoods of 76262, we are the first choice for permanent hydraulic security. We protect your home's foundation and interior finishes with master-aligned technical precision.
+              An antiquated baseboard heater in Erie, PA is more than an inconvenience—it's a threat to your winter safety. Conventional installers often use generic wiring, but our Erie force uses 'Surgical Mechanical Force' to provide a total structural reset of your home's thermal flow. In the 16501 and 16505 zip codes, we are the first choice for permanent heating security. We protect your architectural envelope with master-aligned technical precision.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,15 +55,15 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/1.jpeg" alt="Pipe Reclamation Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/2.jpeg" alt="Westlake Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/3.jpeg" alt="North Texas Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Structural Flow Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/1.jpeg" alt="Heating Reclamation Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/2.jpeg" alt="Erie Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/3.jpeg" alt="Lake Erie Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Structural Thermal Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-40 h-40 bg-amber-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
                 <span className="text-3xl font-bold font-heading">EST.</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">WESTLAKE FORCE</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">ERIE FORCE</span>
               </div>
             </div>
           </div>

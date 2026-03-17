@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-amber-500">Sewer Line Dispatch</span>
+              <span className="text-amber-500">Slab Leak Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Flower Mound technicians are standing by to reclaim your main sewer line. High-torque mechanical and hydraulic response available across North Texas foundations.
+              Our San Clemente technicians are standing by to identify and neutralize your sub-slab failure. High-precision ultrasonic response available across South Orange County foundations.
             </p>
 
             <div className="space-y-8">
@@ -21,7 +21,7 @@ const Contact = () => {
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Flower Mound Hotline</p>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">San Clemente Hotline</p>
                   <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-amber-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">Flower Mound & Surrounding Areas</p>
+                  <p className="text-xl font-bold text-white tracking-tight">San Clemente & Surrounding Areas</p>
                 </div>
               </div>
             </div>
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                Flower Mound Sewer Force
+                San Clemente Leak Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Need Immediate <br />Main Line Reclamation?
+                Suspect a Sub-Slab <br />Structural Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our heavy-duty clearing units are deployed and ready for your Flower Mound home. Call now for a professional 'Structural Flow Audit.'
+                Our heavy-duty ultrasonic units are deployed and ready for your San Clemente home. Call now for a professional 'Foundation Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

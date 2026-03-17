@@ -11,12 +11,12 @@ const Footer = () => {
                 <ShieldCheck className="text-white w-7 h-7" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none">Flower Mound TX</span>
-                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Sewer experts</span>
+                <span className="font-heading font-bold text-xl block leading-none">San Clemente CA</span>
+                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Leak Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic italic">
-              Professional high-pressure sewer line reclamation for the residential and commercial sub-structures of Flower Mound, TX. Restoring engineered flow 24/7/365.
+              Professional non-invasive slab leak reclamation for the residential sub-structures of San Clemente, CA. Restoring structural flow 24/7/365.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Service Coverage</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">
-              Flower Mound, TX and Surrounding Locations:
+              San Clemente, CA and Surrounding Locations:
             </p>
             <div className="flex flex-wrap gap-2">
-              {["75022", "75027", "75028", "75067", "75077"].map((zip) => (
+              {["92672", "92673", "92674"].map((zip) => (
                 <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
                   {zip}
                 </span>
@@ -52,7 +52,6 @@ const Footer = () => {
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Support & Leasing</h4>
             <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/30 transition-all cursor-pointer">
               <Mail className="w-5 h-5 text-amber-500" />
-              {/* LINK IT TO LEASE PAGE as per requirement */}
               <a href="/lease-my-number" className="text-sm font-bold uppercase tracking-tighter text-slate-200 group-hover:text-white transition-colors">
                 LEASE MY NUMBER
               </a>
@@ -71,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">Flower Mound TX Sewer Line Specialists, Flower Mound, TX 75028</p>
+                    <p className="text-slate-300 font-bold text-sm">San Clemente CA Slab Leak Specialists, San Clemente, CA 92672</p>
                 </div>
             </div>
 
@@ -84,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} Flower Mound TX Sewer Line Experts. All Rights Reserved.
+                    © {new Date().getFullYear()} San Clemente CA Slab Leak Experts. All Rights Reserved.
                 </p>
             </div>
         </div>

@@ -9,7 +9,7 @@ const FloatingCallButton = () => {
         className="w-16 h-16 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-[0_0_30px_rgba(217,119,6,0.5)] border-2 border-white/20 p-0 mb-20"
         asChild
       >
-        <a href="tel:8777921410" aria-label="Call Flower Mound Sewer Line Specialists Now">
+        <a href="tel:8777921410" aria-label="Call San Clemente Slab Leak Specialists Now">
           <Phone className="w-8 h-8 animate-pulse" />
         </a>
       </Button>

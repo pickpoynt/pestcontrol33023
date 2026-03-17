@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Main Line Descaling",
-    description: "Removing years of biological and mineral buildup from horizontal Flower Mound sewer mains to restore full-bore diameter.",
+    title: "Acoustic Leak Detection",
+    description: "Utilizing ultrasonic frequency arrays to pinpoint the exact node of sub-slab failure without invasive demolition in San Clemente.",
     image: "/2.jpeg",
-    points: ["Scale Removal", "Diameter Reset", "Flow Restoration"]
+    points: ["Sonic Mapping", "Zero-Damage Survey", "Precise Location"]
   },
   {
-    title: "Camera Line Profiling",
-    description: "Deep optic audit of your Flower Mound foundation lines to identify the exact node of obstruction or structural breach.",
+    title: "Thermal Imaging Scans",
+    description: "Deploying high-resolution infrared tech to visualize heat signatures of sub-surface hot water leaks across your San Clemente foundation.",
     image: "/3.jpeg",
-    points: ["HD Optic Mapping", "Defect Detection", "Clearance Proof"]
+    points: ["Thermal Profiling", "Moisture Mapping", "Immediate Diagnosis"]
   },
   {
-    title: "Root Mass Extraction",
-    description: "Mechanical and hydraulic elimination of aggressive North Texas root mats that have compromised the main sewer envelope.",
+    title: "Trenchless Pipe Re-piping",
+    description: "Structural bypass and re-piping solutions that restore flow while preserving the architectural integrity of your San Clemente home.",
     image: "/1.jpeg",
-    points: ["Root Removal", "Joint Security", "Growth Exclusion"]
+    points: ["Structural Bypass", "Copper/PEX Specialist", "Asset Preservation"]
   },
   {
-    title: "Storm Lateral Clearing",
-    description: "Restoring the flow of Flower Mound storm water laterals to prevent sub-surface saturation and foundation hydraulic stress.",
+    title: "24/7 Emergency Dispatch",
+    description: "Rapid response force ready to mitigate foundation hydraulic stress and prevent catastrophic slab heave in San Clemente, CA.",
     image: "/4.jpeg",
-    points: ["Lateral Reset", "Basin Cleaning", "Immediate Dispatch"]
+    points: ["Zero-Latency Response", "Emergency Shut-off", "Immediate Mitigation"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Sewer Line Solutions</span>
+            Comprehensive <span className="text-amber-600">Slab Leak Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A clogged main sewer line in Flower Mound, TX is a structural emergency. We provides mechanical and hydraulic reclamation to protect your home's foundation and sanitary integrity.
+            An undetected slab leak in San Clemente is a silent threat to your property's structural foundation. Our experts use master-aligned tech to identify and repair breaches before they cause catastrophic heave.
           </p>
         </div>
 

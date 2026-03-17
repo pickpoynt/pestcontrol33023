@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import SewerLineInfo from "@/components/landing/SewerLineInfo";
+import SlabLeakInfo from "@/components/landing/SlabLeakInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Clogged Main Sewer Line Flower Mound";
-  const firmName = "Flower Mound TX Sewer Line Experts";
+  const keyword = "Emergency Slab Leak Repair San Clemente";
+  const firmName = "San Clemente CA Slab Leak Experts";
   const phone = "(877) 792-1410";
-  const zips = "75022, 75027, 75028, 75067, 75077";
+  const zips = "92672, 92673, 92674";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-torque mechanical and hydraulic sewer line clearing in Flower Mound, TX. Call ${phone} now for immediate assistance in ${zips}.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 non-invasive slab leak detection and reclamation in San Clemente, CA. Call ${phone} now for immediate assistance in ${zips}.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,18 +33,18 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Flower Mound Sewer Line Sector",
-              "addressLocality": "Flower Mound",
-              "addressRegion": "TX",
-              "postalCode": "75028",
+              "streetAddress": "San Clemente Slab Leak Sector",
+              "addressLocality": "San Clemente",
+              "addressRegion": "CA",
+              "postalCode": "92672",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 33.0146,
-              "longitude": -97.0667
+              "latitude": 33.4269,
+              "longitude": -117.6119
             },
-            "servesCrawl": ["75022", "75027", "75028", "75067", "75077"],
+            "servesCrawl": ["92672", "92673", "92674"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Main Sewer Line Clearing and Reclamation",
+            "serviceType": "Slab Leak Detection and Reclamation",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Flower Mound"
+              "name": "San Clemente"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Sewer Line Services",
+              "name": "Slab Leak Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Main Sewer Line Unblocking"
+                    "name": "Non-Invasive Slab Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "HD Sewer Camera Audit"
+                    "name": "Sub-Slab Supply Rerouting"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <SewerLineInfo />
+      <SlabLeakInfo />
       <Contact />
       <RandomLinks />
       <Footer />

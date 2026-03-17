@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Clogged Main Sewer Line <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
+      Emergency Slab Leak Repair <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">San Clemente CA</span>
     </>
   ),
-  subtitle = "Flower Mound TX's premier main sewer line reclamation specialists. We deploy high-velocity clearing tech to eliminate root intrusion, sludge buildup, and catastrophic blockages beneath your foundation — 24/7.",
+  subtitle = "San Clemente's premier emergency slab leak detection and repair specialists. We deploy non-invasive ultrasonic acoustic tech to locate and neutralize sub-slab structural breaches — 24/7. Stop the damage before it compromises your foundation.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "FLOWER MOUND TX SEWER LINE EXPERTS",
+  badge = "SAN CLEMENTE CA SLAB LEAK EXPERTS",
   features = [
-    { icon: Droplets, text: "Advanced Clearing" },
-    { icon: ShieldCheck, text: "Zero-Invasive Tech" },
-    { icon: Waves, text: "Flower Mound Local" }
+    { icon: Droplets, text: "Precision Detection" },
+    { icon: ShieldCheck, text: "Non-Invasive Tech" },
+    { icon: Waves, text: "San Clemente Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Clogged Main Sewer Line Flower Mound Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Emergency Slab Leak Repair San Clemente Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Clogged Main Sewer Line <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Flower Mound TX</span>
+             Emergency Slab Leak Repair <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">San Clemente CA</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

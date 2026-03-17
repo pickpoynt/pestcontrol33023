@@ -2,28 +2,28 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Acoustic Leak Detection",
-    description: "Utilizing ultrasonic frequency arrays to pinpoint the exact node of sub-slab failure without invasive demolition in San Clemente.",
+    title: "Pinhole Leak Detection",
+    description: "Utilizing ultrasonic array sensors to pinpoint the exact node of sub-surface pipe failure without invasive wall demolition in Westlake.",
     image: "/2.jpeg",
-    points: ["Sonic Mapping", "Zero-Damage Survey", "Precise Location"]
+    points: ["Sonic Auditing", "Zero-Damage Survey", "Precise Isolation"]
   },
   {
-    title: "Thermal Imaging Scans",
-    description: "Deploying high-resolution infrared tech to visualize heat signatures of sub-surface hot water leaks across your San Clemente foundation.",
+    title: "Supply Line Reclamation",
+    description: "Surgical restoration of copper and PEX supply networks to ensure vertical flow consistency across your Westlake architectural envelope.",
     image: "/3.jpeg",
-    points: ["Thermal Profiling", "Moisture Mapping", "Immediate Diagnosis"]
+    points: ["Master Welding", "Asset Preservation", "Pressure Reset"]
   },
   {
-    title: "Trenchless Pipe Re-piping",
-    description: "Structural bypass and re-piping solutions that restore flow while preserving the architectural integrity of your San Clemente home.",
+    title: "Corrosion Mitigation",
+    description: "Identifying and neutralizing chemical and biological pipe degradation to prevent catastrophic sub-slab hydraulic failure.",
     image: "/1.jpeg",
-    points: ["Structural Bypass", "Copper/PEX Specialist", "Asset Preservation"]
+    points: ["Material Profiling", "Joint Security", "Bio-Film Removal"]
   },
   {
-    title: "24/7 Emergency Dispatch",
-    description: "Rapid response force ready to mitigate foundation hydraulic stress and prevent catastrophic slab heave in San Clemente, CA.",
+    title: "24/7 Rapid Response",
+    description: "Immediate mechanical dispatch to mitigate active hydraulic breaches and prevent structural water saturation in Westlake residencies.",
     image: "/4.jpeg",
-    points: ["Zero-Latency Response", "Emergency Shut-off", "Immediate Mitigation"]
+    points: ["Zero-Latency Deployment", "Asset Hardening", "Flow Control"]
   }
 ];
 
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-amber-600">Slab Leak Solutions</span>
+            Comprehensive <span className="text-amber-600">Pipe Repair Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            An undetected slab leak in San Clemente is a silent threat to your property's structural foundation. Our experts use master-aligned tech to identify and repair breaches before they cause catastrophic heave.
+            A leaking pipe in Westlake, TX is a threat to your property's value and structural integrity. Our force provides industrial-grade mechanical reclamation to stop the breach and restore flow.
           </p>
         </div>
 

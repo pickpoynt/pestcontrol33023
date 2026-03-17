@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Emergency Slab Leak Repair <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">San Clemente CA</span>
+      Leaking Pipe Repair <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Westlake TX</span>
     </>
   ),
-  subtitle = "San Clemente's premier emergency slab leak detection and repair specialists. We deploy non-invasive ultrasonic acoustic tech to locate and neutralize sub-slab structural breaches — 24/7. Stop the damage before it compromises your foundation.",
+  subtitle = "Westlake TX's premier emergency leaking pipe reclamation specialists. We deploy high-velocity acoustic detection and surgical repair tech to eliminate structural breaches, pinhole leaks, and catastrophic pipe failures — 24/7.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "SAN CLEMENTE CA SLAB LEAK EXPERTS",
+  badge = "WESTLAKE TX PIPE REPAIR EXPERTS",
   features = [
     { icon: Droplets, text: "Precision Detection" },
-    { icon: ShieldCheck, text: "Non-Invasive Tech" },
-    { icon: Waves, text: "San Clemente Local" }
+    { icon: ShieldCheck, text: "Zero-Invasive Fixes" },
+    { icon: Waves, text: "Westlake Local" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Emergency Slab Leak Repair San Clemente Background" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Leaking Pipe Repair Westlake Background" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Emergency Slab Leak Repair <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">San Clemente CA</span>
+             Leaking Pipe Repair <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Westlake TX</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

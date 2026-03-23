@@ -2,10 +2,10 @@ import React from 'react';
 
 const RandomLinks = () => {
   const links = [
-    { text: "Emergency Wasp Nest Removal Broomfield", url: "https://emergencywaspnestremovalbroomfield.vercel.app/" },
-    { text: "Carpet Beetle Pest Control Broomfield", url: "https://carpetbeetlepestcontrolbroomfield.vercel.app/" },
-    { text: "leaking pipe repair westlake", url: "https://leakingpiperepairwestlake.vercel.app/" },
-    { text: "Emergency Slab Leak Repair San Clemente", url: "https://emergencyslableakrepairsanclemente.vercel.app/" }
+    { text: "Emergency Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
+    { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
+    { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
+    { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" }
   ];
 
   return (
@@ -18,7 +18,7 @@ const RandomLinks = () => {
               href={link.url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-amber-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-amber-500/30 pb-1"
+              className="text-slate-400 hover:text-blue-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-blue-500/30 pb-1"
             >
               <div className="w-1 h-1 rounded-full bg-slate-300" />
               {link.text}

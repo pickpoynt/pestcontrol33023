@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import BaseboardHeaterInfo from "@/components/landing/BaseboardHeaterInfo";
+import MainWaterLineInfo from "@/components/landing/MainWaterLineInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "baseboard heater installers Erie";
-  const firmName = "Erie PA Baseboard Heat Force";
+  const keyword = "Emergency main water line leak repair Gastonia";
+  const firmName = "Gastonia NC Water Line Force";
   const phone = "(877) 792-1410";
-  const zips = "16501, 16505, 16509";
+  const zips = "28052, 28054, 28056";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency baseboard heater installation and thermal reclamation in Erie, PA. Call ${phone} now for immediate assistance in ${zips}.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency main water line repair and hydraulic reclamation in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,18 +33,18 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Erie Heating Installation Sector",
-              "addressLocality": "Erie",
-              "addressRegion": "PA",
-              "postalCode": "16501",
+              "streetAddress": "Gastonia Water Line Sector",
+              "addressLocality": "Gastonia",
+              "addressRegion": "NC",
+              "postalCode": "28052",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 42.1292,
-              "longitude": -80.0851
+              "latitude": 35.2621,
+              "longitude": -81.1873
             },
-            "servesCrawl": ["16501", "16505", "16509"],
+            "servesCrawl": ["28052", "28054", "28056"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Baseboard Heater Installation and Repair",
+            "serviceType": "Emergency Main Water Line Leak Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Erie"
+              "name": "Gastonia"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Heating Services",
+              "name": "Hydraulic Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Efficiency Baseboard Installation"
+                    "name": "High-Pressure Water Line Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electric Manifold Reset"
+                    "name": "Sub-Surface Leak Detection"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <BaseboardHeaterInfo />
+      <MainWaterLineInfo />
       <Contact />
       <RandomLinks />
       <Footer />

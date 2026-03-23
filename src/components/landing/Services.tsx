@@ -2,26 +2,26 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Main Water Line Setup",
-    description: "Industrial-grade water main deployment utilizing surgical excavation protocols to ensure maximum hydraulic efficiency in Gastonia residencies.",
+    title: "CIPP Pipe Lining",
+    description: "Industrial-grade cured-in-place pipe deployment utilizing surgical composite protocols to ensure maximum structural integrity in Gastonia conduits.",
     image: "/2.jpeg",
-    points: ["Manifold Integration", "Pressure Sync", "Safety Audit"]
+    points: ["Composite Manifold", "Flow Stabilization", "Safety Audit"]
   },
   {
-    title: "Sub-Surface Leak Repair",
-    description: "Reclaiming structural fluid flow biology for underground supply lines to restore vertical water distribution across your Gastonia architectural envelope.",
+    title: "Surgical Pipe Bursting",
+    description: "Reclaiming sub-surface sanitary biology through precise horizontal pipe replacement to restore vertical flow across your Gastonia architectural envelope.",
     image: "/3.jpeg",
-    points: ["Flow Stabilization", "Material Profiling", "Valve Reclamation"]
+    points: ["Pneumatic Force", "Material Profiling", "Valve Reclamation"]
   },
   {
     title: "System Asset Upgrades",
-    description: "Modern hydraulic asset hardening for aging Gastonia properties, replacing antiquated pipes with high-velocity mechanical units.",
+    description: "Modern no-dig asset hardening for aging Gastonia properties, replacing antiquated clay lines with high-velocity mechanical units.",
     image: "/1.jpeg",
     points: ["Asset Reset", "Flow Profilometry", "Structural Alignment"]
   },
   {
-    title: "24/7 Water Emergency",
-    description: "Rapid deployment of mechanical dispatch units to mitigate catastrophic line failures during Gastonia's critical hydraulic nodes.",
+    title: "24/7 Sanitary Emergency",
+    description: "Rapid deployment of mechanical dispatch units to mitigate catastrophic sewer failures during Gastonia's critical hydraulic nodes.",
     image: "/4.jpeg",
     points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
   }
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-blue-600">Water Line Solutions</span>
+            Comprehensive <span className="text-blue-600">Trenchless Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A breached water main in Gastonia is a threat to your home's structural security. Our force provides master-aligned technical precision for every line.
+            A breached sewer line in Gastonia is a threat to your home's sanitary security. Our force provides master-aligned technical precision without property destruction.
           </p>
         </div>
 

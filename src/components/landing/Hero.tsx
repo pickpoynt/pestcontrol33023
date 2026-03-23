@@ -15,18 +15,18 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Emergency Main Water Line <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Leak Repair Gastonia</span>
+      Trenchless Sewer Line <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Repair Gastonia</span>
     </>
   ),
-  subtitle = "Gastonia's premier emergency main water line reclamation force. We provide rapid deployment of master-aligned technical units for surgical leak neutralisation and total structural flow reset — 24/7. Reclaim your home's hydraulic security today.",
+  subtitle = "Gastonia's elite non-invasive sewer reclamation force. We provide rapid deployment of master-aligned mechanical units for surgical trenchless rehabilitation and total structural flow reset — 24/7. Reclaim your property's sanitary security without the dig.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "GASTONIA NC WATER LINE FORCE",
+  badge = "GASTONIA NC TRENCHLESS FORCE",
   features = [
-    { icon: Droplets, text: "Industrial-Grade Detection" },
-    { icon: ShieldCheck, text: "Elite Structural Setup" },
+    { icon: Droplets, text: "No-Dig Technology" },
+    { icon: ShieldCheck, text: "Master-Aligned Setup" },
     { icon: Waves, text: "Gastonia Local Force" }
   ]
 }: HeroProps) => {
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Emergency main water line leak repair Gastonia" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Trenchless sewer line repair Gastonia" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Emergency Main Water Line <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Leak Repair Gastonia</span>
+             Trenchless Sewer Line <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Repair Gastonia</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

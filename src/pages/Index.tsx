@@ -5,13 +5,13 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import MainWaterLineInfo from "@/components/landing/MainWaterLineInfo";
+import TrenchlessSewerInfo from "@/components/landing/TrenchlessSewerInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Emergency main water line leak repair Gastonia";
-  const firmName = "Gastonia NC Water Line Force";
+  const keyword = "Trenchless sewer line repair Gastonia";
+  const firmName = "Gastonia NC Trenchless Force";
   const phone = "(877) 792-1410";
   const zips = "28052, 28054, 28056";
 
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency main water line repair and hydraulic reclamation in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency trenchless sewer repair and no-dig reclamation in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,7 +33,7 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Gastonia Water Line Sector",
+              "streetAddress": "Gastonia Trenchless Sector",
               "addressLocality": "Gastonia",
               "addressRegion": "NC",
               "postalCode": "28052",
@@ -61,7 +61,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Emergency Main Water Line Leak Repair",
+            "serviceType": "Trenchless Sewer Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -72,20 +72,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Hydraulic Services",
+              "name": "Trenchless Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Pressure Water Line Repair"
+                    "name": "CIPP Pipe Lining"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sub-Surface Leak Detection"
+                    "name": "Surgical Pipe Bursting"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <MainWaterLineInfo />
+      <TrenchlessSewerInfo />
       <Contact />
       <RandomLinks />
       <Footer />

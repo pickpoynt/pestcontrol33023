@@ -12,11 +12,11 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-xl block leading-none">Gastonia NC</span>
-                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Water Line Force</span>
+                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Trenchless Force</span>
               </div>
             </div>
-            <p className="text-slate-400 leading-relaxed font-medium italic italic">
-              Professional high-efficiency main water line repair for the residential architectural envelopes of Gastonia, NC. Restoring hydraulic comfort 24/7/365.
+            <p className="text-slate-400 leading-relaxed font-medium italic">
+              Professional high-efficiency trenchless sewer repair for the residential architectural envelopes of Gastonia, NC. Restoring sanitary comfort 24/7/365.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">Gastonia NC Water Line Force, Gastonia, NC 28052</p>
+                    <p className="text-slate-300 font-bold text-sm">Gastonia NC Trenchless Force, Gastonia, NC 28052</p>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} Gastonia NC Water Line Force. All Rights Reserved.
+                    © {new Date().getFullYear()} Gastonia NC Trenchless Force. All Rights Reserved.
                 </p>
             </div>
         </div>

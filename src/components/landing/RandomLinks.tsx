@@ -2,10 +2,10 @@ import React from 'react';
 
 const RandomLinks = () => {
   const links = [
-    { text: "Emergency Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
-    { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
-    { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-    { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" }
+    { text: "Emergency Main Water Line Leak Repair Gastonia", url: "https://emergencymainwaterlineleakrepairgas.vercel.app/" },
+    { text: "Hydro Jetting Services Flower Mound", url: "https://hydrojettingservicesflowermound.vercel.app/" },
+    { text: "Emergency Pipe Burst Flower Mound", url: "https://emergencypipeburstflowermound.vercel.app/" },
+    { text: "Slab Leak Repair Flower Mound", url: "https://slableakrepairflowermound.vercel.app/" }
   ];
 
   return (

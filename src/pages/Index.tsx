@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import TrenchlessSewerInfo from "@/components/landing/TrenchlessSewerInfo";
+import WaterHeaterInfo from "@/components/landing/WaterHeaterInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Trenchless sewer line repair Gastonia";
-  const firmName = "Gastonia NC Trenchless Force";
+  const keyword = "water heater repair Reading PA";
+  const firmName = "Reading PA Water Heater Force";
   const phone = "(877) 792-1410";
-  const zips = "28052, 28054, 28056";
+  const zips = "19601, 19604, 19606";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency trenchless sewer repair and no-dig reclamation in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency water heater repair and thermal reclamation in Reading, PA. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,18 +33,18 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Gastonia Trenchless Sector",
-              "addressLocality": "Gastonia",
-              "addressRegion": "NC",
-              "postalCode": "28052",
+              "streetAddress": "Reading Thermal Sector",
+              "addressLocality": "Reading",
+              "addressRegion": "PA",
+              "postalCode": "19601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 35.2621,
-              "longitude": -81.1873
+              "latitude": 40.3356,
+              "longitude": -75.9269
             },
-            "servesCrawl": ["28052", "28054", "28056"],
+            "servesCrawl": ["19601", "19604", "19606"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Trenchless Sewer Repair",
+            "serviceType": "Water Heater Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Gastonia"
+              "name": "Reading"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Trenchless Services",
+              "name": "Thermal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "CIPP Pipe Lining"
+                    "name": "Gas Water Heater Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Surgical Pipe Bursting"
+                    "name": "Electric Water Heater Maintenance"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <TrenchlessSewerInfo />
+      <WaterHeaterInfo />
       <Contact />
       <RandomLinks />
       <Footer />

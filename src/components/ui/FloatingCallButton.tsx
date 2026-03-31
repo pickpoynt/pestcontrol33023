@@ -9,7 +9,7 @@ const FloatingCallButton = () => {
         className="w-16 h-16 rounded-full bg-red-600 hover:bg-red-700 text-white shadow-[0_0_30px_rgba(220,38,38,0.5)] border-2 border-white/20 p-0 mb-20"
         asChild
       >
-        <a href="tel:8777921410" aria-label="Call Reading PA Water Heater Specialists Now">
+        <a href="tel:3238801234" aria-label="Call Denver Earwig Force Specialists Now">
           <Phone className="w-8 h-8 animate-pulse" />
         </a>
       </Button>

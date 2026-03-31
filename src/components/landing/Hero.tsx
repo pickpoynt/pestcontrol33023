@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Emergency Water Heater <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Repair Reading PA</span>
+      Earwig Exterminator <br />
+      <span className="text-red-500 drop-shadow-sm uppercase tracking-tighter">Denver CO</span>
     </>
   ),
-  subtitle = "Reading's elite thermal reclamation force. We provide rapid deployment of master-aligned mechanical units for surgical water heater rehabilitation and total temperature reset — 24/7. Reclaim your home's hot water security today.",
-  image = "/4.jpeg",
-  overlayImage = "/1.jpeg",
-  phone = "8777921410",
-  badge = "READING PA WATER HEATER FORCE",
+  subtitle = "Denver's elite earwig control force. We provide rapid deployment of high-intensity pest containment units for surgical earwig eradication and total perimeter security — 24/7. Reclaim your home from invasive pincers today.",
+  image = "/2.jpeg",
+  overlayImage = "/4.jpeg",
+  phone = "3238801234",
+  badge = "DENVER EARWIG FORCE",
   features = [
-    { icon: Zap, text: "Rapid Thermal Reset" },
-    { icon: ShieldCheck, text: "Master-Aligned Setup" },
-    { icon: Clock, text: "Reading Local Force" }
+    { icon: Zap, text: "Rapid Pincer Reset" },
+    { icon: ShieldCheck, text: "High-Intensity Setup" },
+    { icon: Clock, text: "Denver Local Force" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="water heater repair Reading PA" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="earwig exterminator Denver" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/70" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Emergency Water Heater <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Repair Reading PA</span>
+             Earwig Exterminator <br />
+            <span className="text-red-500 drop-shadow-sm uppercase tracking-tighter">Denver CO</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

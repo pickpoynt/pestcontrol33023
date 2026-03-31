@@ -2,26 +2,26 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Gas Heater Reclamation",
-    description: "Industrial-grade gas component deployment utilizing surgical ignition protocols to ensure maximum thermal efficiency in Reading residencies.",
+    title: "Exterior Barrier Reset",
+    description: "Industrial-grade perimeter containment utilization, deploying high-intensity residual barriers to ensure zero-entry protocols at Denver residences.",
     image: "/2.jpeg",
-    points: ["Pilot Sync", "Burner Audit", "Safety Reset"]
+    points: ["Perimeter Sync", "Foundation Audit", "Barrier Reset"]
   },
   {
-    title: "Electric System Reset",
-    description: "Reclaiming structural heat biology for electric heating units to restore vertical thermal distribution across your Reading architectural envelope.",
+    title: "Structural Pincer Purge",
+    description: "Reclaiming structural entry biology for electric and gas-line voids to restore vertical containment across your Denver architectural envelope.",
     image: "/3.jpeg",
-    points: ["Element Profiling", "Thermostat Sync", "Flow Reclamation"]
+    points: ["Void Profiling", "Entry-Point Sync", "Pincer Reclamation"]
   },
   {
-    title: "Tankless Asset Upgrades",
-    description: "Modern high-velocity asset hardening for aging Reading properties, replacing antiquated tanks with infinite thermal units.",
+    title: "Infestation Containment",
+    description: "Modern high-velocity containment hardening for aging Denver properties, replacing antiquated nests with total eradication zones.",
     image: "/1.jpeg",
-    points: ["Asset Reset", "Heat Profilometry", "Structural Alignment"]
+    points: ["Nest Reset", "Activity Profilometry", "Structural Alignment"]
   },
   {
-    title: "24/7 Thermal Emergency",
-    description: "Rapid deployment of mechanical dispatch units to mitigate catastrophic heater failures during Reading's critical weather nodes.",
+    title: "24/7 Rapid Response",
+    description: "Rapid deployment of extermination dispatch units to mitigate catastrophic earwig invasions during Denver's critical weather nodes.",
     image: "/4.jpeg",
     points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
   }
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-red-600">Thermal Solutions</span>
+            Elite <span className="text-red-600">Earwig Containment</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A failed water heater in Reading is a threat to your home's thermal security. Our force provides master-aligned technical precision for every unit.
+            An earwig outbreak in Denver is a threat to your home's structural and mental security. Our force provides high-intensity technical precision for every colony.
           </p>
         </div>
 

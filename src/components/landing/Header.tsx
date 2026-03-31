@@ -22,10 +22,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Reading PA
+                Denver
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-red-600" : "text-red-400"}`}>
-                Water Heater <span className="text-[10px] opacity-70">Force</span>
+                Earwig <span className="text-[10px] opacity-70">Force</span>
               </span>
             </div>
           </div>
@@ -41,15 +41,15 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
               <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Emergency Dispatch</span>
-              <a href="tel:8777921410" className="text-xl font-bold hover:text-red-500 transition-colors tracking-tighter leading-none mt-1">(877) 792-1410</a>
+              <a href="tel:3238801234" className="text-xl font-bold hover:text-red-500 transition-colors tracking-tighter leading-none mt-1">(323) 880-1234</a>
             </div>
             <Button className={`${isScrolled ? "bg-red-600 hover:bg-red-700" : "bg-white text-slate-900 hover:bg-red-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:8777921410">CLICK TO CALL</a>
+              <a href="tel:3238801234">CLICK TO CALL</a>
             </Button>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
-            <a href="tel:8777921410" className="flex items-center gap-1.5 bg-red-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
+            <a href="tel:3238801234" className="flex items-center gap-1.5 bg-red-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
               <Phone className="w-3 h-3" />
               CLICK TO CALL
             </a>
@@ -68,9 +68,9 @@ const Header = () => {
             ))}
             <div className="pt-6 text-center">
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">DISPATCH HOTLINE</p>
-              <a href="tel:8777921410" className="text-3xl font-bold text-red-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(877) 792-1410</a>
+              <a href="tel:3238801234" className="text-3xl font-bold text-red-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(323) 880-1234</a>
               <Button className="w-full bg-red-600 hover:bg-red-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="tel:8777921410">CLICK TO CALL</a>
+                <a href="tel:3238801234">CLICK TO CALL</a>
               </Button>
             </div>
           </div>

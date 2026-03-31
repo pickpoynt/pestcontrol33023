@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-red-500">Thermal Dispatch</span>
+              <span className="text-red-500">Pincer Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Reading technicians are standing by to restore your home's hot water security. Master-aligned water heater repair available across all Reading PA 19601 zones.
+              Our Denver technicians are standing by to restore your home's barrier security. Master-aligned earwig extermination available across all Denver CO 80202 zones.
             </p>
 
             <div className="space-y-8">
@@ -21,8 +21,8 @@ const Contact = () => {
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Reading Hotline</p>
-                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-red-400 transition-colors tracking-tighter">(877) 792-1410</a>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Denver Hotline</p>
+                  <a href="tel:3238801234" className="text-2xl font-bold text-white hover:text-red-400 transition-colors tracking-tighter">(323) 880-1234</a>
                 </div>
               </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
-                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 THERMAL READY</p>
+                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 BARRIER READY</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">Reading & Surrounding 19604 Zones</p>
+                  <p className="text-xl font-bold text-white tracking-tight">Denver & Surrounding 80203 Zones</p>
                 </div>
               </div>
             </div>
@@ -53,16 +53,16 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                Reading Water Force
+                Denver Earwig Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Thermal Asset Breach?
+                Suspect a Structural <br />Pest Barrier Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned mechanical units are deployed and ready for your Reading home. Call now for a professional 'Thermal Flow Audit.'
+                Our master-aligned biological units are deployed and ready for your Denver home. Call now for a professional 'Pincer Activity Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
-                <a href="tel:8777921410">
+                <a href="tel:3238801234">
                   <Phone className="w-6 h-6 mr-3 fill-slate-900" />
                   CLICK TO CALL NOW
                 </a>

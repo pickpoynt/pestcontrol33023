@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import WaterHeaterInfo from "@/components/landing/WaterHeaterInfo";
+import EarwigInfo from "@/components/landing/EarwigInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "water heater repair Reading PA";
-  const firmName = "Reading PA Water Heater Force";
-  const phone = "(877) 792-1410";
-  const zips = "19601, 19604, 19606";
+  const keyword = "earwig exterminator Denver";
+  const firmName = "Denver Earwig Force";
+  const phone = "(323) 880-1234";
+  const zips = "80202, 80203, 80204, 80205";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency water heater repair and thermal reclamation in Reading, PA. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-intensity emergency earwig control and pest eradication in Denver, CO. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -27,24 +27,24 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
+            "image": "/2.jpeg",
             "@id": "",
             "url": window.location.href,
-            "telephone": "8777921410",
+            "telephone": "3238801234",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Reading Thermal Sector",
-              "addressLocality": "Reading",
-              "addressRegion": "PA",
-              "postalCode": "19601",
+              "streetAddress": "Denver Pest Sector",
+              "addressLocality": "Denver",
+              "addressRegion": "CO",
+              "postalCode": "80202",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 40.3356,
-              "longitude": -75.9269
+              "latitude": 39.7392,
+              "longitude": -104.9903
             },
-            "servesCrawl": ["19601", "19604", "19606"],
+            "servesCrawl": ["80202", "80203", "80204", "80205"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Water Heater Repair",
+            "serviceType": "Earwig Extermination",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Reading"
+              "name": "Denver"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Thermal Services",
+              "name": "Pest Control Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Gas Water Heater Repair"
+                    "name": "Emergency Earwig Removal"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electric Water Heater Maintenance"
+                    "name": "Exterior Perimeter Treatment"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <WaterHeaterInfo />
+      <EarwigInfo />
       <Contact />
       <RandomLinks />
       <Footer />

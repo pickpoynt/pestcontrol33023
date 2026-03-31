@@ -1,70 +1,72 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, MapPin, Clock, ShieldCheck } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-white relative overflow-hidden">
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-6xl mx-auto bg-slate-900 rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row border border-white/10">
-          <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="max-w-6xl mx-auto bg-slate-950 rounded-[4rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row border border-white/10 relative group">
+          <div className="absolute inset-0 bg-[#FFD700]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
+          
+          <div className="lg:w-1/2 p-12 lg:p-24 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] relative z-10">
+            <h2 className="text-4xl md:text-7xl font-heading font-black text-white mb-10 uppercase tracking-tighter leading-none italic">
               Emergency <br />
-              <span className="text-red-500">Pincer Dispatch</span>
+              <span className="text-red-600">Flow Dispatch</span>
             </h2>
-            <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Denver technicians are standing by to restore your home's barrier security. Master-aligned earwig extermination available across all Denver CO 80202 zones.
+            <p className="text-2xl text-slate-300 mb-16 leading-relaxed font-black italic border-l-8 border-red-600 pl-8 uppercase tracking-tighter">
+              Reading PA Drain Force technicians are on call across all 19601 and 19604 zones. Restoring your home's hydraulic stability with high-intensity clearing.
             </p>
 
-            <div className="space-y-8">
-              <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl bg-red-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
-                  <Phone className="w-7 h-7" />
+            <div className="space-y-12">
+              <div className="flex items-center gap-8 group/link">
+                <div className="w-16 h-16 rounded-[1.5rem] bg-red-600 flex items-center justify-center text-white shadow-lg group-hover/link:scale-110 transition-transform flex-shrink-0">
+                  <Phone className="w-8 h-8 group-hover/link:animate-pulse" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Denver Hotline</p>
-                  <a href="tel:3238801234" className="text-2xl font-bold text-white hover:text-red-400 transition-colors tracking-tighter">(323) 880-1234</a>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Hotline Dispatch</p>
+                  <a href="tel:8777921410" className="text-3xl md:text-4xl font-black text-white hover:text-red-500 transition-colors tracking-tighter leading-none">(877) 792-1410</a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-red-500 border border-white/5">
-                  <Clock className="w-7 h-7" />
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 rounded-[1.5rem] bg-slate-900 flex items-center justify-center text-red-500 border border-white/5 transition-transform group-hover:rotate-2">
+                  <Clock className="w-8 h-8" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
-                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 BARRIER READY</p>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Nodal Status</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">24/7 DRAIN READY</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-red-500 border border-white/5">
-                  <MapPin className="w-7 h-7" />
+              <div className="flex items-center gap-8">
+                <div className="w-16 h-16 rounded-[1.5rem] bg-slate-900 flex items-center justify-center text-red-500 border border-white/5 transition-transform group-hover:-rotate-2">
+                  <MapPin className="w-8 h-8" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">Denver & Surrounding 80203 Zones</p>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Reading Coverage</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">Reading PA & Surrounding Nodes</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:w-1/2 p-12 lg:p-20 bg-red-600 flex flex-col justify-center relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -mr-32 -mt-32" />
-            <div className="relative z-10 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
-                <ShieldCheck className="w-4 h-4" />
-                Denver Earwig Force
+          <div className="lg:w-1/2 p-12 lg:p-24 bg-red-600 flex flex-col justify-center relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[120px] -mr-48 -mt-48 group-hover:opacity-60 transition-opacity" />
+            <div className="relative z-10 text-center lg:text-left space-y-10">
+              <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/20 text-white mb-4 font-black uppercase tracking-widest text-xs border border-white/10">
+                <ShieldCheck className="w-5 h-5 animate-pulse" />
+                READING PA DRAIN FORCE
               </div>
-              <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Pest Barrier Breach?
+              <h3 className="text-3xl md:text-6xl font-heading font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
+                Active Hydraulic <br />Node Breach?
               </h3>
-              <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned biological units are deployed and ready for your Denver home. Call now for a professional 'Pincer Activity Audit.'
+              <p className="text-white text-xl font-black italic uppercase leading-relaxed opacity-90 tracking-tighter">
+                Master-aligned units are ready for immediate deployment to your Reading residence. Call for an immediate 'Flow Recovery Protocol.'
               </p>
-              <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
-                <a href="tel:3238801234">
-                  <Phone className="w-6 h-6 mr-3 fill-slate-900" />
-                  CLICK TO CALL NOW
+              <Button size="lg" variant="secondary" className="bg-white text-slate-950 hover:bg-slate-50 h-24 px-12 rounded-[1.5rem] text-3xl font-black shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter w-full group flex items-center gap-4 group/button border border-slate-200" asChild>
+                <a href="tel:8777921410">
+                  <Phone className="w-8 h-8 group-hover/button:rotate-12 transition-transform fill-slate-950/20" />
+                  (877) 792-1410
                 </a>
               </Button>
             </div>

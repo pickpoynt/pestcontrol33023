@@ -1,68 +1,65 @@
-import { ArrowRight, ShieldCheck } from "lucide-react";
+import { Zap, ShieldCheck, Target, Droplets, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    title: "Exterior Barrier Reset",
-    description: "Industrial-grade perimeter containment utilization, deploying high-intensity residual barriers to ensure zero-entry protocols at Denver residences.",
-    image: "/2.jpeg",
-    points: ["Perimeter Sync", "Foundation Audit", "Barrier Reset"]
-  },
-  {
-    title: "Structural Pincer Purge",
-    description: "Reclaiming structural entry biology for electric and gas-line voids to restore vertical containment across your Denver architectural envelope.",
-    image: "/3.jpeg",
-    points: ["Void Profiling", "Entry-Point Sync", "Pincer Reclamation"]
-  },
-  {
-    title: "Infestation Containment",
-    description: "Modern high-velocity containment hardening for aging Denver properties, replacing antiquated nests with total eradication zones.",
+    title: "Sewer Line Clog Recovery",
+    description: "Multi-modal hydraulic restoration for main nodes. Eliminating systemic blockages with fiber-optic mapping and mechanical knockdown.",
     image: "/1.jpeg",
-    points: ["Nest Reset", "Activity Profilometry", "Structural Alignment"]
+    icon: <Target className="w-6 h-6 text-red-500" />
   },
   {
-    title: "24/7 Rapid Response",
-    description: "Rapid deployment of extermination dispatch units to mitigate catastrophic earwig invasions during Denver's critical weather nodes.",
-    image: "/4.jpeg",
-    points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
+    title: "Hydro-Jetting Node Scour",
+    description: "Surgical-grade high-pressure scouring for industrial and residential drainage architecture. Scouring nodes to 100% flow security.",
+    image: "/2.jpeg",
+    icon: <Droplets className="w-6 h-6 text-red-500" />
+  },
+  {
+    title: "Emergency Interior Clearing",
+    description: "Localized p-trap and line recovery for bathroom, kitchen, and basement nodes. Rapid-deploy technicians across all Reading PA 19601 zones.",
+    image: "/3.jpeg",
+    icon: <Zap className="w-6 h-6 text-red-500" />
   }
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Elite <span className="text-red-600">Earwig Containment</span>
+    <section id="services" className="py-24 bg-white relative overflow-hidden">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="max-w-4xl mx-auto text-center mb-20 space-y-4">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-600 mb-4 font-black uppercase tracking-widest text-xs">
+            <ShieldCheck className="w-4 h-4" />
+            READING PA FLOW SECURITY CORE
+          </div>
+          <h2 className="text-4xl md:text-7xl font-heading font-black text-slate-950 uppercase tracking-tighter leading-[0.9] italic">
+            Systemic Drain <br />
+            <span className="text-red-600">Recovery Services</span>
           </h2>
-          <p className="text-xl text-slate-600 font-medium italic">
-            An earwig outbreak in Denver is a threat to your home's structural and mental security. Our force provides high-intensity technical precision for every colony.
+          <p className="text-slate-500 text-xl font-bold italic leading-relaxed max-w-2xl mx-auto border-t border-slate-100 pt-8 uppercase tracking-tighter">
+            Advanced hydraulic navigation and node-focused clearing for every Reading PA architectural envelope.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-3 gap-12">
           {services.map((service, index) => (
-            <div key={index} className="group rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-red-500/10 hover:-translate-y-1 transition-all duration-300 overflow-hidden">
-              <a href="#contact">
-                <div className="relative h-48 overflow-hidden">
-                  <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
+            <div key={index} className="group bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-100 hover:border-red-600/30 transition-all duration-500 hover:shadow-2xl hover:shadow-red-900/10 hover:-translate-y-2 flex flex-col h-full shadow-xl">
+              <div className="aspect-[4/3] overflow-hidden relative">
+                <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent group-hover:opacity-60 transition-opacity" />
+                <div className="absolute top-6 right-6 w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-xl rotate-3 group-hover:rotate-12 transition-transform duration-500">
+                  {service.icon}
                 </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-red-700 uppercase tracking-tight">{service.title}</h3>
-                  <p className="text-slate-600 leading-relaxed font-medium text-sm mb-4">{service.description}</p>
-                  <ul className="space-y-1 mb-4">
-                    {service.points.map((pt) => (
-                      <li key={pt} className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-widest">
-                        <ShieldCheck className="w-3 h-3 text-red-500 shrink-0" />{pt}
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="flex items-center gap-2 text-red-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
-                    Learn More <ArrowRight className="w-4 h-4" />
-                  </div>
+              </div>
+              <div className="p-10 flex flex-col flex-grow">
+                <h3 className="text-3xl font-black text-slate-900 mb-6 uppercase tracking-tighter leading-none italic">{service.title}</h3>
+                <p className="text-slate-500 text-lg mb-8 leading-relaxed font-medium italic flex-grow">{service.description}</p>
+                <div className="pt-8 border-t border-slate-200">
+                  <a href="tel:8777921410" className="flex items-center justify-between w-full text-slate-950 hover:text-red-600 transition-colors">
+                    <span className="font-black uppercase tracking-widest text-xs">Deploy Now</span>
+                    <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
           ))}
         </div>

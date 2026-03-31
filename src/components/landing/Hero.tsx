@@ -1,77 +1,74 @@
+import { ShieldCheck, Phone, ArrowRight, Zap, Droplets, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone, ChevronRight } from "lucide-react";
-import { ReactNode } from "react";
 
 interface HeroProps {
-  title?: ReactNode;
+  title?: string;
   subtitle?: string;
-  image?: string;
-  overlayImage?: string;
   phone?: string;
-  badge?: string;
-  features?: { icon: any; text: string }[];
+  image?: string;
 }
 
-const Hero = ({
-  title = (
-    <>
-      Earwig Exterminator <br />
-      <span className="text-red-500 drop-shadow-sm uppercase tracking-tighter">Denver CO</span>
-    </>
-  ),
-  subtitle = "Denver's elite earwig control force. We provide rapid deployment of high-intensity pest containment units for surgical earwig eradication and total perimeter security — 24/7. Reclaim your home from invasive pincers today.",
-  image = "/2.jpeg",
-  overlayImage = "/4.jpeg",
-  phone = "3238801234",
-  badge = "DENVER EARWIG FORCE",
-  features = [
-    { icon: Zap, text: "Rapid Pincer Reset" },
-    { icon: ShieldCheck, text: "High-Intensity Setup" },
-    { icon: Clock, text: "Denver Local Force" }
-  ]
+const Hero = ({ 
+  title = "Emergency Clogged Drain Repair Reading PA", 
+  subtitle = "High-Intensity Node-Focused Drain Restoration. Restoring Architectural Flow Security 24/7.", 
+  phone = "(877) 792-1410", 
+  image = "/4.jpeg" 
 }: HeroProps) => {
-  const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+  const features = [
+    { icon: <Droplets className="w-5 h-5 text-red-500" />, text: "DRAIN BREACH RESPONSE" },
+    { icon: <Target className="w-5 h-5 text-red-500" />, text: "SYSTEMIC SEWER CLEARING" },
+    { icon: <Zap className="w-5 h-5 text-red-500" />, text: "IMMEDIATE FLOW RECOVERY" }
+  ];
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
+    <section id="hero" className="relative min-h-[95vh] flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="earwig exterminator Denver" className="w-full h-full object-cover animate-slow-zoom" />
-        <div className="absolute inset-0 bg-slate-950/70" />
+        <img src={image} alt={title} className="w-full h-full object-cover animate-slow-zoom" />
+        {/* Unique Background Overlay Image */}
+        <div className="absolute inset-0 bg-slate-950/80 mix-blend-multiply opacity-90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 to-transparent lg:w-3/4 opacity-95" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 text-left">
-        <div className="max-w-4xl flex flex-col items-start">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 mb-8 font-bold uppercase tracking-[0.2em] text-xs animate-fade-in shadow-[0_0_20px_rgba(239,68,68,0.1)]">
-            <Zap className="w-4 h-4 fill-red-500" />
-            {badge}
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="max-w-4xl space-y-12">
+          <div className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md animate-fade-in text-white/90 shadow-2xl">
+            <ShieldCheck className="w-5 h-5 text-red-600 animate-pulse" />
+            <span className="text-xs font-black uppercase tracking-[0.3em]">READING PA DRAIN FORCE NODE ACTIVATED</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Earwig Exterminator <br />
-            <span className="text-red-500 drop-shadow-sm uppercase tracking-tighter">Denver CO</span>
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-heading font-black text-white mb-8 leading-[1.0] tracking-tighter animate-title-slide uppercase">
+             Emergency Clogged <br />
+            <span className="text-[#FFD700] drop-shadow-[0_0_20px_rgba(255,215,0,0.3)] uppercase tracking-tighter italic">Drain Repair Reading PA</span>
           </h1>
           
-          <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">
-            {subtitle}
+          <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-2xl font-black italic animate-fade-in-up drop-shadow-md border-l-4 border-red-600 pl-6 uppercase tracking-tighter">
+            Our Reading technicians provide master-aligned hydraulic solutions for immediate drainage stability. Rapid flow restoration deployed across all zones.
           </p>
 
-          <div className="flex flex-wrap items-start gap-6 mb-16 animate-fade-in-up [animation-delay:200ms]">
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white h-20 px-12 rounded-2xl text-2xl font-bold shadow-2xl shadow-red-900/40 border border-red-500/20 transition-all hover:scale-105" asChild>
-              <a href={`tel:${phone}`}>
-                <Phone className="w-8 h-8 mr-4 fill-white" />
-                {formattedPhone}
-              </a>
+          <div className="flex flex-col sm:flex-row items-center gap-8 py-10 animate-fade-in-up delay-200">
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white h-24 px-16 rounded-[2rem] text-3xl font-black shadow-[0_0_50px_rgba(220,38,38,0.3)] transition-all hover:scale-105 uppercase tracking-tighter group border border-white/10 w-full sm:w-auto" asChild>
+                <a href={`tel:${phone}`} className="flex items-center gap-4">
+                  <Phone className="w-8 h-8 group-hover:rotate-12 transition-transform animate-pulse" />
+                  {phone}
+                </a>
             </Button>
+            <div className="flex flex-col items-center sm:items-start select-none">
+              <p className="text-slate-500 font-black uppercase tracking-[0.2em] text-xs mb-3 flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4" />
+                SECURITY PROTOCOL READY
+              </p>
+              <p className="text-white text-xl font-black italic tracking-tighter uppercase leading-none underline decoration-red-600/50 underline-offset-8">24/7 DRAIN COMMAND</p>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full animate-fade-in-up [animation-delay:400ms]">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 py-12 border-t border-white/5 animate-fade-in-up delay-300">
             {features.map((feature, i) => (
-              <div key={i} className="flex flex-col items-start gap-4 bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10 group hover:bg-white/10 transition-colors">
-                <div className="w-16 h-16 rounded-2xl bg-red-600/20 flex items-center justify-center group-hover:bg-red-600 transition-colors">
-                  <feature.icon className="w-8 h-8 text-red-400 group-hover:text-white" />
+              <div key={i} className="flex items-center gap-4 group cursor-default">
+                <div className="w-12 h-12 rounded-[1rem] bg-white/5 flex items-center justify-center p-2 group-hover:bg-red-600/20 transition-all border border-white/10 group-hover:scale-110">
+                  {feature.icon}
                 </div>
-                <span className="text-white font-bold uppercase tracking-[3px] text-xs">{feature.text}</span>
+                <span className="text-sm font-black text-slate-200 uppercase tracking-widest">{feature.text}</span>
               </div>
             ))}
           </div>

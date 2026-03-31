@@ -1,71 +1,75 @@
-import { Shield, Clock, Zap, Droplets } from "lucide-react";
+import { ShieldCheck, Zap, Droplets, Target, Shield, Clock, Award, Hammer } from "lucide-react";
+
+const features = [
+  {
+    icon: <Clock className="w-10 h-10 text-white" />,
+    title: "RAPID FLOW RECOVERY",
+    description: "Reading PA emergency dispatch nodes. Minimizing dwell time with immediate architectural flow restoration.",
+    color: "bg-red-600"
+  },
+  {
+    icon: <Shield className="w-10 h-10 text-white" />,
+    title: "100% NODE SECURITY",
+    description: "Every plumbing joint and sewer valve mapped and cleared to professional Reading PA standards.",
+    color: "bg-slate-900"
+  },
+  {
+    icon: <Award className="w-10 h-10 text-white" />,
+    title: "HYDRAULIC MASTERS",
+    description: "Master-aligned Reading plumbers utilize industrial-grade scours to reclaim your system stability.",
+    color: "bg-slate-800"
+  },
+  {
+    icon: <Hammer className="w-10 h-10 text-white" />,
+    title: "SURGICAL CLEARANCE",
+    description: "Zero-impact pincer clearing for the Reading PA 19601 architectural envelope. No structural damage.",
+    color: "bg-red-700"
+  }
+];
 
 const WhyUs = () => {
-  const features = [
-    {
-      icon: Clock,
-      title: "Rapid Pincer Dispatch",
-      description: "When an earwig infestation occurs in Denver, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's barrier."
-    },
-    {
-      icon: Shield,
-      title: "High-Intensity Setup",
-      description: "We focus on surgical biological and material alignment designed to maximize the containment lifecycle of every Denver residence."
-    },
-    {
-      icon: Zap,
-      title: "Total Barrier Reset",
-      description: "We don't just 'spray'; we profile your home's entire biological biology to ensure a permanent reset of your property's health."
-    },
-    {
-      icon: Shield,
-      title: "Denver Master Force",
-      description: "Licensed technicians who understand Denver's unique moisture and pressure stresses, providing highly surgical biological interventions 24/7."
-    }
-  ];
-
   return (
     <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-red-500/5 -skew-x-12 translate-x-1/2" />
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col lg:flex-row gap-16 items-center">
-          <div className="lg:w-1/2">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-red-600">Earwig Containment Force?</span>
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+          <div className="lg:w-1/2 space-y-10 text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-red-600/10 text-red-600 mb-4 font-black uppercase tracking-widest text-xs border border-red-600/10 backdrop-blur-xl">
+              <ShieldCheck className="w-5 h-5 animate-pulse" />
+              WHY READING PA DRAIN FORCE?
+            </div>
+            <h2 className="text-4xl md:text-7xl font-heading font-black text-slate-950 uppercase tracking-tighter leading-[0.9] italic">
+                Architectural <br />
+                <span className="text-red-600 underline-offset-8">Flow Authority</span>
             </h2>
-            <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              An earwig infestation in Denver, CO is more than an inconvenience—it's a threat to your home's structural and mental safety. Conventional exterminators often use generic chemicals, but our Denver force uses 'Surgical Biological Force' to provide a total structural reset of your home's perimeter biology. In the 80202 and 80203 zip codes, we are the first choice for permanent earwig security. We protect your architectural envelope with high-intensity technical precision.
+            <p className="text-slate-500 text-xl font-bold italic leading-relaxed border-l-8 border-red-600 pl-8 uppercase tracking-tighter">
+              Reading PA Drain Force provides high-intensity hydraulic restoration for residential envelopes. We don't just 'snake' drains; we perform surgical scours that restore flow security to Reading's 19604 architecture. Call (877) 792-1410 today to deploy your recovery node.
             </p>
-            
-            <div className="grid sm:grid-cols-2 gap-8">
-              {features.map((item, index) => (
-                <div key={index} className="space-y-4 group">
-                  <div className="w-14 h-14 rounded-2xl bg-white shadow-xl shadow-red-500/5 flex items-center justify-center group-hover:bg-red-600 group-hover:rotate-6 transition-all duration-300 border border-slate-100">
-                    <item.icon className="w-7 h-7 text-red-600 group-hover:text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-slate-900 mb-2 uppercase tracking-tight text-sm">{item.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          
-          <div className="lg:w-1/2 relative space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-                <img src="/1.jpeg" alt="Earwig Containment Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/2.jpeg" alt="Denver Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/3.jpeg" alt="CO Pest Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Structural Barrier Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
-            </div>
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="w-40 h-40 bg-red-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
-                <span className="text-3xl font-bold font-heading">EST.</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">DENVER FORCE</span>
+            <div className="pt-10 grid grid-cols-2 gap-8 text-center md:text-left">
+              <div>
+                <p className="text-4xl font-black text-slate-950 mb-2 uppercase italic tracking-tighter">100%</p>
+                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Hydraulic Secure</p>
+              </div>
+              <div>
+                <p className="text-4xl font-black text-slate-950 mb-2 uppercase italic tracking-tighter">24/7</p>
+                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Node Monitoring</p>
               </div>
             </div>
+          </div>
+
+          <div className="lg:w-1/2 grid sm:grid-cols-2 gap-8 relative">
+            <div className="absolute inset-0 bg-red-600/5 blur-[100px] -m-16 rounded-full" />
+            {features.map((feature, i) => (
+              <div key={i} className={`group relative p-10 rounded-[2.5rem] ${feature.color} text-white shadow-2xl hover:scale-105 transition-all duration-500 hover:rotate-2 border border-white/10 h-full flex flex-col`}>
+                <div className="w-20 h-20 rounded-2xl bg-white/10 flex items-center justify-center p-4 mb-8 group-hover:scale-110 transition-transform">
+                  {feature.icon}
+                </div>
+                <h3 className="text-2xl font-black mb-6 uppercase italic tracking-tighter group-hover:text-red-400 transition-colors">{feature.title}</h3>
+                <p className="text-white/80 font-black italic uppercase leading-tight text-xs tracking-widest flex-grow">{feature.description}</p>
+                <div className="mt-8 pt-8 border-t border-white/5 opacity-40">
+                  <ShieldCheck className="w-6 h-6 ml-auto" />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

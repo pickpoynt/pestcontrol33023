@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import EarwigInfo from "@/components/landing/EarwigInfo";
+import DrainInfo from "@/components/landing/DrainInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "earwig exterminator Denver";
-  const firmName = "Denver Earwig Force";
-  const phone = "(323) 880-1234";
-  const zips = "80202, 80203, 80204, 80205";
+  const keyword = "clogged drain repair Reading PA";
+  const firmName = "Reading Drain Force";
+  const phone = "(877) 792-1410";
+  const zips = "19601, 19604, 19606, 19607, 19608";
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div className="min-h-screen bg-slate-950 text-white">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-intensity emergency earwig control and pest eradication in Denver, CO. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-intensity emergency drain cleaning and sewer line clog repair in Reading, PA. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -27,24 +27,24 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "/2.jpeg",
+            "image": "/4.jpeg",
             "@id": "",
             "url": window.location.href,
-            "telephone": "3238801234",
+            "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Denver Pest Sector",
-              "addressLocality": "Denver",
-              "addressRegion": "CO",
-              "postalCode": "80202",
+              "streetAddress": "Reading Plumbing Sector",
+              "addressLocality": "Reading",
+              "addressRegion": "PA",
+              "postalCode": "19601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 39.7392,
-              "longitude": -104.9903
+              "latitude": 40.3356,
+              "longitude": -75.9269
             },
-            "servesCrawl": ["80202", "80203", "80204", "80205"],
+            "servesCrawl": ["19601", "19604", "19606"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Earwig Extermination",
+            "serviceType": "Clogged Drain Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Denver"
+              "name": "Reading"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Pest Control Services",
+              "name": "Drain and Sewer Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Earwig Removal"
+                    "name": "Emergency Drain Cleaning"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Exterior Perimeter Treatment"
+                    "name": "Sewer Line Clog Removal"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <EarwigInfo />
+      <DrainInfo />
       <Contact />
       <RandomLinks />
       <Footer />

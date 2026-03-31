@@ -1,4 +1,4 @@
-import { Phone, CheckCircle2, AlertCircle, Info } from "lucide-react";
+import { Phone, CheckCircle2, AlertCircle, Info, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const DrainInfo = () => {

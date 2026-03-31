@@ -29,7 +29,7 @@ const Index = () => {
             "name": firmName,
             "image": "/4.jpeg",
             "@id": "",
-            "url": window.location.href,
+            "url": "https://cloggeddrainrepairreadingpa.vercel.app/",
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",

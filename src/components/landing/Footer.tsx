@@ -12,11 +12,11 @@ const Footer = () => {
                             </div>
                             <div>
                                 <span className="font-heading font-black text-2xl block leading-none uppercase tracking-tighter">Reading PA</span>
-                                <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">Drain Force</span>
+                                <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">Slab Leak Force</span>
                             </div>
                         </div>
                         <p className="text-slate-400 leading-relaxed font-black italic uppercase tracking-tighter text-sm">
-                            High-intensity architectural flow security for the residential envelopes of Reading, PA. Restoring hydraulic node stability 24/7/365.
+                            High-intensity architectural foundation security for the residential envelopes of Reading, PA. Restoring hydraulic foundation stability 24/7/365.
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <h4 className="font-black text-white mb-8 uppercase tracking-[0.2em] text-xs underline decoration-red-600/50 underline-offset-8">Service Coverage</h4>
+                        <h4 className="font-black text-white mb-8 uppercase tracking-[0.2em] text-xs underline decoration-red-600/50 underline-offset-8">Foundation Nodes</h4>
                         <p className="text-slate-400 text-[10px] leading-relaxed mb-6 font-black italic uppercase tracking-widest">
                             READING PA & SURROUNDING NODES:
                         </p>
@@ -70,7 +70,7 @@ const Footer = () => {
                         </div>
                         <div className="text-center md:text-left">
                             <p className="text-slate-600 text-[10px] font-black uppercase tracking-[0.3em] mb-3 leading-none italic uppercase">Architectural NAP</p>
-                            <p className="text-slate-300 font-black text-sm uppercase italic tracking-tight">Reading Drain Force, Reading, PA 19601</p>
+                            <p className="text-slate-300 font-black text-sm uppercase italic tracking-tight">Reading Slab Leak Force, Reading, PA 19601</p>
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@ const Footer = () => {
 
                     <div className="text-center">
                         <p className="text-slate-700 text-[10px] font-black uppercase tracking-widest italic">
-                            © {new Date().getFullYear()} READING PA DRAIN FORCE. ALL SYSTEM PROTOCOLS RESERVED.
+                            © {new Date().getFullYear()} READING PA SLAB LEAK FORCE. ALL SYSTEM PROTOCOLS RESERVED.
                         </p>
                     </div>
                 </div>

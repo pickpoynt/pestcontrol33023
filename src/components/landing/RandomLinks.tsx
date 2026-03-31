@@ -1,10 +1,10 @@
 
 const RandomLinks = () => {
   const links = [
+    { text: "Clogged Drain Repair Reading PA", url: "https://cloggeddrainrepairreadingpa.vercel.app/" },
     { text: "Wasp Nest Removal Hillsborough NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
     { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-    { text: "Slab Leak Repair Flower Mound", url: "https://slableakrepairflowermound.vercel.app/" },
-    { text: "Trenchless Sewer Line Repair Gastonia", url: "https://trenchlesssewerlinerepairgastonia.vercel.app/" }
+    { text: "Slab Leak Repair Flower Mound", url: "https://slableakrepairflowermound.vercel.app/" }
   ];
 
   return (

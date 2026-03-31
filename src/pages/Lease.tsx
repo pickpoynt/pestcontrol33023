@@ -17,14 +17,14 @@ const Lease = () => {
                             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 blur-[80px] -mr-32 -mt-32 transition-transform duration-1000 group-hover:scale-150 rotate-45" />
                             <div className="inline-flex items-center gap-3 px-6 py-2 rounded-full bg-white/20 text-white mb-8 font-black uppercase tracking-[0.4em] text-[10px] border border-white/10">
                                 <ShieldCheck className="w-5 h-5 animate-pulse" />
-                                NODE AUTHORITY SECURE
+                                NODE THEFOUNDATION SECURE
                             </div>
                             <h1 className="text-4xl md:text-7xl font-heading font-black mb-8 uppercase tracking-tighter leading-none italic">
                                 LEASE THIS <br />
                                 <span className="text-slate-950 underline decoration-white/30 underline-offset-8">HYDRAULIC NODE</span>
                             </h1>
                             <p className="text-xl md:text-3xl text-white/90 font-black italic uppercase leading-none tracking-tighter">
-                                DOMINATE READING CLOGGED DRAIN REPAIR FOR JUST $19/MONTH.
+                                DOMINATE READING SLAB LEAK REPAIR FOR JUST $19/MONTH.
                             </p>
                         </div>
 
@@ -36,9 +36,9 @@ const Lease = () => {
                                         {[
                                             "EXCLUSIVE PROTOCOL: (877) 792-1410",
                                             "DIRECT DISPATCH FROM READING 19601",
-                                            "MASTER-ALIGNED SEO OPTIMIZATION",
-                                            "NO CONTRACTUAL LOCK-IN - CANCEL IN 24H",
-                                            "INSTANT ARCHITECTURAL AUTHORITY"
+                                            "MASTER-ALIGNED SLAB SEO OPTIMIZATION",
+                                            "NO CONTRACTUAL LOCK-IN - CANCEL ANYTIME",
+                                            "INSTANT FOUNDATION AUTHORITY"
                                         ].map((item, i) => (
                                             <li key={i} className="flex items-center gap-4 text-slate-600 font-black uppercase tracking-widest text-[11px] italic group cursor-default">
                                                 <div className="w-8 h-8 rounded-lg bg-red-600/10 flex items-center justify-center p-2 group-hover:bg-red-600 transition-colors">

@@ -1,28 +1,28 @@
-import { ShieldCheck, Zap, Droplets, Target, Shield, Clock, Award, Hammer } from "lucide-react";
+import { ShieldCheck, Zap, Droplets, Target, Shield, Clock, Award, Hammer, Search, Activity } from "lucide-react";
 
 const features = [
   {
-    icon: <Clock className="w-10 h-10 text-white" />,
-    title: "RAPID FLOW RECOVERY",
-    description: "Reading PA emergency dispatch nodes. Minimizing dwell time with immediate architectural flow restoration.",
+    icon: <Search className="w-10 h-10 text-white" />,
+    title: "ELECTRONIC NODAL MAPPING",
+    description: "Reading PA electronic leak dispatch nodes. Precision electronic node mapping to locate the hydraulic breach within centimeters.",
     color: "bg-red-600"
   },
   {
     icon: <Shield className="w-10 h-10 text-white" />,
-    title: "100% NODE SECURITY",
-    description: "Every plumbing joint and sewer valve mapped and cleared to professional Reading PA standards.",
+    title: "FOUNDATION SECURITY",
+    description: "Every foundation node stabilization and subterranean pipe joint mapped and secured to professional Reading PA standards.",
     color: "bg-slate-900"
   },
   {
-    icon: <Award className="w-10 h-10 text-white" />,
-    title: "HYDRAULIC MASTERS",
-    description: "Master-aligned Reading plumbers utilize industrial-grade scours to reclaim your system stability.",
+    icon: <Activity className="w-10 h-10 text-white" />,
+    title: "HYDRAULIC NODES",
+    description: "Master-aligned Reading plumbers utilize industrial-grade acoustic scours to reclaim your foundation stability.",
     color: "bg-slate-800"
   },
   {
-    icon: <Hammer className="w-10 h-10 text-white" />,
-    title: "SURGICAL CLEARANCE",
-    description: "Zero-impact pincer clearing for the Reading PA 19601 architectural envelope. No structural damage.",
+    icon: <ShieldCheck className="w-10 h-10 text-white" />,
+    title: "SURGICAL STABILIZATION",
+    description: "Zero-impact pincer stabilization for the Reading PA 19601 architectural foundation. Targeted hydraulic recovery.",
     color: "bg-red-700"
   }
 ];
@@ -35,23 +35,23 @@ const WhyUs = () => {
           <div className="lg:w-1/2 space-y-10 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-red-600/10 text-red-600 mb-4 font-black uppercase tracking-widest text-xs border border-red-600/10 backdrop-blur-xl">
               <ShieldCheck className="w-5 h-5 animate-pulse" />
-              WHY READING PA DRAIN FORCE?
+              WHY READING PA SLAB LEAK FORCE?
             </div>
             <h2 className="text-4xl md:text-7xl font-heading font-black text-slate-950 uppercase tracking-tighter leading-[0.9] italic">
-                Architectural <br />
-                <span className="text-red-600 underline-offset-8">Flow Authority</span>
+                Hydraulic <br />
+                <span className="text-red-600 underline-offset-8">Foundation Authority</span>
             </h2>
             <p className="text-slate-500 text-xl font-bold italic leading-relaxed border-l-8 border-red-600 pl-8 uppercase tracking-tighter">
-              Reading PA Drain Force provides high-intensity hydraulic restoration for residential envelopes. We don't just 'snake' drains; we perform surgical scours that restore flow security to Reading's 19604 architecture. Call (877) 792-1410 today to deploy your recovery node.
+              Reading PA Slab Leak Force provides high-intensity hydraulic restoration for subterranean foundation nodes. We perform surgical electronic scours that restore flow security to Reading's 19604 foundation architecture. Call (877) 792-1410 today to deploy your recovery node.
             </p>
             <div className="pt-10 grid grid-cols-2 gap-8 text-center md:text-left">
               <div>
                 <p className="text-4xl font-black text-slate-950 mb-2 uppercase italic tracking-tighter">100%</p>
-                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Hydraulic Secure</p>
+                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Nodal Security</p>
               </div>
               <div>
                 <p className="text-4xl font-black text-slate-950 mb-2 uppercase italic tracking-tighter">24/7</p>
-                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Node Monitoring</p>
+                <p className="text-xs font-black text-red-600 uppercase tracking-widest">Breach Monitoring</p>
               </div>
             </div>
           </div>

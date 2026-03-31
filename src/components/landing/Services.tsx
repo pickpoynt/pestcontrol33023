@@ -1,24 +1,24 @@
-import { Zap, ShieldCheck, Target, Droplets, ArrowRight } from "lucide-react";
+import { Zap, ShieldCheck, Target, Droplets, ArrowRight, Activity, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    title: "Sewer Line Clog Recovery",
-    description: "Multi-modal hydraulic restoration for main nodes. Eliminating systemic blockages with fiber-optic mapping and mechanical knockdown.",
+    title: "Electronic Leak Nodes",
+    description: "Surgical-grade electronic acoustic detection mapping. Pinpointing the hydraulic subterranean breach with 99.9% architectural accuracy.",
     image: "/1.jpeg",
-    icon: <Target className="w-6 h-6 text-red-500" />
+    icon: <Search className="w-6 h-6 text-red-500" />
   },
   {
-    title: "Hydro-Jetting Node Scour",
-    description: "Surgical-grade high-pressure scouring for industrial and residential drainage architecture. Scouring nodes to 100% flow security.",
+    title: "Slab Stabilization Node",
+    description: "Multi-modal foundation stabilization and high-intensity hydraulic recovery. Preventative nodal rerouting to bypass subterranean breaches.",
     image: "/2.jpeg",
-    icon: <Droplets className="w-6 h-6 text-red-500" />
+    icon: <Activity className="w-6 h-6 text-red-500" />
   },
   {
-    title: "Emergency Interior Clearing",
-    description: "Localized p-trap and line recovery for bathroom, kitchen, and basement nodes. Rapid-deploy technicians across all Reading PA 19601 zones.",
+    title: "Hydraulic Line Recovery",
+    description: "Systemic hot and cold line restoration for residential foundation nodes. Rapid-deploy technicians across all Reading PA 19601 zones.",
     image: "/3.jpeg",
-    icon: <Zap className="w-6 h-6 text-red-500" />
+    icon: <Droplets className="w-6 h-6 text-red-500" />
   }
 ];
 
@@ -29,14 +29,14 @@ const Services = () => {
         <div className="max-w-4xl mx-auto text-center mb-20 space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-600 mb-4 font-black uppercase tracking-widest text-xs">
             <ShieldCheck className="w-4 h-4" />
-            READING PA FLOW SECURITY CORE
+            READING PA HYDRAULIC SECURITY CORE
           </div>
           <h2 className="text-4xl md:text-7xl font-heading font-black text-slate-950 uppercase tracking-tighter leading-[0.9] italic">
-            Systemic Drain <br />
+            Architectural Leak <br />
             <span className="text-red-600">Recovery Services</span>
           </h2>
           <p className="text-slate-500 text-xl font-bold italic leading-relaxed max-w-2xl mx-auto border-t border-slate-100 pt-8 uppercase tracking-tighter">
-            Advanced hydraulic navigation and node-focused clearing for every Reading PA architectural envelope.
+            Advanced hydraulic navigation and node-focused clearing for every Reading PA architectural foundation node.
           </p>
         </div>
 

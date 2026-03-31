@@ -24,7 +24,7 @@ const Header = () => {
                         </div>
                         <div className="flex flex-col">
                             <span className="font-heading font-black text-2xl text-white leading-none tracking-tighter uppercase">READING PA</span>
-                            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">DRAIN FORCE</span>
+                            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">SLAB LEAK FORCE</span>
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ const Header = () => {
 
                     <div className="flex items-center gap-6">
                         <div className="hidden sm:flex flex-col items-end mr-4 group">
-                            <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none mb-1">DRAIN COMMAND CENTER</p>
+                            <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none mb-1">HYDRAULIC COMMAND CENTER</p>
                             <a href="tel:8777921410" className="text-2xl font-black text-white hover:text-red-500 transition-all duration-300 tracking-tighter leading-none">(877) 792-1410</a>
                         </div>
                         <Button className="bg-red-600 hover:bg-red-700 text-white font-black px-8 h-14 rounded-2xl shadow-lg shadow-red-900/20 text-sm tracking-widest hidden md:flex items-center gap-2 group border border-white/10" asChild>
@@ -58,7 +58,7 @@ const Header = () => {
             <div className="lg:hidden fixed bottom-0 left-0 w-full bg-red-600 z-[99] border-t border-white/20">
                 <a href="tel:8777921410" className="flex items-center justify-center gap-3 py-6 text-white font-black uppercase tracking-widest">
                     <Phone className="w-6 h-6 animate-pulse" />
-                    Emergency Node Dispatch: (877) 792-1410
+                    Hydraulic Dispatch: (877) 792-1410
                 </a>
             </div>
 

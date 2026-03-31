@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, Clock, ShieldCheck, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck, Mail, Target } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -11,10 +11,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-24 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] relative z-10">
             <h2 className="text-4xl md:text-7xl font-heading font-black text-white mb-10 uppercase tracking-tighter leading-none italic">
               Emergency <br />
-              <span className="text-red-600">Flow Dispatch</span>
+              <span className="text-red-600">Hydraulic Dispatch</span>
             </h2>
             <p className="text-2xl text-slate-300 mb-16 leading-relaxed font-black italic border-l-8 border-red-600 pl-8 uppercase tracking-tighter">
-              Reading PA Drain Force technicians are on call across all 19601 and 19604 zones. Restoring your home's hydraulic stability with high-intensity clearing.
+              Reading PA Slab Leak Force technicians are on call across all 19601 and 19604 zones. Restoring your home's foundation stability with high-intensity electronic detection.
             </p>
 
             <div className="space-y-12">
@@ -34,17 +34,17 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Nodal Status</p>
-                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">24/7 DRAIN READY</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">24/7 HYDRAULIC READY</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-8">
                 <div className="w-16 h-16 rounded-[1.5rem] bg-slate-900 flex items-center justify-center text-red-500 border border-white/5 transition-transform group-hover:-rotate-2">
-                  <MapPin className="w-8 h-8" />
+                  <Target className="w-8 h-8" />
                 </div>
                 <div>
                   <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Reading Coverage</p>
-                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">Reading PA & Surrounding Nodes</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">Reading PA & Foundation Surrounding Nodes</p>
                 </div>
               </div>
             </div>
@@ -55,13 +55,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left space-y-10">
               <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/20 text-white mb-4 font-black uppercase tracking-widest text-xs border border-white/10">
                 <ShieldCheck className="w-5 h-5 animate-pulse" />
-                READING PA DRAIN FORCE
+                READING PA SLAB LEAK FORCE
               </div>
               <h3 className="text-3xl md:text-6xl font-heading font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
-                Active Hydraulic <br />Node Breach?
+                Active Foundation <br />Node Breach?
               </h3>
               <p className="text-white text-xl font-black italic uppercase leading-relaxed opacity-90 tracking-tighter">
-                Master-aligned units are ready for immediate deployment to your Reading residence. Call for an immediate 'Flow Recovery Protocol.'
+                Master-aligned units are ready for immediate deployment to your Reading residence. Call for an immediate 'Foundation Recovery Protocol.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-950 hover:bg-slate-50 h-24 px-12 rounded-[1.5rem] text-3xl font-black shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter w-full group flex items-center gap-4 group/button border border-slate-200" asChild>
                 <a href="tel:8777921410">

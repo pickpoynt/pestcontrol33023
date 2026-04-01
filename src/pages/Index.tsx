@@ -5,13 +5,13 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import TanklessHeaterInfo from "@/components/landing/TanklessHeaterInfo";
+import EmergencyPipeRepairInfo from "@/components/landing/EmergencyPipeRepairInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Tankless Water Heater Install West Bloomfield";
-  const firmName = "West Bloomfield Thermal Force";
+  const keyword = "Emergency Pipe Repair West Bloomfield";
+  const firmName = "West Bloomfield Pipe Force";
   const phone = "(877) 792-1410";
   const zips = "48322, 48323, 48324";
 
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency tankless water heater installation and structural modernization in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency pipe repair and structural reclamation in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,7 +33,7 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "West Bloomfield Thermal Sector",
+              "streetAddress": "West Bloomfield Pipe Sector",
               "addressLocality": "West Bloomfield",
               "addressRegion": "MI",
               "postalCode": "48322",
@@ -61,7 +61,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Tankless Water Heater Installation",
+            "serviceType": "Emergency Pipe Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -72,20 +72,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Thermal Services",
+              "name": "Hydraulic Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Gas Tankless Integration"
+                    "name": "Surgical Leak Sealing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electric Unit Reset"
+                    "name": "Burst Infrastructure Reset"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <TanklessHeaterInfo />
+      <EmergencyPipeRepairInfo />
       <Contact />
       <RandomLinks />
       <Footer />

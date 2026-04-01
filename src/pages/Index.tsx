@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import SlabLeakInfo from "@/components/landing/SlabLeakInfo";
+import FrozenPipeInfo from "@/components/landing/FrozenPipeInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "slab leak repair Reading PA";
-  const firmName = "Reading Slab Leak Force";
+  const keyword = "Frozen Pipe Thawing West Bloomfield";
+  const firmName = "West Bloomfield Pipe Force";
   const phone = "(877) 792-1410";
-  const zips = "19601, 19604, 19606, 19607, 19608";
+  const zips = "48322, 48323, 48324";
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-intensity emergency slab leak detection and repair in Reading, PA. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency frozen pipe thawing and cryo-reclamation in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -27,24 +27,24 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "/4.jpeg",
+            "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
-            "url": "https://slableakrepairreadingpa.vercel.app/",
+            "url": window.location.href,
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Reading Hydraulic Sector",
-              "addressLocality": "Reading",
-              "addressRegion": "PA",
-              "postalCode": "19601",
+              "streetAddress": "West Bloomfield Pipe Sector",
+              "addressLocality": "West Bloomfield",
+              "addressRegion": "MI",
+              "postalCode": "48322",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 40.3356,
-              "longitude": -75.9269
+              "latitude": 42.5836,
+              "longitude": -83.3591
             },
-            "servesCrawl": ["19601", "19604", "19606"],
+            "servesCrawl": ["48322", "48323", "48324"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Repair",
+            "serviceType": "Frozen Pipe Thawing",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Reading"
+              "name": "West Bloomfield"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Hydraulic Leak Services",
+              "name": "Cryo Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electronic Leak Detection"
+                    "name": "Surgical Cryo-Thawing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Slab Leak Stabilization"
+                    "name": "Structural Pipe Isolation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <SlabLeakInfo />
+      <FrozenPipeInfo />
       <Contact />
       <RandomLinks />
       <Footer />

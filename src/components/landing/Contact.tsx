@@ -9,10 +9,10 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-blue-500">Cryo-Dispatch</span>
+              <span className="text-blue-500">Sanitary Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our West Bloomfield technicians are standing by to restore your home's hydraulic security. Master-aligned frozen pipe thawing available across all Michigan 48322 zones.
+              Our West Bloomfield technicians are standing by to restore your home's sanitary security. Master-aligned sewer line replacement available across all Michigan 48322 zones.
             </p>
 
             <div className="space-y-8">
@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
-                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 CRYO READY</p>
+                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 SANITARY READY</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">West Bloomfield & Surrounding 48323 Zones</p>
+                  <p className="text-xl font-bold text-white tracking-tight">West Bloomfield & Surrounding 48324 Zones</p>
                 </div>
               </div>
             </div>
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                West Bloomfield Pipe Force
+                West Bloomfield Sewer Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Hydraulic Asset Breach?
+                Suspect a Structural <br />Sanitary Asset Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned mechanical units are deployed and ready for your West Bloomfield home. Call now for a professional 'Hydraulic Flow Audit.'
+                Our master-aligned mechanical units are deployed and ready for your West Bloomfield home. Call now for a professional 'Sanitary Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

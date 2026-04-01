@@ -12,11 +12,11 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-heading font-bold text-xl block leading-none">West Bloomfield</span>
-                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Pipe Force</span>
+                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Sewer Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic">
-              Professional high-efficiency frozen pipe thawing for the residential architectural envelopes of West Bloomfield, MI. Restoring hydraulic comfort 24/7/365.
+              Professional high-efficiency sewer line replacement for the residential architectural envelopes of West Bloomfield, MI. Restoring sanitary comfort 24/7/365.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">West Bloomfield Pipe Force, West Bloomfield, MI 48322</p>
+                    <p className="text-slate-300 font-bold text-sm">West Bloomfield Sewer Force, West Bloomfield, MI 48322</p>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} West Bloomfield Pipe Force. All Rights Reserved.
+                    © {new Date().getFullYear()} West Bloomfield Sewer Force. All Rights Reserved.
                 </p>
             </div>
         </div>

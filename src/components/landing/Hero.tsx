@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone, ChevronRight, Snowflake } from "lucide-react";
+import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone, ChevronRight, Settings } from "lucide-react";
 import { ReactNode } from "react";
 
 interface HeroProps {
@@ -15,17 +15,17 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Frozen Pipe Thawing <br />
+      Sewer Line Replacement <br />
       <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">West Bloomfield</span>
     </>
   ),
-  subtitle = "West Bloomfield's elite thermal reclamation force. We provide rapid deployment of master-aligned mechanical units for surgical cryo-stabilization and total pipe flow reset — 24/7. Reclaim your home's hydraulic security today.",
+  subtitle = "West Bloomfield's elite structural reclamation force. We provide rapid deployment of master-aligned mechanical units for surgical sewer rehabilitation and total asset reset — 24/7. Reclaim your home's sanitary security today.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "WEST BLOOMFIELD PIPE FORCE",
+  badge = "WEST BLOOMFIELD SEWER FORCE",
   features = [
-    { icon: Snowflake, text: "Rapid Cryo-Stabilization" },
+    { icon: Droplets, text: "Rapid Flow Reclamation" },
     { icon: ShieldCheck, text: "Master-Aligned Setup" },
     { icon: Clock, text: "West Bloomfield Local Force" }
   ]
@@ -36,19 +36,19 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Frozen Pipe Thawing West Bloomfield" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Sewer Line Replacement West Bloomfield" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/30" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-left">
         <div className="max-w-4xl flex flex-col items-start">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 mb-8 font-bold uppercase tracking-[0.2em] text-xs animate-fade-in shadow-[0_0_20px_rgba(59,130,246,0.1)]">
-            <Snowflake className="w-4 h-4" />
+            <Settings className="w-4 h-4" />
             {badge}
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Frozen Pipe Thawing <br />
+             Sewer Line Replacement <br />
             <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">West Bloomfield</span>
           </h1>
           

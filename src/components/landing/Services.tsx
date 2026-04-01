@@ -2,26 +2,26 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 
 const services = [
   {
-    title: "Surgical Cryo-Thawing",
-    description: "Industrial-grade thermal deployment utilizing surgical heating protocols to ensure maximum pipe integrity in West Bloomfield residencies.",
+    title: "Structural Pipe Relining",
+    description: "Industrial-grade epoxy deployment utilizing surgical lining protocols to ensure maximum pipe integrity in West Bloomfield residences.",
     image: "/2.jpeg",
-    points: ["Thermal Profiling", "Pipe Stabilization", "Safety Audit"]
+    points: ["Thermal Profiling", "Pipe Reset", "Structural Audit"]
   },
   {
-    title: "Structural Pipe Isolation",
-    description: "Reclaiming structural hydraulic biology through precise vertical insulation resets to prevent future cryo-failures across your West Bloomfield architectural envelope.",
+    title: "Surgical Pipe Bursting",
+    description: "Reclaiming structural hydraulic biology through precise mechanical expansion to replace antiquated lines across your West Bloomfield architectural envelope.",
     image: "/3.jpeg",
-    points: ["Zone Hardening", "Material Profiling", "Heat Reclamation"]
+    points: ["Zone Hardening", "Expansion Profiling", "Material Reset"]
   },
   {
     title: "System Asset Upgrades",
-    description: "Modern high-velocity asset hardening for winter-prone West Bloomfield properties, replacing antiquated pipes with burst-resistant mechanical units.",
+    description: "Modern high-velocity asset hardening for aging West Bloomfield properties, replacing collapsed nodes with high-density architectural units.",
     image: "/1.jpeg",
     points: ["Asset Reset", "Flow Profilometry", "Structural Alignment"]
   },
   {
-    title: "24/7 Cryo-Emergency",
-    description: "Rapid deployment of mechanical dispatch units to mitigate catastrophic frozen pipe nodes during West Bloomfield's critical thermal shifts.",
+    title: "24/7 Sanitary Emergency",
+    description: "Rapid deployment of mechanical dispatch units to mitigate catastrophic sewer nodes during West Bloomfield's critical infrastructure shifts.",
     image: "/4.jpeg",
     points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
   }
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-blue-600">Thermal Solutions</span>
+            Comprehensive <span className="text-blue-600">Sewer Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A frozen pipe in West Bloomfield is a threat to your home's architectural security. Our force provides master-aligned technical precision for every line.
+            A compromised sewer line in West Bloomfield is a threat to your home's structural and sanitary safety. Our force provides master-aligned precision for every project.
           </p>
         </div>
 

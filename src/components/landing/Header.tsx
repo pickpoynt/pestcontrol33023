@@ -25,7 +25,7 @@ const Header = () => {
                 West Bloomfield
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
-                Pipe <span className="text-[10px] opacity-70">Force</span>
+                Sewer <span className="text-[10px] opacity-70">Force</span>
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Cryo Dispatch</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Emergency Dispatch</span>
               <a href="tel:8777921410" className="text-xl font-bold hover:text-blue-500 transition-colors tracking-tighter leading-none mt-1">(877) 792-1410</a>
             </div>
             <Button className={`${isScrolled ? "bg-blue-600 hover:bg-blue-700" : "bg-white text-slate-900 hover:bg-blue-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
@@ -54,7 +54,7 @@ const Header = () => {
               CLICK TO CALL
             </a>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
+              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white" />} : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
             </button>
           </div>
         </div>

@@ -54,7 +54,7 @@ const Header = () => {
               CLICK TO CALL
             </a>
             <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white" />} : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
+              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
             </button>
           </div>
         </div>

@@ -9,57 +9,57 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Emergency <br />
-              <span className="text-blue-500">Sanitary Dispatch</span>
+              <span className="text-red-500">Thermal Dispatch</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our West Bloomfield technicians are standing by to restore your home's sanitary security. Master-aligned sewer line replacement available across all Michigan 48322 zones.
+              Our West Bloomfield technicians are standing by to restore your home's thermal security. Master-aligned tankless water heater installs available across all Michigan 48322 zones.
             </p>
 
             <div className="space-y-8">
               <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-red-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">West Bloomfield Hotline</p>
-                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-blue-400 transition-colors tracking-tighter">(877) 792-1410</a>
+                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-red-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
 
               <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-blue-500 border border-white/5">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-red-500 border border-white/5">
                   <Clock className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Status</p>
-                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 SANITARY READY</p>
+                  <p className="text-xl font-bold text-white tracking-tight italic">24/7 THERMAL READY</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-blue-500 border border-white/5">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-red-500 border border-white/5">
                   <MapPin className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">West Bloomfield & Surrounding 48324 Zones</p>
+                  <p className="text-xl font-bold text-white tracking-tight">West Bloomfield & Surrounding 48323 Zones</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:w-1/2 p-12 lg:p-20 bg-blue-600 flex flex-col justify-center relative overflow-hidden">
+          <div className="lg:w-1/2 p-12 lg:p-20 bg-red-600 flex flex-col justify-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -mr-32 -mt-32" />
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                West Bloomfield Sewer Force
+                West Bloomfield Thermal Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Sanitary Asset Breach?
+                Suspect a Structural <br />Thermal Asset Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned mechanical units are deployed and ready for your West Bloomfield home. Call now for a professional 'Sanitary Flow Audit.'
+                Our master-aligned mechanical units are deployed and ready for your West Bloomfield residence. Call now for a professional 'Infinite Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

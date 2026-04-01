@@ -5,13 +5,13 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import SewerReplacementInfo from "@/components/landing/SewerReplacementInfo";
+import TanklessHeaterInfo from "@/components/landing/TanklessHeaterInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Sewer Line Replacement West Bloomfield";
-  const firmName = "West Bloomfield Sewer Force";
+  const keyword = "Tankless Water Heater Install West Bloomfield";
+  const firmName = "West Bloomfield Thermal Force";
   const phone = "(877) 792-1410";
   const zips = "48322, 48323, 48324";
 
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency sewer line replacement and structural reclamation in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency tankless water heater installation and structural modernization in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,7 +33,7 @@ const Index = () => {
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "West Bloomfield Sewer Sector",
+              "streetAddress": "West Bloomfield Thermal Sector",
               "addressLocality": "West Bloomfield",
               "addressRegion": "MI",
               "postalCode": "48322",
@@ -61,7 +61,7 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Sewer Line Replacement",
+            "serviceType": "Tankless Water Heater Installation",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
@@ -72,20 +72,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Sanitary Services",
+              "name": "Thermal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Structural Pipe Relining"
+                    "name": "Gas Tankless Integration"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Surgical Pipe Bursting"
+                    "name": "Electric Unit Reset"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <SewerReplacementInfo />
+      <TanklessHeaterInfo />
       <Contact />
       <RandomLinks />
       <Footer />

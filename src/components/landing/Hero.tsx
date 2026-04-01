@@ -37,7 +37,7 @@ const Hero = ({
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
         <img src={image} alt="Frozen Pipe Thawing West Bloomfield" className="w-full h-full object-cover animate-slow-zoom" />
-        <div className="absolute inset-0 bg-slate-950/70" />
+        <div className="absolute inset-0 bg-slate-950/30" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-left">

@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import RodentControlInfo from "@/components/landing/RodentControlInfo";
+import SporeDetectionInfo from "@/components/landing/SporeDetectionInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "rodent control south brooksville";
-  const firmName = "South Brooksville Rodent Force";
-  const phone = "(323) 880-1224";
-  const zips = "34601, 34602, 34603, 34604, 34605";
+  const keyword = "spore detection gulf breeze fl";
+  const firmName = "Gulf Breeze Spore Force";
+  const phone = "(380) 266-0944";
+  const zips = "32561, 32562, 32563";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency rodent control and structural neutralization in South Brooksville, FL. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency spore detection and structural neutralization in Gulf Breeze, FL. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -30,21 +30,21 @@ const Index = () => {
             "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
             "url": window.location.href,
-            "telephone": "3238801224",
+            "telephone": "3802660944",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Brooksville Rodent Sector",
-              "addressLocality": "South Brooksville",
+              "streetAddress": "Gulf Breeze Pathogen Sector",
+              "addressLocality": "Gulf Breeze",
               "addressRegion": "FL",
-              "postalCode": "34601",
+              "postalCode": "32561",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 28.5553,
-              "longitude": -82.3879
+              "latitude": 30.3541,
+              "longitude": -87.1652
             },
-            "servesCrawl": ["34601", "34602", "34603", "34604", "34605"],
+            "servesCrawl": ["32561", "32562", "32563"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Rodent Control",
+            "serviceType": "Spore Detection",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "South Brooksville"
+              "name": "Gulf Breeze"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Arachnid Services",
+              "name": "Pathogen Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Rat Tactical Isolation"
+                    "name": "Airborne Spore Profiling"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Mice Infrastructure Reclamation"
+                    "name": "Mold Biology Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <RodentControlInfo />
+      <SporeDetectionInfo />
       <Contact />
       <RandomLinks />
       <Footer />

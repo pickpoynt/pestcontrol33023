@@ -1,48 +1,48 @@
-import { Shield, Clock, Award, Droplets, Siren } from "lucide-react";
+import { Shield, Clock, Award, Droplets, Bug } from "lucide-react";
 
 const WhyUs = () => {
   const features = [
     {
       icon: Clock,
-      title: "Rapid Incident Dispatch",
-      description: "When a pipe breaches in West Bloomfield, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's flow."
+      title: "Rapid Tactical Dispatch",
+      description: "When spiders invade in Nashville, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's serenity."
     },
     {
       icon: Shield,
       title: "Master-Aligned Setup",
-      description: "We focus on surgical mechanical and material alignment designed to restore the hydraulic lifecycle of every West Bloomfield pipe."
+      description: "We focus on surgical mechanical and chemical alignment designed to restore the pest-free lifecycle of every Nashville residence."
     },
     {
-      icon: Siren,
-      title: "Incident Stabilization",
-      description: "We don't just 'patch'; we profile your home's entire hydraulic biology to ensure a permanent reset of your pipe health."
+      icon: Bug,
+      title: "Arachnid Reset",
+      description: "We don't just 'spray'; we profile your home's entire structural biology to ensure a permanent reset of your arachnid security."
     },
     {
       icon: Award,
-      title: "West Bloomfield Master Force",
-      description: "Licensed technicians who understand West Bloomfield's unique system stress and pressure shifts, providing highly surgical mechanical interventions 24/7."
+      title: "Nashville Master Force",
+      description: "Licensed exterminators who understand Nashville's unique humidity stress and brown recluse migrations, providing highly surgical tactical interventions 24/7."
     }
   ];
 
   return (
     <section id="why-us" className="py-24 bg-slate-50 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-blue-500/5 -skew-x-12 translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-orange-500/5 -skew-x-12 translate-x-1/2" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-blue-600">Pipe Reclamation Force?</span>
+              Why Trust Our <span className="text-orange-600">Arachnid Containment Force?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              A pipe breach in West Bloomfield, MI is more than an inconvenience—it's a threat to your home's structural integrity. Conventional plumbers often suggest massive demolition, but our West Bloomfield force uses 'Surgical Mechanical Force' to provide a total structural reset of your home's flow without the mess. In the 48322 and 48324 zip codes, we are the first choice for permanent hydraulic security. We protect your architectural envelope with master-aligned technical precision.
+              A spider infestation in Nashville, TN is more than an eyesore—it's a threat to your home's health. Generic exterminators often suggest massive toxins, but our Nashville force uses 'Surgical Tactical Force' to provide a total structural reset of your home's arachnid biology without the mess. In the 37201 and 37212 zip codes, we are the first choice for permanent safety. We protect your architectural envelope with master-aligned technical precision.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
               {features.map((item, index) => (
                 <div key={index} className="space-y-4 group">
-                  <div className="w-14 h-14 rounded-2xl bg-white shadow-xl shadow-blue-500/5 flex items-center justify-center group-hover:bg-blue-600 group-hover:rotate-6 transition-all duration-300 border border-slate-100">
-                    <item.icon className="w-7 h-7 text-blue-600 group-hover:text-white" />
+                  <div className="w-14 h-14 rounded-2xl bg-white shadow-xl shadow-orange-500/5 flex items-center justify-center group-hover:bg-orange-600 group-hover:rotate-6 transition-all duration-300 border border-slate-100">
+                    <item.icon className="w-7 h-7 text-orange-600 group-hover:text-white" />
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-2 uppercase tracking-tight text-sm">{item.title}</h3>
@@ -55,15 +55,15 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/1.jpeg" alt="West Bloomfield Pipe Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
-                <img src="/2.jpeg" alt="Thermal Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/3.jpeg" alt="NC Pipe Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Structural Hydraulic Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/1.jpeg" alt="Nashville Spider Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/2.jpeg" alt="Tactical Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
+                <img src="/3.jpeg" alt="TN Pest Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/4.jpeg" alt="Structural Arachnid Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="w-40 h-40 bg-blue-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
+              <div className="w-40 h-40 bg-orange-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
                 <span className="text-3xl font-bold font-heading">EST.</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">WEST BLOOMFIELD FORCE</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">NASHVILLE FORCE</span>
               </div>
             </div>
           </div>

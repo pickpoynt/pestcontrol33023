@@ -17,22 +17,22 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-blue-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-blue-400"}`} />
+            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-orange-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
+              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-orange-400"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                West Bloomfield
+                Nashville
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
-                Pipe <span className="text-[10px] opacity-70">Force</span>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-orange-600" : "text-orange-400"}`}>
+                Spider <span className="text-[10px] opacity-70">Force</span>
               </span>
             </div>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8">
             {["services", "why-us", "faq", "contact"].map((link) => (
-              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-orange-600" : "text-white/90 hover:text-white"}`}>
                 {link.replace("-", " ")}
               </a>
             ))}
@@ -40,16 +40,16 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Incident Dispatch</span>
-              <a href="tel:8777921410" className="text-xl font-bold hover:text-blue-500 transition-colors tracking-tighter leading-none mt-1">(877) 792-1410</a>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Arachnid Dispatch</span>
+              <a href="tel:3238801224" className="text-xl font-bold hover:text-orange-500 transition-colors tracking-tighter leading-none mt-1">(323) 880-1224</a>
             </div>
-            <Button className={`${isScrolled ? "bg-blue-600 hover:bg-blue-700" : "bg-white text-slate-900 hover:bg-blue-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:8777921410">CLICK TO CALL</a>
+            <Button className={`${isScrolled ? "bg-orange-600 hover:bg-orange-700" : "bg-white text-slate-900 hover:bg-orange-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+              <a href="tel:3238801224">CLICK TO CALL</a>
             </Button>
           </div>
 
           <div className="flex items-center gap-3 lg:hidden">
-            <a href="tel:8777921410" className="flex items-center gap-1.5 bg-blue-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
+            <a href="tel:3238801224" className="flex items-center gap-1.5 bg-orange-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
               <Phone className="w-3 h-3" />
               CLICK TO CALL
             </a>
@@ -64,13 +64,13 @@ const Header = () => {
         <div className="lg:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
           <div className="flex flex-col gap-6">
             {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
+              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-orange-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
             <div className="pt-6 text-center">
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">DISPATCH HOTLINE</p>
-              <a href="tel:8777921410" className="text-3xl font-bold text-blue-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(877) 792-1410</a>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="tel:8777921410">CLICK TO CALL</a>
+              <a href="tel:3238801224" className="text-3xl font-bold text-orange-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(323) 880-1224</a>
+              <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
+                <a href="tel:3238801224">CLICK TO CALL</a>
               </Button>
             </div>
           </div>

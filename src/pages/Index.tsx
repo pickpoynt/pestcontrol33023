@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import EmergencyPipeRepairInfo from "@/components/landing/EmergencyPipeRepairInfo";
+import SpiderExterminationInfo from "@/components/landing/SpiderExterminationInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Emergency Pipe Repair West Bloomfield";
-  const firmName = "West Bloomfield Pipe Force";
-  const phone = "(877) 792-1410";
-  const zips = "48322, 48323, 48324";
+  const keyword = " spider extermination nashville tn";
+  const firmName = "Nashville Spider Force";
+  const phone = "(323) 880-1224";
+  const zips = "37201, 37203, 37204, 37205, 37206, 37209, 37211";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency emergency pipe repair and structural reclamation in West Bloomfield, MI. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency spider extermination and structural neutralization in Nashville, TN. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -30,21 +30,21 @@ const Index = () => {
             "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
             "url": window.location.href,
-            "telephone": "8777921410",
+            "telephone": "3238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "West Bloomfield Pipe Sector",
-              "addressLocality": "West Bloomfield",
-              "addressRegion": "MI",
-              "postalCode": "48322",
+              "streetAddress": "Nashville Arachnid Sector",
+              "addressLocality": "Nashville",
+              "addressRegion": "TN",
+              "postalCode": "37201",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 42.5836,
-              "longitude": -83.3591
+              "latitude": 36.1627,
+              "longitude": -86.7816
             },
-            "servesCrawl": ["48322", "48323", "48324"],
+            "servesCrawl": ["37201", "37203", "37204", "37205", "37206", "37209", "37211"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Emergency Pipe Repair",
+            "serviceType": "Spider Extermination",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "West Bloomfield"
+              "name": "Nashville"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Hydraulic Services",
+              "name": "Arachnid Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Surgical Leak Sealing"
+                    "name": "Black Widow Neutralization"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Burst Infrastructure Reset"
+                    "name": "Brown Recluse Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <EmergencyPipeRepairInfo />
+      <SpiderExterminationInfo />
       <Contact />
       <RandomLinks />
       <Footer />

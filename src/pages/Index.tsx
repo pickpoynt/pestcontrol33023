@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import SpiderExterminationInfo from "@/components/landing/SpiderExterminationInfo";
+import RodentControlInfo from "@/components/landing/RodentControlInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = " spider extermination nashville tn";
-  const firmName = "Nashville Spider Force";
+  const keyword = "rodent control south brooksville";
+  const firmName = "South Brooksville Rodent Force";
   const phone = "(323) 880-1224";
-  const zips = "37201, 37203, 37204, 37205, 37206, 37209, 37211";
+  const zips = "34601, 34602, 34603, 34604, 34605";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency spider extermination and structural neutralization in Nashville, TN. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency rodent control and structural neutralization in South Brooksville, FL. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,18 +33,18 @@ const Index = () => {
             "telephone": "3238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Nashville Arachnid Sector",
-              "addressLocality": "Nashville",
-              "addressRegion": "TN",
-              "postalCode": "37201",
+              "streetAddress": "Brooksville Rodent Sector",
+              "addressLocality": "South Brooksville",
+              "addressRegion": "FL",
+              "postalCode": "34601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 36.1627,
-              "longitude": -86.7816
+              "latitude": 28.5553,
+              "longitude": -82.3879
             },
-            "servesCrawl": ["37201", "37203", "37204", "37205", "37206", "37209", "37211"],
+            "servesCrawl": ["34601", "34602", "34603", "34604", "34605"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,14 +61,14 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Spider Extermination",
+            "serviceType": "Rodent Control",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Nashville"
+              "name": "South Brooksville"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -78,14 +78,14 @@ const Index = () => {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Black Widow Neutralization"
+                    "name": "Rat Tactical Isolation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Brown Recluse Reclamation"
+                    "name": "Mice Infrastructure Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <SpiderExterminationInfo />
+      <RodentControlInfo />
       <Contact />
       <RandomLinks />
       <Footer />

@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import RodentControlInfo from "@/components/landing/RodentControlInfo";
+import EncapsulationInfo from "@/components/landing/EncapsulationInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "rodent control gastonia";
-  const firmName = "Gastonia Rodent Force";
-  const phone = "(323) 880-1224";
-  const zips = "28052, 28054, 28056";
+  const keyword = "Crawl Space Encapsulation Montvale NJ";
+  const firmName = "Montvale Encapsulation Force";
+  const phone = "(380) 266-0944";
+  const zips = "07645, 07458, 07677, 07656";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency rodent control and structural neutralization in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`PROFESSIONAL ${keyword.toUpperCase()}. ${firmName.toUpperCase()} PROVIDES 24/7 HIGH-EFFICIENCY CRAWL SPACE ENCAPSULATION AND STRUCTURAL NEUTRALIZATION IN MONTVALE, NJ. CALL ${phone} NOW FOR IMMEDIATE ASSISTANCE.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -30,21 +30,21 @@ const Index = () => {
             "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
             "url": window.location.href,
-            "telephone": "3238801224",
+            "telephone": "3802660944",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Gastonia Mammal Sector",
-              "addressLocality": "Gastonia",
-              "addressRegion": "NC",
-              "postalCode": "28052",
+              "streetAddress": "Montvale Foundation Sector",
+              "addressLocality": "Montvale",
+              "addressRegion": "NJ",
+              "postalCode": "07645",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 35.2621,
-              "longitude": -81.1873
+              "latitude": 41.0468,
+              "longitude": -74.0385
             },
-            "servesCrawl": ["28052", "28054", "28056"],
+            "servesCrawl": ["07645", "07458", "07677", "07656"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Rodent Control",
+            "serviceType": "Crawl Space Encapsulation",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Gastonia"
+              "name": "Montvale"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Arachnid Services",
+              "name": "Foundation Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Rat Tactical Isolation"
+                    "name": "Vapor Barrier Hardening"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Mice Infrastructure Reclamation"
+                    "name": "Humidity Infrastructure Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <RodentControlInfo />
+      <EncapsulationInfo />
       <Contact />
       <RandomLinks />
       <Footer />

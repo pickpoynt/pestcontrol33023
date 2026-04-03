@@ -6,10 +6,10 @@ const FloatingCallButton = () => {
     <div className="fixed bottom-6 right-6 z-[60] lg:hidden animate-bounce-subtle">
       <Button
         size="lg"
-        className="w-16 h-16 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-[0_0_30px_rgba(245,158,11,0.5)] border-2 border-white/20 p-0 mb-20"
+        className="w-16 h-16 rounded-full bg-cyan-600 hover:bg-cyan-700 text-white shadow-[0_0_30px_rgba(34,211,238,0.5)] border-2 border-white/20 p-0 mb-20"
         asChild
       >
-        <a href="tel:3238801224" aria-label="Call Gastonia Rodent Specialists Now">
+        <a href="tel:3802660944" aria-label="Call Montvale Encapsulation Specialists Now">
           <Phone className="w-8 h-8 animate-pulse" />
         </a>
       </Button>

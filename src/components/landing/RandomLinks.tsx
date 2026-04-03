@@ -2,9 +2,9 @@ import React from 'react';
 
 const RandomLinks = () => {
   const links = [
+    { text: "Rodent Control Gastonia", url: "https://rodentcontrolgastonia.vercel.app/" },
     { text: "Flea Control South Brooksville", url: "https://fleacontrolsouthbrooksville.vercel.app/" },
     { text: "Spore Detection Gulf Breeze FL", url: "https://sporedetectiongulfbreezefl.vercel.app/" },
-    { text: "Rodent Control South Brooksville", url: "https://rodentcontrolsouthbrooksville.vercel.app/" },
     { text: "Spider Extermination Nashville TN", url: "https://spiderexterminationnashvilletn.vercel.app/" }
   ];
 
@@ -18,7 +18,7 @@ const RandomLinks = () => {
               href={link.url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-amber-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-amber-500/30 pb-1"
+              className="text-slate-400 hover:text-cyan-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-cyan-500/30 pb-1"
             >
               <div className="w-1 h-1 rounded-full bg-slate-300" />
               {link.text}

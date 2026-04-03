@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone, ChevronRight, Bug } from "lucide-react";
+import { ShieldCheck, Zap, Clock, Droplets, Waves, Phone, ChevronRight, Target } from "lucide-react";
 import { ReactNode } from "react";
 
 interface HeroProps {
@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Flea Control <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">South Brooksville</span>
+      Rodent Control <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Gastonia NC</span>
     </>
   ),
-  subtitle = "South Brooksville's elite flea containment force. We provide rapid deployment of master-aligned tactical units for surgical flea neutralization and total structural reset — 24/7. Reclaim your home's security today.",
+  subtitle = "Gastonia's elite rodent containment force. We provide rapid deployment of master-aligned tactical units for surgical rodent neutralization and total structural reset — 24/7. Reclaim your home's security today.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "3238801224",
-  badge = "SOUTH BROOKSVILLE FLEA FORCE",
+  badge = "GASTONIA RODENT FORCE",
   features = [
-    { icon: Bug, text: "Rapid Flea Neutralization" },
+    { icon: Target, text: "Rapid Rodent Neutralization" },
     { icon: ShieldCheck, text: "Master-Aligned Setup" },
-    { icon: Clock, text: "South Brooksville Local Force" }
+    { icon: Clock, text: "Gastonia Local Force" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,20 +36,20 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Flea Control South Brooksville" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Rodent Control Gastonia" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/30" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-left">
         <div className="max-w-4xl flex flex-col items-start">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-500/10 border border-rose-500/20 text-rose-400 mb-8 font-bold uppercase tracking-[0.2em] text-xs animate-fade-in shadow-[0_0_20px_rgba(225,29,72,0.1)]">
-            <Bug className="w-4 h-4 text-rose-600" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 mb-8 font-bold uppercase tracking-[0.2em] text-xs animate-fade-in shadow-[0_0_20px_rgba(245,158,11,0.1)]">
+            <Target className="w-4 h-4 text-amber-600" />
             {badge}
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Flea Control <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">South Brooksville</span>
+             Rodent Control <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Gastonia NC</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">
@@ -57,7 +57,7 @@ const Hero = ({
           </p>
 
           <div className="flex flex-wrap items-start gap-6 mb-16 animate-fade-in-up [animation-delay:200ms]">
-            <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white h-20 px-12 rounded-2xl text-2xl font-bold shadow-2xl shadow-rose-900/40 border border-rose-500/20 transition-all hover:scale-105" asChild>
+            <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white h-20 px-12 rounded-2xl text-2xl font-bold shadow-2xl shadow-amber-900/40 border border-amber-500/20 transition-all hover:scale-105" asChild>
               <a href={`tel:${phone}`}>
                 <Phone className="w-8 h-8 mr-4 fill-white" />
                 {formattedPhone}
@@ -68,8 +68,8 @@ const Hero = ({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full animate-fade-in-up [animation-delay:400ms]">
             {features.map((feature, i) => (
               <div key={i} className="flex flex-col items-start gap-4 bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10 group hover:bg-white/10 transition-colors">
-                <div className="w-16 h-16 rounded-2xl bg-rose-600/20 flex items-center justify-center group-hover:bg-rose-600 transition-colors">
-                  <feature.icon className="w-8 h-8 text-rose-400 group-hover:text-white" />
+                <div className="w-16 h-16 rounded-2xl bg-amber-600/20 flex items-center justify-center group-hover:bg-amber-600 transition-colors">
+                  <feature.icon className="w-8 h-8 text-amber-400 group-hover:text-white" />
                 </div>
                 <span className="text-white font-bold uppercase tracking-[3px] text-xs">{feature.text}</span>
               </div>

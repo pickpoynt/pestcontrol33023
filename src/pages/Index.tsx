@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import FleaControlInfo from "@/components/landing/FleaControlInfo";
+import RodentControlInfo from "@/components/landing/RodentControlInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "flea control south brooksville";
-  const firmName = "South Brooksville Flea Force";
+  const keyword = "rodent control gastonia";
+  const firmName = "Gastonia Rodent Force";
   const phone = "(323) 880-1224";
-  const zips = "34601, 34602, 34603, 34604, 34605";
+  const zips = "28052, 28054, 28056";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency flea control and structural neutralization in South Brooksville, FL. Call ${phone} now for immediate assistance.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-efficiency rodent control and structural neutralization in Gastonia, NC. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,18 +33,18 @@ const Index = () => {
             "telephone": "3238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Brooksville Parasite Sector",
-              "addressLocality": "South Brooksville",
-              "addressRegion": "FL",
-              "postalCode": "34601",
+              "streetAddress": "Gastonia Mammal Sector",
+              "addressLocality": "Gastonia",
+              "addressRegion": "NC",
+              "postalCode": "28052",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 28.5306,
-              "longitude": -82.3879
+              "latitude": 35.2621,
+              "longitude": -81.1873
             },
-            "servesCrawl": ["34601", "34602", "34603", "34604", "34605"],
+            "servesCrawl": ["28052", "28054", "28056"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Flea Control",
+            "serviceType": "Rodent Control",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "South Brooksville"
+              "name": "Gastonia"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Parasite Services",
+              "name": "Arachnid Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Larvae Tactical Isolation"
+                    "name": "Rat Tactical Isolation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Parasite Infrastructure Reclamation"
+                    "name": "Mice Infrastructure Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <FleaControlInfo />
+      <RodentControlInfo />
       <Contact />
       <RandomLinks />
       <Footer />

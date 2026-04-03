@@ -7,16 +7,16 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-rose-600 flex items-center justify-center shadow-lg shadow-rose-900/20">
+              <div className="w-12 h-12 rounded-2xl bg-amber-600 flex items-center justify-center shadow-lg shadow-amber-900/20">
                 <ShieldCheck className="text-white w-7 h-7" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none">South Brooksville</span>
-                <span className="text-xs font-bold text-rose-500 uppercase tracking-widest">Flea Force</span>
+                <span className="font-heading font-bold text-xl block leading-none">Gastonia</span>
+                <span className="text-xs font-bold text-amber-500 uppercase tracking-widest">Rodent Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic">
-              Professional high-efficiency flea control for the residential architectural envelopes of South Brooksville, FL. Restoring air security 24/7/365.
+              Professional high-efficiency rodent control for the residential architectural envelopes of Gastonia, NC. Restoring security 24/7/365.
             </p>
           </div>
 
@@ -25,8 +25,8 @@ const Footer = () => {
             <ul className="space-y-4">
               {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
                 <li key={item}>
-                  <a href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-slate-400 hover:text-rose-500 transition-colors font-bold uppercase tracking-widest text-xs flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-rose-600/40" />
+                  <a href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-slate-400 hover:text-amber-500 transition-colors font-bold uppercase tracking-widest text-xs flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 rounded-full bg-amber-600/40" />
                     {item}
                   </a>
                 </li>
@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Service Coverage</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">
-              South Brooksville, FL and Surrounding Locations:
+              Gastonia, NC and Surrounding Locations:
             </p>
             <div className="flex flex-wrap gap-2">
-              {["34601", "34602", "34603", "34604", "34605"].map((zip) => (
+              {["28052", "28054", "28056"].map((zip) => (
                 <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
                   {zip}
                 </span>
@@ -50,8 +50,8 @@ const Footer = () => {
 
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Support & Leasing</h4>
-            <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-rose-500/30 transition-all cursor-pointer">
-              <Mail className="w-5 h-5 text-rose-500" />
+            <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/30 transition-all cursor-pointer">
+              <Mail className="w-5 h-5 text-amber-500" />
               <a href="/lease-my-number" className="text-sm font-bold uppercase tracking-tighter text-slate-200 group-hover:text-white transition-colors">
                 LEASE MY NUMBER
               </a>
@@ -64,13 +64,13 @@ const Footer = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
                 <div className="flex flex-col gap-2">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Primary Contact</p>
-                    <a href="tel:3238801224" className="text-3xl font-bold text-white hover:text-rose-500 transition-colors tracking-tighter leading-none">
+                    <a href="tel:3238801224" className="text-3xl font-bold text-white hover:text-amber-500 transition-colors tracking-tighter leading-none">
                         (323) 880-1224
                     </a>
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">South Brooksville Flea Force, South Brooksville, FL 34601</p>
+                    <p className="text-slate-300 font-bold text-sm">Gastonia Rodent Force, Gastonia, NC 28052</p>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} South Brooksville Flea Force. All Rights Reserved.
+                    © {new Date().getFullYear()} Gastonia Rodent Force. All Rights Reserved.
                 </p>
             </div>
         </div>

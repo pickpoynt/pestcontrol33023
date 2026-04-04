@@ -5,21 +5,21 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import EncapsulationInfo from "@/components/landing/EncapsulationInfo";
+import TrenchlessInfo from "@/components/landing/TrenchlessInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Crawl Space Encapsulation Montvale NJ";
-  const firmName = "Montvale Encapsulation Force";
-  const phone = "(380) 266-0944";
-  const zips = "07645, 07458, 07677, 07656";
+  const keyword = "Trenchless Pipe Repair St. Louis";
+  const firmName = "St. Louis Pipe Force";
+  const phone = "(877) 792-1410";
+  const zips = "63101, 63102, 63103, 63104, 63105";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`PROFESSIONAL ${keyword.toUpperCase()}. ${firmName.toUpperCase()} PROVIDES 24/7 HIGH-EFFICIENCY CRAWL SPACE ENCAPSULATION AND STRUCTURAL NEUTRALIZATION IN MONTVALE, NJ. CALL ${phone} NOW FOR IMMEDIATE ASSISTANCE.`} />
+        <meta name="description" content={`PROFESSIONAL ${keyword.toUpperCase()}. ${firmName.toUpperCase()} PROVIDES 24/7 HIGH-EFFICIENCY TRENCHLESS PIPE REPAIR AND HYDRAULIC NEUTRALIZATION IN ST. LOUIS, MO. CALL ${phone} NOW FOR IMMEDIATE ASSISTANCE.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -30,21 +30,21 @@ const Index = () => {
             "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
             "url": window.location.href,
-            "telephone": "3802660944",
+            "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Montvale Foundation Sector",
-              "addressLocality": "Montvale",
-              "addressRegion": "NJ",
-              "postalCode": "07645",
+              "streetAddress": "St. Louis Hydraulic Sector",
+              "addressLocality": "St. Louis",
+              "addressRegion": "MO",
+              "postalCode": "63101",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 41.0468,
-              "longitude": -74.0385
+              "latitude": 38.6270,
+              "longitude": -90.1994
             },
-            "servesCrawl": ["07645", "07458", "07677", "07656"],
+            "servesCrawl": ["63101", "63102", "63103", "63104", "63105"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": [
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Crawl Space Encapsulation",
+            "serviceType": "Trenchless Pipe Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "Montvale"
+              "name": "St. Louis"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Foundation Services",
+              "name": "Hydraulic Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Vapor Barrier Hardening"
+                    "name": "Sewer Pipe Lining"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Humidity Infrastructure Reclamation"
+                    "name": "Hydro-Jetting Reclamation"
                   }
                 }
               ]
@@ -98,7 +98,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <EncapsulationInfo />
+      <TrenchlessInfo />
       <Contact />
       <RandomLinks />
       <Footer />

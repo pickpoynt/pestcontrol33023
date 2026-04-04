@@ -5,70 +5,64 @@ import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
-import TrenchlessInfo from "@/components/landing/TrenchlessInfo";
+import SewerRepairInfo from "@/components/landing/SewerRepairInfo";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "Trenchless Pipe Repair St. Louis";
-  const firmName = "St. Louis Pipe Force";
+  const keyword = "Trenchless Sewer Repair Des Moines";
+  const firmName = "Des Moines Sewer Force";
   const phone = "(877) 792-1410";
-  const zips = "63101, 63102, 63103, 63104, 63105";
+  const zips = "50309, 50310, 50311, 50312, 50315";
 
   return (
     <div className="min-h-screen bg-slate-950">
       <Helmet>
         <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
-        <meta name="description" content={`PROFESSIONAL ${keyword.toUpperCase()}. ${firmName.toUpperCase()} PROVIDES 24/7 HIGH-EFFICIENCY TRENCHLESS PIPE REPAIR AND HYDRAULIC NEUTRALIZATION IN ST. LOUIS, MO. CALL ${phone} NOW FOR IMMEDIATE ASSISTANCE.`} />
-        
-        {/* LocalBusiness Schema */}
+        <meta name="description" content={`Professional ${keyword}. ${firmName} Provides 24/7 High-Efficiency Trenchless Sewer Repair And Hydraulic Neutralization In Des Moines, IA. Call ${phone} Now For Immediate Assistance.`} />
+
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": firmName,
-            "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9",
             "@id": "",
             "url": window.location.href,
             "telephone": "8777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "St. Louis Hydraulic Sector",
-              "addressLocality": "St. Louis",
-              "addressRegion": "MO",
-              "postalCode": "63101",
+              "streetAddress": "Des Moines Hydraulic Sector",
+              "addressLocality": "Des Moines",
+              "addressRegion": "IA",
+              "postalCode": "50309",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 38.6270,
-              "longitude": -90.1994
+              "latitude": 41.5868,
+              "longitude": -93.6250
             },
-            "servesCrawl": ["63101", "63102", "63103", "63104", "63105"],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-              ],
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
               "opens": "00:00",
               "closes": "23:59"
             }
           })}
         </script>
 
-        {/* Service Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Trenchless Pipe Repair",
+            "serviceType": "Trenchless Sewer Repair",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "St. Louis"
+              "name": "Des Moines"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -76,17 +70,11 @@ const Index = () => {
               "itemListElement": [
                 {
                   "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Sewer Pipe Lining"
-                  }
+                  "itemOffered": { "@type": "Service", "name": "Sewer Pipe Lining" }
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Hydro-Jetting Reclamation"
-                  }
+                  "itemOffered": { "@type": "Service", "name": "Sewer Bursting Barriers" }
                 }
               ]
             }
@@ -98,7 +86,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <TrenchlessInfo />
+      <SewerRepairInfo />
       <Contact />
       <RandomLinks />
       <Footer />

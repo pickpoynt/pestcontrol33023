@@ -5,22 +5,22 @@ const WhyUs = () => {
     {
       icon: Clock,
       title: "Rapid Tactical Dispatch",
-      description: "When pipes breach in St. Louis, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's infrastructure."
+      description: "When sewers breach in Des Moines, delay is not an option. Our specialists provide zero-latency deployment to stabilize your home's infrastructure."
     },
     {
       icon: Shield,
       title: "Master-Aligned Setup",
-      description: "We focus on surgical mechanical and hydraulic alignment designed to restore the pipe-free lifecycle of every St. Louis residence."
+      description: "We focus on surgical mechanical and hydraulic alignment designed to restore the pipe-free lifecycle of every Des Moines residence."
     },
     {
       icon: Target,
-      title: "Pipe Infrastructure Reset",
+      title: "Sewer Infrastructure Reset",
       description: "We don't just 'snake'; we profile your home's entire structural biology to ensure a permanent reset of your underground security."
     },
     {
       icon: Award,
-      title: "St. Louis Master Force",
-      description: "Licensed specialists who understand St. Louis's unique geological stress and hydraulic nodes, providing surgical tactical interventions 24/7."
+      title: "Des Moines Master Force",
+      description: "Licensed specialists who understand Des Moines's unique geological stress and hydraulic nodes, providing surgical tactical interventions 24/7."
     }
   ];
 
@@ -32,10 +32,10 @@ const WhyUs = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
-              Why Trust Our <span className="text-blue-600">Pipe Containment Force?</span>
+              Why Trust Our <span className="text-blue-600">Sewer Containment Force?</span>
             </h2>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-              A pipe breach in St. Louis, MO is more than an eyesore—it's a threat to your home's structural integrity. Generic plumbers often suggest massive trenching, but our St. Louis force uses 'Surgical Tactical Force' to provide a total structural reset of your pipe biology without the lawn-digging mess. In the 63101 and 63105 zip codes, we are the first choice for permanent safety. We protect your architectural envelope with master-aligned technical precision.
+              A sewer breach in Des Moines, IA is more than an eyesore—it's a threat to your home's structural integrity. Generic plumbers often suggest massive trenching, but our Des Moines force uses 'Surgical Tactical Force' to provide a total structural reset of your sewer biology without the lawn-digging mess. In the 50309 and 50312 zip codes, we are the first choice for permanent safety. We protect your architectural envelope with master-aligned technical precision.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-8">
@@ -55,15 +55,15 @@ const WhyUs = () => {
           
           <div className="lg:w-1/2 relative space-y-4">
             <div className="grid grid-cols-2 gap-4">
-                <img src="/1.jpeg" alt="St. Louis Pipe Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
+                <img src="/1.jpeg" alt="Des Moines Sewer Force" className="rounded-3xl shadow-2xl h-64 w-full object-cover grayscale hover:grayscale-0 transition-all duration-500 border-2 border-white" />
                 <img src="/2.jpeg" alt="Tactical Dispatch" className="rounded-3xl shadow-2xl h-64 w-full object-cover mt-8 border-2 border-white" />
-                <img src="/4.jpeg" alt="Structural Pipe Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
-                <img src="/3.jpeg" alt="MO Pipe Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
+                <img src="/4.jpeg" alt="Structural Sewer Reset" className="rounded-3xl shadow-2xl h-64 w-full object-cover -mt-8 border-2 border-white" />
+                <img src="/3.jpeg" alt="IA Sewer Specialists" className="rounded-3xl shadow-2xl h-64 w-full object-cover border-2 border-white" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-40 h-40 bg-blue-600 rounded-full flex flex-col items-center justify-center text-white text-center shadow-2xl animate-pulse border-4 border-white/20">
                 <span className="text-3xl font-bold font-heading">EST.</span>
-                <span className="text-[10px] font-bold uppercase tracking-widest">ST. LOUIS FORCE</span>
+                <span className="text-[10px] font-bold uppercase tracking-widest">DES MOINES FORCE</span>
               </div>
             </div>
           </div>

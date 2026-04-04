@@ -15,19 +15,19 @@ interface HeroProps {
 const Hero = ({
   title = (
     <>
-      Trenchless Pipe Repair <br />
-      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">St. Louis</span>
+      Trenchless Sewer Repair <br />
+      <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Des Moines</span>
     </>
   ),
-  subtitle = "St. Louis's elite underground asset force. We provide rapid deployment of master-aligned tactical units for surgical pipe neutralization and total hydraulic reset — 24/7. Reclaim your home's infrastructure security today.",
+  subtitle = "Des Moines's elite subterranean infrastructure force. We provide rapid deployment of master-aligned tactical units for surgical sewer neutralization and total hydraulic reset — 24/7. Reclaim your home's security today.",
   image = "/4.jpeg",
   overlayImage = "/1.jpeg",
   phone = "8777921410",
-  badge = "ST. LOUIS PIPE FORCE",
+  badge = "DES MOINES SEWER FORCE",
   features = [
-    { icon: Tool, text: "Rapid Pipe Neutralization" },
+    { icon: Tool, text: "Rapid Sewer Neutralization" },
     { icon: ShieldCheck, text: "Master-Aligned Setup" },
-    { icon: Clock, text: "St. Louis Local Force" }
+    { icon: Clock, text: "Des Moines Local Force" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
@@ -36,7 +36,7 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-950">
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
-        <img src={image} alt="Trenchless Pipe Repair St. Louis" className="w-full h-full object-cover animate-slow-zoom" />
+        <img src={image} alt="Trenchless Sewer Repair Des Moines" className="w-full h-full object-cover animate-slow-zoom" />
         <div className="absolute inset-0 bg-slate-950/30" />
       </div>
 
@@ -48,8 +48,8 @@ const Hero = ({
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-[1.1] tracking-tighter animate-title-slide">
-             Trenchless Pipe Repair <br />
-            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">St. Louis</span>
+             Trenchless Sewer Repair <br />
+            <span className="text-[#FFD700] drop-shadow-sm uppercase tracking-tighter">Des Moines</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-slate-200 mb-12 leading-relaxed max-w-3xl font-medium italic animate-fade-in-up drop-shadow-md">

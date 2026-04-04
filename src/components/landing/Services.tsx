@@ -3,25 +3,25 @@ import { ArrowRight, ShieldCheck } from "lucide-react";
 const services = [
   {
     title: "Sewer Pipe Lining",
-    description: "Industrial-grade tactical deployment utilizing surgical lining protocols to ensure maximum internal pipe safety in St. Louis residences.",
+    description: "Industrial-grade tactical deployment utilizing surgical lining protocols to ensure maximum internal sewer safety in Des Moines residences.",
     image: "/2.jpeg",
     points: ["Structural Reinforcement", "Hydraulic Profilometry", "Safety Audit"]
   },
   {
-    title: "Hydro-Jetting Reclamation",
+    title: "Root intrusion Reclamation",
     description: "Reclaiming structural safety through high-velocity vertical containment resets to prevent catastrophic pipe migration nodes.",
     image: "/3.jpeg",
     points: ["Zone Hardening", "Blockage Profilometry", "Protective Alignment"]
   },
   {
-    title: "Pipe Bursting Barriers",
-    description: "Modern high-velocity asset hardening for pipe-prone St. Louis properties, replacing antiquated methods with master-aligned replacement.",
+    title: "Sewer Bursting Barriers",
+    description: "Modern high-velocity asset hardening for sewer-prone Des Moines properties, replacing antiquated methods with master-aligned replacement.",
     image: "/1.jpeg",
     points: ["Asset Reset", "Pressure Profilometry", "Structural Alignment"]
   },
   {
     title: "24/7 Incident Dispatch",
-    description: "Rapid deployment of tactical dispatch units to mitigate catastrophic pipe breaches during St. Louis's critical hydraulic shifts.",
+    description: "Rapid deployment of tactical dispatch units to mitigate catastrophic sewer breaches during Des Moines's critical hydraulic shifts.",
     image: "/4.jpeg",
     points: ["Zero-Latency Response", "Immediate Stabilization", "Critical Dispatch"]
   }
@@ -33,10 +33,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-blue-600">Pipe Solutions</span>
+            Comprehensive <span className="text-blue-600">Sewer Solutions</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            A pipe breach in St. Louis is a threat to your home's serenity and structural safety. Our force provides master-aligned precision for every project.
+            A sewer breach in Des Moines is a threat to your home's serenity and structural safety. Our force provides master-aligned precision for every project.
           </p>
         </div>
 

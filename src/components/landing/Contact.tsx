@@ -12,7 +12,7 @@ const Contact = () => {
               <span className="text-blue-500">Dispatch Unit</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our St. Louis technicians are standing by to restore your home's structural security. Master-aligned pipe repair available across all MO 63104 zones.
+              Our Des Moines technicians are standing by to restore your home's structural security. Master-aligned sewer repair available across all IA 50312 zones.
             </p>
 
             <div className="space-y-8">
@@ -21,7 +21,7 @@ const Contact = () => {
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">St. Louis Hotline</p>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Des Moines Hotline</p>
                   <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-blue-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">St. Louis & Surrounding MO 63101-63105 Zones</p>
+                  <p className="text-xl font-bold text-white tracking-tight">Des Moines & Surrounding IA 50309-50315 Zones</p>
                 </div>
               </div>
             </div>
@@ -53,13 +53,13 @@ const Contact = () => {
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                St. Louis Pipe Force
+                Des Moines Sewer Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Underground Asset Breach?
+                Suspect a Structural <br />Subterranean Asset Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned tactical units are deployed and ready for your St. Louis residence. Call now for a professional 'Hydraulic Flow Audit.'
+                Our master-aligned tactical units are deployed and ready for your Des Moines residence. Call now for a professional 'Hydraulic Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

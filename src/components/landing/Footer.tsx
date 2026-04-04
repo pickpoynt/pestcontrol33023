@@ -11,12 +11,12 @@ const Footer = () => {
                 <ShieldCheck className="text-white w-7 h-7" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none">St. Louis</span>
-                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Pipe Force</span>
+                <span className="font-heading font-bold text-xl block leading-none">Des Moines</span>
+                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Sewer Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic">
-              Professional high-efficiency trenchless pipe repair for the residential architectural envelopes of St. Louis, MO. Restoring hydraulic security 24/7/365.
+              Professional high-efficiency trenchless sewer repair for the residential architectural envelopes of Des Moines, IA. Restoring hydraulic security 24/7/365.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Service Coverage</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">
-              St. Louis, MO and Surrounding Locations:
+              Des Moines, IA and Surrounding Locations:
             </p>
             <div className="flex flex-wrap gap-2">
-              {["63101", "63102", "63103", "63104", "63105"].map((zip) => (
+              {["50309", "50310", "50311", "50312", "50315"].map((zip) => (
                 <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
                   {zip}
                 </span>
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center md:text-left">
                     <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">St. Louis Pipe Force, St. Louis, MO 63101</p>
+                    <p className="text-slate-300 font-bold text-sm">Des Moines Sewer Force, Des Moines, IA 50309</p>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
             <div className="text-center">
                 <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} St. Louis Pipe Force. All Rights Reserved.
+                    © {new Date().getFullYear()} Des Moines Sewer Force. All Rights Reserved.
                 </p>
             </div>
         </div>

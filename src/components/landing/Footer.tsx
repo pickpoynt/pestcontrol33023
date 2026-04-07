@@ -1,4 +1,4 @@
-import { ShieldCheck, Phone, Mail, ArrowUpRight } from "lucide-react";
+import { ShieldCheck, Mail, ArrowUpRight } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -7,16 +7,16 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center shadow-lg shadow-blue-900/20">
+              <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center shadow-lg">
                 <ShieldCheck className="text-white w-7 h-7" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none">Des Moines</span>
-                <span className="text-xs font-bold text-blue-500 uppercase tracking-widest">Sewer Force</span>
+                <span className="font-heading font-bold text-xl block leading-none">Rockland County</span>
+                <span className="text-xs font-bold text-indigo-500 uppercase tracking-widest">Plumbers Force</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium italic">
-              Professional high-efficiency trenchless sewer repair for the residential architectural envelopes of Des Moines, IA. Restoring hydraulic security 24/7/365.
+              Professional high-efficiency plumbing services for residential architectural envelopes of Rockland County, NY. Restoring hydraulic security 24/7/365.
             </p>
           </div>
 
@@ -25,8 +25,8 @@ const Footer = () => {
             <ul className="space-y-4">
               {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
                 <li key={item}>
-                  <a href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-slate-400 hover:text-blue-500 transition-colors font-bold uppercase tracking-widest text-xs flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-blue-600/40" />
+                  <a href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-slate-400 hover:text-indigo-500 transition-colors font-bold uppercase tracking-widest text-xs flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 rounded-full bg-indigo-600/40" />
                     {item}
                   </a>
                 </li>
@@ -36,22 +36,18 @@ const Footer = () => {
 
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Service Coverage</h4>
-            <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">
-              Des Moines, IA and Surrounding Locations:
-            </p>
+            <p className="text-slate-400 text-sm leading-relaxed mb-4 font-medium italic">Rockland County, NY and Surrounding Locations:</p>
             <div className="flex flex-wrap gap-2">
-              {["50309", "50310", "50311", "50312", "50315"].map((zip) => (
-                <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">
-                  {zip}
-                </span>
+              {["10901", "10952", "10954", "10960", "10970", "10977"].map((zip) => (
+                <span key={zip} className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-xs font-bold text-slate-300">{zip}</span>
               ))}
             </div>
           </div>
 
           <div>
             <h4 className="font-bold text-white mb-8 uppercase tracking-[0.2em] text-sm">Support & Leasing</h4>
-            <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/30 transition-all cursor-pointer">
-              <Mail className="w-5 h-5 text-blue-500" />
+            <div className="inline-flex items-center gap-3 group px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-indigo-500/30 transition-all cursor-pointer">
+              <Mail className="w-5 h-5 text-indigo-500" />
               <a href="/lease-my-number" className="text-sm font-bold uppercase tracking-tighter text-slate-200 group-hover:text-white transition-colors">
                 LEASE MY NUMBER
               </a>
@@ -61,31 +57,29 @@ const Footer = () => {
         </div>
 
         <div className="pt-12 border-t border-white/5 space-y-8">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
-                <div className="flex flex-col gap-2">
-                    <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Primary Contact</p>
-                    <a href="tel:8777921410" className="text-3xl font-bold text-white hover:text-blue-500 transition-colors tracking-tighter leading-none">
-                        (877) 792-1410
-                    </a>
-                </div>
-                <div className="text-center md:text-left">
-                    <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
-                    <p className="text-slate-300 font-bold text-sm">Des Moines Sewer Force, Des Moines, IA 50309</p>
-                </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+            <div className="flex flex-col gap-2">
+              <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest">Primary Contact</p>
+              <a href="tel:8777921410" className="text-3xl font-bold text-white hover:text-indigo-500 transition-colors tracking-tighter leading-none">(877) 792-1410</a>
             </div>
+            <div className="text-center md:text-left">
+              <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-1">Location NAP</p>
+              <p className="text-slate-300 font-bold text-sm">Rockland County Plumbers Force, Rockland County, NY 10901</p>
+            </div>
+          </div>
 
-            <div className="bg-white/5 p-8 rounded-3xl border border-white/10">
-                <p className="text-slate-500 text-[11px] leading-relaxed font-medium italic text-center">
-                    <span className="text-slate-300 font-bold block mb-2 uppercase tracking-widest">Notice & Disclaimer</span>
-                    This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
-                </p>
-            </div>
+          <div className="bg-white/5 p-8 rounded-3xl border border-white/10">
+            <p className="text-slate-500 text-[11px] leading-relaxed font-medium italic text-center">
+              <span className="text-slate-300 font-bold block mb-2 uppercase tracking-widest">Notice & Disclaimer</span>
+              This site is a free service to assist homeowners in connecting with local service contractors. All contractors are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.
+            </p>
+          </div>
 
-            <div className="text-center">
-                <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-                    © {new Date().getFullYear()} Des Moines Sewer Force. All Rights Reserved.
-                </p>
-            </div>
+          <div className="text-center">
+            <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
+              © {new Date().getFullYear()} Rockland County Plumbers Force. All Rights Reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

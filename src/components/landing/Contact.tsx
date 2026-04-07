@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, MapPin, Clock, ShieldCheck } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -9,25 +9,23 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]">
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8 uppercase tracking-tight">
               Hydraulic <br />
-              <span className="text-blue-500">Dispatch Unit</span>
+              <span className="text-indigo-500">Dispatch Unit</span>
             </h2>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed font-medium italic">
-              Our Des Moines technicians are standing by to restore your home's structural security. Master-aligned sewer repair available across all IA 50312 zones.
+              Our Rockland County technicians are standing by to restore your home's plumbing security. Master-aligned services available across all NY 10901 zones.
             </p>
-
             <div className="space-y-8">
               <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform">
                   <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Des Moines Hotline</p>
-                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-blue-400 transition-colors tracking-tighter">(877) 792-1410</a>
+                  <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Rockland County Hotline</p>
+                  <a href="tel:8777921410" className="text-2xl font-bold text-white hover:text-indigo-400 transition-colors tracking-tighter">(877) 792-1410</a>
                 </div>
               </div>
-
               <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-blue-500 border border-white/5">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-indigo-500 border border-white/5">
                   <Clock className="w-7 h-7" />
                 </div>
                 <div>
@@ -35,31 +33,30 @@ const Contact = () => {
                   <p className="text-xl font-bold text-white tracking-tight italic">24/7 HYDRAULIC READY</p>
                 </div>
               </div>
-
               <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-blue-500 border border-white/5">
+                <div className="w-14 h-14 rounded-2xl bg-slate-800 flex items-center justify-center text-indigo-500 border border-white/5">
                   <MapPin className="w-7 h-7" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-1">Coverage</p>
-                  <p className="text-xl font-bold text-white tracking-tight">Des Moines & Surrounding IA 50309-50315 Zones</p>
+                  <p className="text-xl font-bold text-white tracking-tight">Rockland County & Surrounding NY 10901 Zones</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="lg:w-1/2 p-12 lg:p-20 bg-blue-600 flex flex-col justify-center relative overflow-hidden">
+          <div className="lg:w-1/2 p-12 lg:p-20 bg-indigo-600 flex flex-col justify-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -mr-32 -mt-32" />
             <div className="relative z-10 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 text-white mb-8 font-bold uppercase tracking-widest text-xs">
                 <ShieldCheck className="w-4 h-4" />
-                Des Moines Sewer Force
+                Rockland County Plumbers Force
               </div>
               <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-8 uppercase tracking-tighter">
-                Suspect a Structural <br />Subterranean Asset Breach?
+                Suspect a Structural <br />Plumbing Asset Breach?
               </h3>
               <p className="text-white/90 text-lg mb-12 leading-relaxed font-bold italic">
-                Our master-aligned tactical units are deployed and ready for your Des Moines residence. Call now for a professional 'Hydraulic Flow Audit.'
+                Our master-aligned tactical units are deployed and ready for your Rockland County residence. Call now for a professional 'Hydraulic Flow Audit.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-900 hover:bg-slate-100 h-20 px-12 rounded-2xl text-2xl font-bold w-full shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter" asChild>
                 <a href="tel:8777921410">

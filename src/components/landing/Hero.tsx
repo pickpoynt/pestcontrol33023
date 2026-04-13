@@ -25,10 +25,10 @@ const Hero = ({
       {/* Hero background with Image 4 */}
       <div className="absolute inset-0">
         <img src={image} alt={title} className="w-full h-full object-cover animate-slow-zoom hover:scale-105 transition-transform duration-[10s]" />
-        {/* Unique Background Overlay Image */}
-        <div className="absolute inset-0 bg-slate-950/85 mix-blend-multiply opacity-95" />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 to-transparent lg:w-3/4 opacity-95" />
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
+        {/* Adjusted Background Overlay for visibility */}
+        <div className="absolute inset-0 bg-slate-950/40 opacity-60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/60 to-transparent lg:w-3/4 opacity-70" />
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">

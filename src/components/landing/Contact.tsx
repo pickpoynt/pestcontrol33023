@@ -10,11 +10,11 @@ const Contact = () => {
           
           <div className="lg:w-1/2 p-12 lg:p-24 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] relative z-10">
             <h2 className="text-4xl md:text-7xl font-heading font-black text-white mb-10 uppercase tracking-tighter leading-none italic">
-              EMERGENCY <br />
-              <span className="text-red-600">PEST DISPATCH</span>
+              Emergency <br />
+              <span className="text-red-600">Pest Dispatch</span>
             </h2>
             <p className="text-2xl text-slate-300 mb-16 leading-relaxed font-black italic border-l-8 border-red-600 pl-8 uppercase tracking-tighter">
-              33023 PEST FORCE TECHNICIANS ARE ON CALL ACROSS ALL MIRAMAR AND HOLLYWOOD NODES. RESTORING YOUR HOME'S BIOLOGICAL STABILITY WITH HIGH-INTENSITY CLEARING.
+              33023 Pest Force technicians are on call across all Miramar and Hollywood nodes. Restoring your home's biological stability with high-intensity clearing.
             </p>
 
             <div className="space-y-12">
@@ -23,7 +23,7 @@ const Contact = () => {
                   <Phone className="w-8 h-8 group-hover/link:animate-pulse" />
                 </div>
                 <div>
-                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">HOTLINE DISPATCH</p>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Hotline Dispatch</p>
                   <a href="tel:3238801224" className="text-3xl md:text-4xl font-black text-white hover:text-red-500 transition-colors tracking-tighter leading-none">(323) 880-1224</a>
                 </div>
               </div>
@@ -33,8 +33,8 @@ const Contact = () => {
                   <Clock className="w-8 h-8" />
                 </div>
                 <div>
-                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">BIOLOGICAL STATUS</p>
-                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic">24/7 DANGER READY</p>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">Biological Status</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic leading-none">24/7 Danger Ready</p>
                 </div>
               </div>
 
@@ -43,8 +43,8 @@ const Contact = () => {
                   <Target className="w-8 h-8" />
                 </div>
                 <div>
-                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic">33023 COVERAGE</p>
-                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic leading-none">MIRAMAR HOLLYWOOD & SURROUNDING NODES</p>
+                  <p className="text-slate-500 text-[10px] font-black uppercase tracking-[0.3em] mb-2 leading-none italic uppercase">33023 Coverage</p>
+                  <p className="text-2xl font-black text-white tracking-tighter uppercase italic leading-none">Miramar Hollywood & Surrounding Nodes</p>
                 </div>
               </div>
             </div>
@@ -53,15 +53,15 @@ const Contact = () => {
           <div className="lg:w-1/2 p-12 lg:p-24 bg-red-600 flex flex-col justify-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[120px] -mr-48 -mt-48 group-hover:opacity-60 transition-opacity" />
             <div className="relative z-10 text-center lg:text-left space-y-10">
-              <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/20 text-white mb-4 font-black uppercase tracking-widest text-xs border border-white/10">
+              <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white/20 text-white mb-4 font-black uppercase tracking-widest text-xs border border-white/10 leading-none">
                 <ShieldCheck className="w-5 h-5 animate-pulse" />
-                MIRAMAR PEST FORCE 33023
+                Miramar Pest Force 33023
               </div>
               <h3 className="text-3xl md:text-6xl font-heading font-black text-white mb-8 uppercase tracking-tighter leading-none italic">
-                ACTIVE BIOLOGICAL <br />NODE BREACH?
+                Active Biological <br />Node Breach?
               </h3>
               <p className="text-white text-xl font-black italic uppercase leading-relaxed opacity-90 tracking-tighter">
-                MASTER-ALIGNED UNITS ARE READY FOR IMMEDIATE DEPLOYMENT TO YOUR MIRAMAR RESIDENCE. CALL FOR AN IMMEDIATE 'TERMINATION PROTOCOL.'
+                Master-aligned units are ready for immediate deployment to your Miramar residence. Call for an immediate 'Termination Protocol.'
               </p>
               <Button size="lg" variant="secondary" className="bg-white text-slate-950 hover:bg-slate-50 h-24 px-12 rounded-[1.5rem] text-3xl font-black shadow-2xl transition-all hover:scale-105 uppercase tracking-tighter w-full group flex items-center gap-4 group/button border border-slate-200" asChild>
                 <a href="tel:3238801224">

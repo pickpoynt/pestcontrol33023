@@ -10,8 +10,8 @@ import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import RandomLinks from "@/components/landing/RandomLinks";
 
 const Index = () => {
-  const keyword = "PEST CONTROL 33023";
-  const firmName = "AREA 33023 PEST FORCE";
+  const keyword = "Pest Control 33023";
+  const firmName = "Area 33023 Pest Force";
   const phone = "(323) 880-1224";
   const zips = "33023, 33024, 33025, 33083, 33021";
 
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-slate-950 text-white">
       <Helmet>
         <title>{keyword}</title>
-        <meta name="description" content={`PROFESSIONAL ${keyword}. ${firmName} PROVIDES 24/7 HIGH-INTENSITY EMERGENCY PEST TERMINATION AND INFESTATION CONTROL IN MIRAMAR AND HOLLYWOOD, FL 33023. CALL ${phone} NOW.`} />
+        <meta name="description" content={`Professional ${keyword}. ${firmName} provides 24/7 high-intensity emergency pest termination and infestation control in Miramar and Hollywood, FL 33023. Call ${phone} now for immediate assistance.`} />
         
         {/* LocalBusiness Schema */}
         <script type="application/ld+json">
@@ -33,8 +33,8 @@ const Index = () => {
             "telephone": "3238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "33023 BIOLOGICAL DEFENSE SECTOR",
-              "addressLocality": "MIRAMAR",
+              "streetAddress": "33023 Biological Defense Sector",
+              "addressLocality": "Miramar",
               "addressRegion": "FL",
               "postalCode": "33023",
               "addressCountry": "US"
@@ -61,31 +61,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "EMERGENCY PEST CONTROL",
+            "serviceType": "Emergency Pest Control",
             "provider": {
               "@type": "LocalBusiness",
               "name": firmName
             },
             "areaServed": {
               "@type": "City",
-              "name": "MIRAMAR"
+              "name": "Miramar"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "PEST ELIMINATION SERVICES",
+              "name": "Pest Elimination Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "ANT TERMINATION"
+                    "name": "Ant Termination"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "ROACH INFESTATION DISRUPTION"
+                    "name": "Roach Infestation Disruption"
                   }
                 }
               ]

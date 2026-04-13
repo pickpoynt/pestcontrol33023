@@ -23,8 +23,8 @@ const Header = () => {
                             <ShieldCheck className="text-white w-7 h-7" />
                         </div>
                         <div className="flex flex-col">
-                            <span className="font-heading font-black text-2xl text-white leading-none tracking-tighter uppercase">33023 PEST</span>
-                            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">FORCE DISPATCH</span>
+                            <span className="font-heading font-black text-2xl text-white leading-none tracking-tighter uppercase">33023 Pest</span>
+                            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">Force Dispatch</span>
                         </div>
                     </div>
 
@@ -38,13 +38,13 @@ const Header = () => {
 
                     <div className="flex items-center gap-6">
                         <div className="hidden sm:flex flex-col items-end mr-4 group">
-                            <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none mb-1">TERMINATION COMMAND</p>
+                            <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none mb-1 text-right">Termination Command</p>
                             <a href="tel:3238801224" className="text-2xl font-black text-white hover:text-red-500 transition-all duration-300 tracking-tighter leading-none">(323) 880-1224</a>
                         </div>
                         <Button className="bg-red-600 hover:bg-red-700 text-white font-black px-8 h-14 rounded-2xl shadow-lg shadow-red-900/20 text-sm tracking-widest hidden md:flex items-center gap-2 group border border-white/10" asChild>
                             <a href="tel:3238801224">
                                 <Phone className="w-4 h-4 mr-2 animate-pulse" />
-                                CLICK TO CALL
+                                Click to Call
                             </a>
                         </Button>
                         <button className="lg:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -56,9 +56,9 @@ const Header = () => {
             
             {/* Mobile Header Click to Call Button (Sticky) */}
             <div className="lg:hidden fixed bottom-16 left-0 w-full bg-red-600 z-[99] border-t border-white/20 shadow-2xl">
-                <a href="tel:3238801224" className="flex items-center justify-center gap-3 py-6 text-white font-black uppercase tracking-[0.2em] text-sm">
+                <a href="tel:3238801224" className="flex items-center justify-center gap-3 py-6 text-white font-black uppercase tracking-[0.2em] text-sm leading-none">
                     <Phone className="w-6 h-6 animate-pulse" />
-                    PEST DISPATCH: (323) 880-1224
+                    Pest Dispatch: (323) 880-1224
                 </a>
             </div>
 
@@ -66,13 +66,13 @@ const Header = () => {
             {isMenuOpen && (
                 <div className="lg:hidden absolute top-full left-0 w-full bg-slate-950 border-b border-white/10 p-8 flex flex-col gap-6 animate-fade-in shadow-2xl">
                     {["Services", "Why Us", "Infestation FAQ", "Contact"].map((item) => (
-                        <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-xl font-black text-white uppercase tracking-tighter" onClick={() => setIsMenuOpen(false)}>
+                        <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-xl font-black text-white uppercase tracking-tighter leading-none" onClick={() => setIsMenuOpen(false)}>
                             {item}
                         </a>
                     ))}
                     <div className="pt-8 border-t border-white/10 flex flex-col gap-4">
-                        <p className="text-slate-500 font-bold uppercase tracking-widest text-xs">Emergency Signal Node</p>
-                        <a href="tel:3238801224" className="text-3xl font-black text-white">(323) 880-1224</a>
+                        <p className="text-slate-500 font-bold uppercase tracking-widest text-xs leading-none">Emergency Signal Node</p>
+                        <a href="tel:3238801224" className="text-3xl font-black text-white leading-none">(323) 880-1224</a>
                     </div>
                 </div>
             )}

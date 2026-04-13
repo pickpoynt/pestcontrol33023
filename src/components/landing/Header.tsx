@@ -1,83 +1,83 @@
-import { useState, useEffect } from "react";
-import { Menu, X, Phone, ShieldCheck } from "lucide-react";
+import { ShieldCheck, Phone, Mail, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
-  return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-blue-50" : "bg-transparent py-6"}`}>
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2 group cursor-pointer">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-indigo-600" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
+    return (
+        <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${isScrolled ? "bg-slate-950/95 backdrop-blur-xl border-b border-white/5 py-4 shadow-2xl" : "bg-transparent py-8"}`}>
+            <div className="container mx-auto px-4 md:px-6">
+                <nav className="flex items-center justify-between">
+                    <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                        <div className="w-12 h-12 rounded-2xl bg-red-600 flex items-center justify-center shadow-lg shadow-red-900/40 group-hover:scale-110 transition-all duration-500">
+                            <ShieldCheck className="text-white w-7 h-7" />
+                        </div>
+                        <div className="flex flex-col">
+                            <span className="font-heading font-black text-2xl text-white leading-none tracking-tighter uppercase">33023 PEST</span>
+                            <span className="text-[10px] font-black text-red-500 uppercase tracking-[0.3em] leading-none mt-1">FORCE DISPATCH</span>
+                        </div>
+                    </div>
+
+                    <div className="hidden lg:flex items-center gap-10">
+                        {["Services", "Why Us", "Infestation FAQ", "Contact"].map((item) => (
+                            <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-xs font-black text-white hover:text-red-500 transition-colors uppercase tracking-[0.2em]">
+                                {item}
+                            </a>
+                        ))}
+                    </div>
+
+                    <div className="flex items-center gap-6">
+                        <div className="hidden sm:flex flex-col items-end mr-4 group">
+                            <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest leading-none mb-1">TERMINATION COMMAND</p>
+                            <a href="tel:3238801224" className="text-2xl font-black text-white hover:text-red-500 transition-all duration-300 tracking-tighter leading-none">(323) 880-1224</a>
+                        </div>
+                        <Button className="bg-red-600 hover:bg-red-700 text-white font-black px-8 h-14 rounded-2xl shadow-lg shadow-red-900/20 text-sm tracking-widest hidden md:flex items-center gap-2 group border border-white/10" asChild>
+                            <a href="tel:3238801224">
+                                <Phone className="w-4 h-4 mr-2 animate-pulse" />
+                                CLICK TO CALL
+                            </a>
+                        </Button>
+                        <button className="lg:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                            {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+                        </button>
+                    </div>
+                </nav>
             </div>
-            <div>
-              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Rockland County
-              </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Plumbers <span className="text-[10px] opacity-70">Force</span>
-              </span>
+            
+            {/* Mobile Header Click to Call Button (Sticky) */}
+            <div className="lg:hidden fixed bottom-16 left-0 w-full bg-red-600 z-[99] border-t border-white/20 shadow-2xl">
+                <a href="tel:3238801224" className="flex items-center justify-center gap-3 py-6 text-white font-black uppercase tracking-[0.2em] text-sm">
+                    <Phone className="w-6 h-6 animate-pulse" />
+                    PEST DISPATCH: (323) 880-1224
+                </a>
             </div>
-          </div>
 
-          <nav className="hidden xl:flex items-center gap-8">
-            {["services", "why-us", "faq", "contact"].map((link) => (
-              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
-                {link.replace("-", " ")}
-              </a>
-            ))}
-          </nav>
-
-          <div className="hidden lg:flex items-center gap-6">
-            <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Plumber Dispatch</span>
-              <a href="tel:8777921410" className="text-xl font-bold hover:text-indigo-500 transition-colors tracking-tighter leading-none mt-1">(877) 792-1410</a>
-            </div>
-            <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:8777921410">CLICK TO CALL</a>
-            </Button>
-          </div>
-
-          <div className="flex items-center gap-3 lg:hidden">
-            <a href="tel:8777921410" className="flex items-center gap-1.5 bg-indigo-600 text-white px-3 py-1.5 rounded-md font-bold text-[10px] shadow-lg animate-pulse whitespace-nowrap">
-              <Phone className="w-3 h-3" />
-              CLICK TO CALL
-            </a>
-            <button className="p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              {isMobileMenuOpen ? <X className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} /> : <Menu className={`w-8 h-8 ${isScrolled ? "text-slate-900" : "text-white"}`} />}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {isMobileMenuOpen && (
-        <div className="lg:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
-          <div className="flex flex-col gap-6">
-            {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
-            ))}
-            <div className="pt-6 text-center">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">DISPATCH HOTLINE</p>
-              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6 px-4 py-3 bg-white/5 rounded-2xl border border-white/10">(877) 792-1410</a>
-              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
-                <a href="tel:8777921410">CLICK TO CALL</a>
-              </Button>
-            </div>
-          </div>
-        </div>
-      )}
-    </header>
-  );
+            {/* Mobile Menu */}
+            {isMenuOpen && (
+                <div className="lg:hidden absolute top-full left-0 w-full bg-slate-950 border-b border-white/10 p-8 flex flex-col gap-6 animate-fade-in shadow-2xl">
+                    {["Services", "Why Us", "Infestation FAQ", "Contact"].map((item) => (
+                        <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-xl font-black text-white uppercase tracking-tighter" onClick={() => setIsMenuOpen(false)}>
+                            {item}
+                        </a>
+                    ))}
+                    <div className="pt-8 border-t border-white/10 flex flex-col gap-4">
+                        <p className="text-slate-500 font-bold uppercase tracking-widest text-xs">Emergency Signal Node</p>
+                        <a href="tel:3238801224" className="text-3xl font-black text-white">(323) 880-1224</a>
+                    </div>
+                </div>
+            )}
+        </header>
+    );
 };
 
 export default Header;

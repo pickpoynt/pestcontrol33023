@@ -1,26 +1,25 @@
-import React from 'react';
 
 const RandomLinks = () => {
   const links = [
-    { text: "Plumbers Rockland County NY", url: "https://plumbersrocklandcountyny.vercel.app/" },
-    { text: "Trenchless Sewer Repair Des Moines", url: "https://trenchlesssewerrepairdesmoines.vercel.app/" },
-    { text: "Trenchless Pipe Repair St. Louis", url: "https://trenchlesspiperepairstlouis.vercel.app/" },
-    { text: "Clogged Drain Repair Reading PA", url: "https://cloggeddrainrepairreadingpa.vercel.app/" }
+    { text: "WASP NEST REMOVAL HILLSBOROUGH NC", url: "https://waspnestremovalhillsboroughnc.vercel.app/" },
+    { text: "EARWIG EXTERMINATOR DENVER", url: "https://earwigexterminatordenver.vercel.app/" },
+    { text: "CENTIPEDE REPELLENT HAWAII", url: "https://centipederepellenthawaii.vercel.app/" },
+    { text: "PEST CONTROL SOUTH POINT OHIO", url: "https://pestcontrolsouthpointohio.vercel.app/" }
   ];
 
   return (
-    <section className="py-12 bg-slate-50 border-t border-slate-100">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-8">
+    <section className="py-16 bg-slate-100 border-t border-slate-200">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="flex flex-wrap justify-center gap-12">
           {links.map((link, index) => (
             <a 
               key={index} 
               href={link.url} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-orange-600 font-bold text-sm uppercase tracking-widest transition-colors flex items-center gap-2 border-b border-transparent hover:border-orange-500/30 pb-1"
+              className="text-slate-500 hover:text-red-600 font-black text-xs uppercase tracking-[0.2em] transition-all flex items-center gap-3 border-b-2 border-transparent hover:border-red-600/50 pb-2 italic group"
             >
-              <div className="w-1 h-1 rounded-full bg-slate-300" />
+              <div className="w-2 h-2 rounded-full bg-slate-300 group-hover:bg-red-600 animate-pulse" />
               {link.text}
             </a>
           ))}

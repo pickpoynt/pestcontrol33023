@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <Helmet>
-        <title>{`${keyword} | ${firmName} | ${phone} | ZIP: ${zips}`}</title>
+        <title>{keyword}</title>
         <meta name="description" content={`PROFESSIONAL ${keyword}. ${firmName} PROVIDES 24/7 HIGH-INTENSITY EMERGENCY PEST TERMINATION AND INFESTATION CONTROL IN MIRAMAR AND HOLLYWOOD, FL 33023. CALL ${phone} NOW.`} />
         
         {/* LocalBusiness Schema */}
